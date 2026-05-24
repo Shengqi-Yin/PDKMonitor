@@ -402,7 +402,7 @@
   "distribution": {
     "sources": [
       {
-        "id": "s_mpk76ler_0",
+        "id": "s_mpk66j2n_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -410,32 +410,32 @@
         "enabled": true
       },
       {
-        "id": "s_mpk76ler_1",
+        "id": "s_mpk66j2n_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
         "path": "users",
-        "enabled": true
+        "enabled": false
       }
     ],
     "_defaultsSeeded": true,
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastPublishedAt": "2026-05-24T19:57:26.828Z",
-    "lastPublishedSha": "c002ad1ff871d30122c78a0a8c5fdc6277b640c2",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/c002ad1ff871d30122c78a0a8c5fdc6277b640c2",
-    "lastFetchedAt": "2026-05-24T19:57:35.317Z",
-    "lastFetchedSha": "be89901bd5bcdce7fec2fb6ce4fbb783ee6d44d6",
+    "lastPublishedAt": "2026-05-24T18:48:14.330Z",
+    "lastPublishedSha": "272e6bdfff5149f28bf31a2e00136815e0acb7ce",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/272e6bdfff5149f28bf31a2e00136815e0acb7ce",
+    "lastFetchedAt": "2026-05-24T20:08:04.431Z",
+    "lastFetchedSha": "cf6a17ec845cc37078347ab683b2875feee5dcec",
     "lastMergeStats": {
-      "tabs": 1,
-      "groups": 1,
-      "entities": 1,
+      "tabs": 0,
+      "groups": 0,
+      "entities": 0,
       "contributors": 0,
-      "ownership": 1,
-      "labels": 1,
+      "ownership": 0,
+      "labels": 0,
       "statuses": 0,
-      "categories": 1,
+      "categories": 0,
       "bbTypes": 0
     },
     "lastSecurityStats": {
@@ -512,7 +512,7 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-05-24T19:58:21.512Z",
+    "publishedAt": "2026-05-24T20:08:18.961Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
