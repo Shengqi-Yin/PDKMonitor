@@ -1315,7 +1315,10 @@
     "t_twxd644": "admin",
     "sg_lvcr7xt": "admin",
     "tg_cio03dr": "https://github.com/AEmreKaplan/",
-    "t_jjg70j1": "https://github.com/AEmreKaplan/"
+    "t_jjg70j1": "https://github.com/AEmreKaplan/",
+    "e_apwja2q": "https://github.com/AEmreKaplan/",
+    "tg_v64enml": "https://github.com/AEmreKaplan/",
+    "t_4bcr9so": "https://github.com/AEmreKaplan/"
   },
   "labels": {
     "https://github.com/AEmreKaplan/": "CS_Emre",
@@ -10171,7 +10174,9 @@
                   "bbType": "waveguide",
                   "who": "admin",
                   "added": "2026-05-25",
-                  "_stripped": true
+                  "_stripped": true,
+                  "filename": "",
+                  "description": ""
                 },
                 {
                   "id": "d_hxitdzm",
@@ -10180,7 +10185,9 @@
                   "bbType": "waveguide",
                   "who": "admin",
                   "added": "2026-05-25",
-                  "_stripped": true
+                  "_stripped": true,
+                  "filename": "",
+                  "description": ""
                 },
                 {
                   "id": "d_7cnq704",
@@ -10189,7 +10196,9 @@
                   "dataUrl": "data:text/markdown;base64,IyBSZWFkeS1tYWRlIAoKYGBge3RvY3RyZWV9CjptYXhkZXB0aDogMAo6Y2FwdGlvbjogQ29tcG9uZW50IHJlZmVyZW5jZQoKYGBg",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10223,7 +10232,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_j50vobe",
@@ -10244,7 +10255,9 @@
                   "bbType": "waveguide",
                   "who": "admin",
                   "added": "2026-05-25",
-                  "_stripped": true
+                  "_stripped": true,
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10278,7 +10291,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_miu7hij",
@@ -10299,7 +10314,9 @@
                   "bbType": "waveguide",
                   "who": "admin",
                   "added": "2026-05-25",
-                  "_stripped": true
+                  "_stripped": true,
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10328,12 +10345,135 @@
               "customSketchUrl": "",
               "customSketchName": "",
               "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
+              "subBlocks": [
+                {
+                  "id": "e_apwja2q",
+                  "name": "SOI220nm_1550nm_TE_Defect_Detector v2",
+                  "status": "available",
+                  "owner": "admin",
+                  "description": "",
+                  "githubUrl": "",
+                  "kind": "passive",
+                  "bbType": "waveguide",
+                  "dimensionsOn": true,
+                  "params": {
+                    "width_nm": 500,
+                    "length_um": 100,
+                    "thickness_nm": 220
+                  },
+                  "files": [],
+                  "scripts": [],
+                  "datasets": [],
+                  "testGroups": [
+                    {
+                      "id": "tg_v64enml",
+                      "name": "mwww",
+                      "tests": [
+                        {
+                          "id": "t_4bcr9so",
+                          "name": "dashboard (1)",
+                          "filename": "dashboard (1).json",
+                          "kind": "json",
+                          "size": 1328279,
+                          "parsed": {
+                            "sweep": {
+                              "name": "statuses",
+                              "values": [
+                                null,
+                                null,
+                                null,
+                                null
+                              ]
+                            },
+                            "traces": [
+                              {
+                                "name": "categories",
+                                "values": [
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null
+                                ]
+                              },
+                              {
+                                "name": "bbTypes",
+                                "values": [
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null
+                                ]
+                              },
+                              {
+                                "name": "tabs",
+                                "values": [
+                                  null
+                                ]
+                              },
+                              {
+                                "name": "contributors",
+                                "values": []
+                              }
+                            ]
+                          },
+                          "imageUrl": null,
+                          "metadata": {
+                            "device_id": "",
+                            "date": "2026-05-25",
+                            "instrument": "",
+                            "conditions": "",
+                            "notes": ""
+                          },
+                          "who": "https://github.com/AEmreKaplan/",
+                          "added": "2026-05-25T07:44:10.578Z",
+                          "updated": "2026-05-25",
+                          "_stripped": true
+                        }
+                      ],
+                      "collapsed": false
+                    }
+                  ],
+                  "subBlocks": [],
+                  "layoutSvg": "",
+                  "gdsName": "",
+                  "gdsSize": 0,
+                  "gdsContent": "",
+                  "updated": "2026-05-25",
+                  "plannedReleaseDate": "",
+                  "smatrixGroups": [],
+                  "customSketchUrl": "",
+                  "customSketchName": "",
+                  "documents": [],
+                  "layoutScaleUmPerPx": 0,
+                  "expanded": false,
+                  "fetchHistory": [],
+                  "edaTools": [],
+                  "edaLinks": [],
+                  "cdi": {},
+                  "trl": null,
+                  "fabTabs": []
+                }
+              ],
               "expanded": false,
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_9o9pouy",
@@ -10354,7 +10494,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX0lzb2xhdGVkRGV0ZWN0b3IKY29tcG9uZW50X3R5cGU6IFBob3RvZGlvZGUKYXV0aG9yczoKLSBuYW1lOiBDT1JORVJTVE9ORQogIG9yZ2FuaXNhdGlvbjogQ09STkVSU1RPTkUKbGFzdF91cGRhdGVkOiAyOC8wNy8yMDI1Cm1vZGVzOgotIG1vZGVfbnVtYmVyczoKICAtIDAKICAtIDAKICBwb2xhcmlzYXRpb246IFRFCiAgd2F2ZWxlbmd0aDogMTU1MApwb3J0czoKLSBuYW1lOiBlMQogIHBvcnRfdHlwZTogZWxlY3RyaWNhbF9yZgogIGNlbnRlcjoKICAtIDE0NQogIC0gLTE0Mi41MDAwMAogIG9yaWVudGF0aW9uOiAyNzAKICBjcm9zc19zZWN0aW9uOiBkZXRlY3RvcgotIG5hbWU6IGUyCiAgcG9ydF90eXBlOiBlbGVjdHJpY2FsX3JmCiAgY2VudGVyOgogIC0gMjk1CiAgLSAtMTQyLjUwMDAwCiAgb3JpZW50YXRpb246IDI3MAogIGNyb3NzX3NlY3Rpb246IGRldGVjdG9yCi0gbmFtZTogbzEKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAwCiAgLSAwCiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHJpYl8xNTUwbm1fVEUKLSBuYW1lOiBvMgogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDE5MDAKICAtIDAKICBvcmllbnRhdGlvbjogMAogIGNyb3NzX3NlY3Rpb246IHJpYl8xNTUwbm1fVEUK",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10388,7 +10530,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_z1e654s",
@@ -10409,7 +10553,9 @@
                   "bbType": "waveguide",
                   "who": "admin",
                   "added": "2026-05-25",
-                  "_stripped": true
+                  "_stripped": true,
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10443,7 +10589,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_1qkhwfh",
@@ -10464,7 +10612,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogSGVhdGVyCmNvbXBvbmVudF90eXBlOiBDb250YWN0UGFkREMKYXV0aG9yczoKLSBuYW1lOiBDT1JORVJTVE9ORQogIG9yZ2FuaXNhdGlvbjogQ09STkVSU1RPTkUKbGFzdF91cGRhdGVkOiAyOC8wNy8yMDI1CnBvcnRzOgotIG5hbWU6IGUxCiAgcG9ydF90eXBlOiBlbGVjdHJpY2FsX2RjCiAgY2VudGVyOgogIC0gNzUuMDAwMDAKICAtIDIzNS4wMDQwMAogIG9yaWVudGF0aW9uOiA5MAogIGNyb3NzX3NlY3Rpb246IGRjCi0gbmFtZTogZTIKICBwb3J0X3R5cGU6IGVsZWN0cmljYWxfZGMKICBjZW50ZXI6CiAgLSAxNzUuMDAwMDAKICAtIDIzNS4wMDQwMAogIG9yaWVudGF0aW9uOiA5MAogIGNyb3NzX3NlY3Rpb246IGRjCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10489,7 +10639,17 @@
                   "ts": 1779694489595
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "smatrixGroups": [],
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_waxpurf",
@@ -10510,7 +10670,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1JJQl8yeDFfTU1JCmNvbXBvbmVudF90eXBlOiBNTUkxeDIKYXV0aG9yczoKLSBuYW1lOiBDT1JORVJTVE9ORQogIG9yZ2FuaXNhdGlvbjogQ09STkVSU1RPTkUKbGFzdF91cGRhdGVkOiAyOC8wNy8yMDI1Cm1vZGVzOgogIC0gbW9kZV9udW1iZXJzOgogICAgLSAwCiAgICAtIDAKICAgIHBvbGFyaXNhdGlvbjogVEUKICAgIHdhdmVsZW5ndGg6IDEzMTAKcG9ydHM6Ci0gbmFtZTogbzEKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAwCiAgLSAwCiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHJpYl8xMzEwbm1fVEUKLSBuYW1lOiBvMgogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDEyMy42CiAgLSAxLjUyNTAwCiAgb3JpZW50YXRpb246IDAKICBjcm9zc19zZWN0aW9uOiByaWJfMTMxMG5tX1RFCi0gbmFtZTogbzMKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAxMjMuNgogIC0gLTEuNTI1CiAgb3JpZW50YXRpb246IDAKICBjcm9zc19zZWN0aW9uOiByaWJfMTMxMG5tX1RFCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10569,7 +10731,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_2t8txsw",
@@ -10590,7 +10761,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1JJQl8yeDJfTU1JCmNvbXBvbmVudF90eXBlOiBNTUkyeDIKYXV0aG9yczoKLSBuYW1lOiBDT1JORVJTVE9ORQogIG9yZ2FuaXNhdGlvbjogQ09STkVSU1RPTkUKbGFzdF91cGRhdGVkOiAyOC8wNy8yMDI1Cm1vZGVzOgogIC0gbW9kZV9udW1iZXJzOgogICAgLSAwCiAgICAtIDAKICAgIHBvbGFyaXNhdGlvbjogVEUKICAgIHdhdmVsZW5ndGg6IDEzMTAKcG9ydHM6Ci0gbmFtZTogbzEKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAwCiAgLSAtMS4wMTUwMAogIG9yaWVudGF0aW9uOiAxODAKICBjcm9zc19zZWN0aW9uOiByaWJfMTMxMG5tX1RFCi0gbmFtZTogbzIKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAwCiAgLSAxLjAxNTAwCiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHJpYl8xMzEwbm1fVEUKLSBuYW1lOiBvMwogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDEyMy42CiAgLSAxLjAxNQogIG9yaWVudGF0aW9uOiAwLjAKICBjcm9zc19zZWN0aW9uOiByaWJfMTMxMG5tX1RFCi0gbmFtZTogbzQKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAxMjMuNgogIC0gLTEuMDE1CiAgb3JpZW50YXRpb246IDAuMAogIGNyb3NzX3NlY3Rpb246IHJpYl8xMzEwbm1fVEUKICAK",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10649,7 +10822,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_qe07omd",
@@ -10670,7 +10852,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1JJQl85MF9EZWdyZWVfQmVuZApjb21wb25lbnRfdHlwZTogQmVuZAphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKbW9kZXM6CiAgLSBtb2RlX251bWJlcnM6CiAgICAtIDAKICAgIC0gMAogICAgcG9sYXJpc2F0aW9uOiBURQogICAgd2F2ZWxlbmd0aDogMTMxMApwb3J0czoKLSBuYW1lOiBvMQogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDUuMgogIC0gMAogIG9yaWVudGF0aW9uOiAyNzAKICBjcm9zc19zZWN0aW9uOiByaWJfMTMxMG5tX1RFCi0gbmFtZTogbzIKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAzMC4yCiAgLSAyNS4wCiAgb3JpZW50YXRpb246IDAKICBjcm9zc19zZWN0aW9uOiByaWJfMTMxMG5tX1RFCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10729,7 +10913,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_cfaz00p",
@@ -10750,7 +10943,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1JJQl9HcmF0aW5nX0NvdXBsZXIKY29tcG9uZW50X3R5cGU6IEdyYXRpbmdDb3VwbGVyMUQKYXV0aG9yczoKLSBuYW1lOiBDT1JORVJTVE9ORQogIG9yZ2FuaXNhdGlvbjogQ09STkVSU1RPTkUKbGFzdF91cGRhdGVkOiAyOC8wNy8yMDI1CnBvcnRzOgotIG5hbWU6IG8xCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMAogIC0gMC4wCiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHJpYl8xMzEwbm1fVEUKICBtb2RlczoKICAtIG1vZGVfbnVtYmVyczoKICAgIC0gMAogICAgLSAwCiAgICBwb2xhcmlzYXRpb246IFRFCiAgICB3YXZlbGVuZ3RoOiAxMzEwCi0gbmFtZTogdmVydGljYWxfdGUKICBwb3J0X3R5cGU6IHZlcnRpY2FsX3RlCiAgY2VudGVyOgogIC0gMzcxLjc1CiAgLSAwLjAKICBvcmllbnRhdGlvbjogMAogIHdpZHRoOiAxMAogIGNvdXBsaW5nX2FuZ2xlX2NsYWRkaW5nOiA2Ljg3MTMKICBmaWJyZV9tb2RlczoKICAtIGZpYnJlX3R5cGU6IFNNRi0yOAogICAgd2F2ZWxlbmd0aDogMTMxMC4wCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10809,7 +11004,17 @@
                 }
               ],
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "plannedReleaseDate": "",
+              "layoutSvg": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_obg8p1t",
@@ -10830,7 +11035,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1JJQl9XYXZlZ3VpZGUKY29tcG9uZW50X3R5cGU6IFdhdmVndWlkZQphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKbW9kZXM6CiAgLSBtb2RlX251bWJlcnM6CiAgICAtIDAKICAgIC0gMAogICAgcG9sYXJpc2F0aW9uOiBURQogICAgd2F2ZWxlbmd0aDogMTMxMApwb3J0czoKLSBuYW1lOiBvMQogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDAKICAtIDAuMAogIG9yaWVudGF0aW9uOiAxODAKICBjcm9zc19zZWN0aW9uOiByaWJfMTMxMG5tX1RFCi0gbmFtZTogbzIKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAxMDAKICAtIDAuMAogIG9yaWVudGF0aW9uOiAwLjAKICBjcm9zc19zZWN0aW9uOiByaWJfMTMxMG5tX1RFCiAgCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10855,7 +11062,17 @@
                   "ts": 1779694491398
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "smatrixGroups": [],
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_qieb6sk",
@@ -10876,7 +11093,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1JJQl9XYXZlZ3VpZGVfQ3Jvc3NpbmcKY29tcG9uZW50X3R5cGU6IENyb3NzaW5nCmF1dGhvcnM6Ci0gbmFtZTogQ09STkVSU1RPTkUKICBvcmdhbmlzYXRpb246IENPUk5FUlNUT05FCmxhc3RfdXBkYXRlZDogMjgvMDcvMjAyNQptb2RlczoKLSBtb2RlX251bWJlcnM6CiAgLSAwCiAgLSAwCiAgcG9sYXJpc2F0aW9uOiBURQogIHdhdmVsZW5ndGg6IDEzMTAKcG9ydHM6Ci0gbmFtZTogbzEKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSA1CiAgLSAwLjAKICBvcmllbnRhdGlvbjogMTgwCiAgY3Jvc3Nfc2VjdGlvbjogcmliXzEzMTBubV9URQotIG5hbWU6IG8yCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gOS42MgogIC0gNC42MgogIG9yaWVudGF0aW9uOiA5MAogIGNyb3NzX3NlY3Rpb246IHJpYl8xMzEwbm1fVEUKLSBuYW1lOiBvMwogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDE0LjI0CiAgLSAwLjAKICBvcmllbnRhdGlvbjogMC4wCiAgY3Jvc3Nfc2VjdGlvbjogcmliXzEzMTBubV9URQotIG5hbWU6IG80CiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gOS42MgogIC0gLTQuNjIKICBvcmllbnRhdGlvbjogMjcwCiAgY3Jvc3Nfc2VjdGlvbjogcmliXzEzMTBubV9URQo=",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -10935,7 +11154,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_xd3v45x",
@@ -10956,7 +11184,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1NUUklQXzJ4MV9NTUkKY29tcG9uZW50X3R5cGU6IE1NSTF4MgphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKbW9kZXM6CiAgLSBtb2RlX251bWJlcnM6CiAgICAtIDAKICAgIC0gMAogICAgcG9sYXJpc2F0aW9uOiBURQogICAgd2F2ZWxlbmd0aDogMTMxMApwb3J0czoKLSBuYW1lOiBvMQogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDAKICAtIDAuMAogIG9yaWVudGF0aW9uOiAxODAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xMzEwbm0KLSBuYW1lOiBvMgogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDEyMi45CiAgLSAxLjUyNQogIG9yaWVudGF0aW9uOiAwCiAgY3Jvc3Nfc2VjdGlvbjogc3RyaXBfMTMxMG5tCi0gbmFtZTogbzMKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAxMjIuOQogIC0gLTEuNTI1CiAgb3JpZW50YXRpb246IDAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xMzEwbm0KICAK",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11015,7 +11245,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_jtpff1b",
@@ -11036,7 +11275,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1NUUklQXzJ4Ml9NTUkKY29tcG9uZW50X3R5cGU6IE1NSTJ4MgphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKbW9kZXM6CiAgLSBtb2RlX251bWJlcnM6CiAgICAtIDAKICAgIC0gMAogICAgcG9sYXJpc2F0aW9uOiBURQogICAgd2F2ZWxlbmd0aDogMTMxMApwb3J0czoKLSBuYW1lOiBvMQogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDAKICAtIC0xLjAxNQogIG9yaWVudGF0aW9uOiAxODAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xMzEwbm0KLSBuYW1lOiBvMgogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDAKICAtIDEuMDE1CiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzEzMTBubQotIG5hbWU6IG8zCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMTIyLjEKICAtIDEuMDE1CiAgb3JpZW50YXRpb246IDAuMAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzEzMTBubQotIG5hbWU6IG80CiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMTIyLjEKICAtIC0xLjAxNQogIG9yaWVudGF0aW9uOiAwLjAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xMzEwbm0KICAK",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11095,7 +11336,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_19nr975",
@@ -11116,7 +11366,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1NUUklQXzkwX0RlZ3JlZV9CZW5kCmNvbXBvbmVudF90eXBlOiBCZW5kCmF1dGhvcnM6Ci0gbmFtZTogQ09STkVSU1RPTkUKICBvcmdhbmlzYXRpb246IENPUk5FUlNUT05FCmxhc3RfdXBkYXRlZDogMjgvMDcvMjAyNQptb2RlczoKICAtIG1vZGVfbnVtYmVyczoKICAgIC0gMAogICAgLSAwCiAgICBwb2xhcmlzYXRpb246IFRFCiAgICB3YXZlbGVuZ3RoOiAxMzEwCnBvcnRzOgotIG5hbWU6IG8xCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMC4yCiAgLSAwCiAgb3JpZW50YXRpb246IDI3MAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzEzMTBubQotIG5hbWU6IG8yCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gNS4yCiAgLSA1LjAKICBvcmllbnRhdGlvbjogMAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzEzMTBubQogIAo=",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11175,7 +11427,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_66vbu6g",
@@ -11196,7 +11457,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1NUUklQX0dyYXRpbmdfQ291cGxlcgpjb21wb25lbnRfdHlwZTogR3JhdGluZ0NvdXBsZXIxRAphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKcG9ydHM6Ci0gbmFtZTogbzEKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAwCiAgLSAwCiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzEzMTBubQogIG1vZGVzOgogIC0gbW9kZV9udW1iZXJzOgogICAgLSAwCiAgICAtIDAKICAgIHBvbGFyaXNhdGlvbjogVEUKICAgIHdhdmVsZW5ndGg6IDEzMTAKLSBuYW1lOiB2ZXJ0aWNhbF90ZQogIHBvcnRfdHlwZTogdmVydGljYWxfdGUKICBjZW50ZXI6CiAgLSAzNzEuNzUKICAtIDAKICBvcmllbnRhdGlvbjogMAogIHdpZHRoOiAxMAogIGNvdXBsaW5nX2FuZ2xlX2NsYWRkaW5nOiA2Ljg3MTMKICBmaWJyZV9tb2RlczoKICAtIGZpYnJlX3R5cGU6IFNNRi0yOAogICAgd2F2ZWxlbmd0aDogMTMxMC4wCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11255,7 +11518,17 @@
                 }
               ],
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "plannedReleaseDate": "",
+              "layoutSvg": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_z9rrek5",
@@ -11276,7 +11549,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1NUUklQX1dhdmVndWlkZQpjb21wb25lbnRfdHlwZTogV2F2ZWd1aWRlCmF1dGhvcnM6Ci0gbmFtZTogQ09STkVSU1RPTkUKICBvcmdhbmlzYXRpb246IENPUk5FUlNUT05FCmxhc3RfdXBkYXRlZDogMjgvMDcvMjAyNQptb2RlczoKICAtIG1vZGVfbnVtYmVyczoKICAgIC0gMAogICAgLSAwCiAgICBwb2xhcmlzYXRpb246IFRFCiAgICB3YXZlbGVuZ3RoOiAxMzEwCnBvcnRzOgotIG5hbWU6IG8xCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMAogIC0gMC4wCiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzEzMTBubQotIG5hbWU6IG8yCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMTAwCiAgLSAwLjAKICBvcmllbnRhdGlvbjogMC4wCiAgY3Jvc3Nfc2VjdGlvbjogc3RyaXBfMTMxMG5tCiAgCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11301,7 +11576,17 @@
                   "ts": 1779694493445
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "smatrixGroups": [],
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_mjcm4p8",
@@ -11322,7 +11607,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX1NUUklQX1dhdmVndWlkZV9Dcm9zc2luZwpjb21wb25lbnRfdHlwZTogQ3Jvc3NpbmcKYXV0aG9yczoKLSBuYW1lOiBDT1JORVJTVE9ORQogIG9yZ2FuaXNhdGlvbjogQ09STkVSU1RPTkUKbGFzdF91cGRhdGVkOiAyOC8wNy8yMDI1Cm1vZGVzOgogIC0gbW9kZV9udW1iZXJzOgogICAgLSAwCiAgICAtIDAKICAgIHBvbGFyaXNhdGlvbjogVEUKICAgIHdhdmVsZW5ndGg6IDEzMTAKcG9ydHM6Ci0gbmFtZTogbzEKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAwCiAgLSAwLjAKICBvcmllbnRhdGlvbjogMTgwCiAgY3Jvc3Nfc2VjdGlvbjogc3RyaXBfMTMxMG5tCi0gbmFtZTogbzIKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSA0LjIzNQogIC0gNC4yMzUKICBvcmllbnRhdGlvbjogOTAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xMzEwbm0KLSBuYW1lOiBvMwogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDguNDcKICAtIDAuMAogIG9yaWVudGF0aW9uOiAwLjAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xMzEwbm0KLSBuYW1lOiBvNAogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDQuMjM1CiAgLSAtNC4yMzUKICBvcmllbnRhdGlvbjogMjcwCiAgY3Jvc3Nfc2VjdGlvbjogc3RyaXBfMTMxMG5tCiAgCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11381,7 +11668,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_svzy7po",
@@ -11402,7 +11698,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1JJQl8yeDFfTU1JCmNvbXBvbmVudF90eXBlOiBNTUkxeDIKYXV0aG9yczoKLSBuYW1lOiBDT1JORVJTVE9ORQogIG9yZ2FuaXNhdGlvbjogQ09STkVSU1RPTkUKbGFzdF91cGRhdGVkOiAyOC8wNy8yMDI1Cm1vZGVzOgogIC0gbW9kZV9udW1iZXJzOgogICAgLSAwCiAgICAtIDAKICAgIHBvbGFyaXNhdGlvbjogVEUKICAgIHdhdmVsZW5ndGg6IDE1NTAKcG9ydHM6Ci0gbmFtZTogbzEKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAwCiAgLSAwLjAKICBvcmllbnRhdGlvbjogMTgwCiAgY3Jvc3Nfc2VjdGlvbjogcmliXzE1NTBubV9URQotIG5hbWU6IG8yCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gOTIuNwogIC0gMS41NwogIG9yaWVudGF0aW9uOiAwCiAgY3Jvc3Nfc2VjdGlvbjogcmliXzE1NTBubV9URQotIG5hbWU6IG8zCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gOTIuNwogIC0gLTEuNTcKICBvcmllbnRhdGlvbjogMAogIGNyb3NzX3NlY3Rpb246IHJpYl8xNTUwbm1fVEUKICA=",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11461,7 +11759,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_jyw43mo",
@@ -11482,7 +11789,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1JJQl8yeDJfTU1JCmNvbXBvbmVudF90eXBlOiBNTUkyeDIKYXV0aG9yczoKLSBuYW1lOiBDT1JORVJTVE9ORQogIG9yZ2FuaXNhdGlvbjogQ09STkVSU1RPTkUKbGFzdF91cGRhdGVkOiAyOC8wNy8yMDI1Cm1vZGVzOgogIC0gbW9kZV9udW1iZXJzOgogICAgLSAwCiAgICAtIDAKICAgIHBvbGFyaXNhdGlvbjogVEUKICAgIHdhdmVsZW5ndGg6IDE1NTAKcG9ydHM6Ci0gbmFtZTogbzEKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAwCiAgLSAtMS4wMTUKICBvcmllbnRhdGlvbjogMTgwCiAgY3Jvc3Nfc2VjdGlvbjogcmliXzE1NTBubV9URQotIG5hbWU6IG8yCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMAogIC0gMS4wMTUKICBvcmllbnRhdGlvbjogMTgwCiAgY3Jvc3Nfc2VjdGlvbjogcmliXzE1NTBubV9URQotIG5hbWU6IG8zCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMTA0LjgKICAtIDEuMDE1CiAgb3JpZW50YXRpb246IDAuMAogIGNyb3NzX3NlY3Rpb246IHJpYl8xNTUwbm1fVEUKLSBuYW1lOiBvNAogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDEwNC44CiAgLSAtMS4wMTUKICBvcmllbnRhdGlvbjogMC4wCiAgY3Jvc3Nfc2VjdGlvbjogcmliXzE1NTBubV9URQogIAo=",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11541,7 +11850,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_luh771z",
@@ -11562,7 +11880,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1JJQl85MF9EZWdyZWVfQmVuZApjb21wb25lbnRfdHlwZTogQmVuZAphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKbW9kZXM6CiAgLSBtb2RlX251bWJlcnM6CiAgICAtIDAKICAgIC0gMAogICAgcG9sYXJpc2F0aW9uOiBURQogICAgd2F2ZWxlbmd0aDogMTU1MApwb3J0czoKLSBuYW1lOiBvMQogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDUuMjI1CiAgLSAwLjAKICBvcmllbnRhdGlvbjogMjcwCiAgY3Jvc3Nfc2VjdGlvbjogcmliXzE1NTBubV9URQotIG5hbWU6IG8yCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMzAuMjI1CiAgLSAyNS4wCiAgb3JpZW50YXRpb246IDAKICBjcm9zc19zZWN0aW9uOiByaWJfMTU1MG5tX1RFCiAgCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11621,7 +11941,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_2i7s9wq",
@@ -11642,7 +11971,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1JJQl9HcmF0aW5nX0NvdXBsZXIKY29tcG9uZW50X3R5cGU6IEdyYXRpbmdDb3VwbGVyMUQKYXV0aG9yczoKLSBuYW1lOiBDT1JORVJTVE9ORQogIG9yZ2FuaXNhdGlvbjogQ09STkVSU1RPTkUKbGFzdF91cGRhdGVkOiAyOC8wNy8yMDI1CnBvcnRzOgotIG5hbWU6IG8xCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMAogIC0gMAogIG9yaWVudGF0aW9uOiAxODAKICBjcm9zc19zZWN0aW9uOiByaWJfMTU1MG5tX1RFCiAgbW9kZXM6CiAgLSBtb2RlX251bWJlcnM6CiAgICAtIDAKICAgIC0gMAogICAgcG9sYXJpc2F0aW9uOiBURQogICAgd2F2ZWxlbmd0aDogMTU1MAotIG5hbWU6IHZlcnRpY2FsX3RlCiAgcG9ydF90eXBlOiB2ZXJ0aWNhbF90ZQogIGNlbnRlcjoKICAtIDM2OS4wODQKICAtIDAKICBvcmllbnRhdGlvbjogMAogIHdpZHRoOiAxMAogIGNvdXBsaW5nX2FuZ2xlX2NsYWRkaW5nOiA2Ljg4NgogIGZpYnJlX21vZGVzOgogIC0gZmlicmVfdHlwZTogU01GLTI4CiAgICB3YXZlbGVuZ3RoOiAxNTUwLjAK",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11701,7 +12032,17 @@
                 }
               ],
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "plannedReleaseDate": "",
+              "layoutSvg": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_ig3x40h",
@@ -11722,7 +12063,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1JJQl9XYXZlZ3VpZGUKY29tcG9uZW50X3R5cGU6IFdhdmVndWlkZQphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKbW9kZXM6CiAgLSBtb2RlX251bWJlcnM6CiAgICAtIDAKICAgIC0gMAogICAgcG9sYXJpc2F0aW9uOiBURQogICAgd2F2ZWxlbmd0aDogMTU1MApwb3J0czoKLSBuYW1lOiBvMQogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDAKICAtIDAuMAogIG9yaWVudGF0aW9uOiAxODAKICBjcm9zc19zZWN0aW9uOiByaWJfMTU1MG5tX1RFCi0gbmFtZTogbzIKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAxMDAKICAtIDAuMAogIG9yaWVudGF0aW9uOiAwLjAKICBjcm9zc19zZWN0aW9uOiByaWJfMTU1MG5tX1RFCiAgCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11747,7 +12090,17 @@
                   "ts": 1779694496434
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "smatrixGroups": [],
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_fgyoxlk",
@@ -11768,7 +12121,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1JJQl9XYXZlZ3VpZGVfQ3Jvc3NpbmcKY29tcG9uZW50X3R5cGU6IENyb3NzaW5nCmF1dGhvcnM6Ci0gbmFtZTogQ09STkVSU1RPTkUKICBvcmdhbmlzYXRpb246IENPUk5FUlNUT05FCmxhc3RfdXBkYXRlZDogMjgvMDcvMjAyNQptb2RlczoKICAtIG1vZGVfbnVtYmVyczoKICAgIC0gMAogICAgLSAwCiAgICBwb2xhcmlzYXRpb246IFRFCiAgICB3YXZlbGVuZ3RoOiAxNTUwCnBvcnRzOgotIG5hbWU6IG8xCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gNQogIC0gMC4wCiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHJpYl8xNTUwbm1fVEUKLSBuYW1lOiBvMgogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDkuNjIKICAtIDQuNjIKICBvcmllbnRhdGlvbjogOTAKICBjcm9zc19zZWN0aW9uOiByaWJfMTU1MG5tX1RFCi0gbmFtZTogbzMKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAxNC4yNAogIC0gMC4wCiAgb3JpZW50YXRpb246IDAuMAogIGNyb3NzX3NlY3Rpb246IHJpYl8xNTUwbm1fVEUKLSBuYW1lOiBvNAogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDkuNjIKICAtIC00LjYyCiAgb3JpZW50YXRpb246IDI3MAogIGNyb3NzX3NlY3Rpb246IHJpYl8xNTUwbm1fVEUKICAK",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11827,7 +12182,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_j6nxmw7",
@@ -11848,7 +12212,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1NUUklQXzJ4MV9NTUkKY29tcG9uZW50X3R5cGU6IE1NSTF4MgphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKbW9kZXM6CiAgLSBtb2RlX251bWJlcnM6CiAgICAtIDAKICAgIC0gMAogICAgcG9sYXJpc2F0aW9uOiBURQogICAgd2F2ZWxlbmd0aDogMTU1MApwb3J0czoKLSBuYW1lOiBvMQogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDAKICAtIDAuMAogIG9yaWVudGF0aW9uOiAxODAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xNTUwbm0KLSBuYW1lOiBvMgogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDkxLjgKICAtIDEuNTcKICBvcmllbnRhdGlvbjogMC4wCiAgY3Jvc3Nfc2VjdGlvbjogc3RyaXBfMTU1MG5tCi0gbmFtZTogbzMKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSA5MS44CiAgLSAtMS41NwogIG9yaWVudGF0aW9uOiAwLjAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xNTUwbm0KICAK",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11907,7 +12273,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_t9kcnqg",
@@ -11928,7 +12303,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1NUUklQXzJ4Ml9NTUkKY29tcG9uZW50X3R5cGU6IE1NSTJ4MgphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKbW9kZXM6CiAgLSBtb2RlX251bWJlcnM6CiAgICAtIDAKICAgIC0gMAogICAgcG9sYXJpc2F0aW9uOiBURQogICAgd2F2ZWxlbmd0aDogMTU1MApwb3J0czoKLSBuYW1lOiBvMQogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDAKICAtIC0xLjAxNQogIG9yaWVudGF0aW9uOiAxODAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xNTUwbm0KLSBuYW1lOiBvMgogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDAKICAtIDEuMDE1CiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzE1NTBubQotIG5hbWU6IG8zCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMTAyLjUKICAtIDEuMDE1CiAgb3JpZW50YXRpb246IDAuMAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzE1NTBubQotIG5hbWU6IG80CiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMTAyLjUKICAtIC0xLjAxNQogIG9yaWVudGF0aW9uOiAwLjAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xNTUwbm0KICAK",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -11987,7 +12364,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_mv15bsy",
@@ -12008,7 +12394,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1NUUklQXzkwX0RlZ3JlZV9CZW5kCmNvbXBvbmVudF90eXBlOiBCZW5kCmF1dGhvcnM6Ci0gbmFtZTogQ09STkVSU1RPTkUKICBvcmdhbmlzYXRpb246IENPUk5FUlNUT05FCmxhc3RfdXBkYXRlZDogMjgvMDcvMjAyNQptb2RlczoKICAtIG1vZGVfbnVtYmVyczoKICAgIC0gMAogICAgLSAwCiAgICBwb2xhcmlzYXRpb246IFRFCiAgICB3YXZlbGVuZ3RoOiAxNTUwCnBvcnRzOgotIG5hbWU6IG8xCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMC4yMjUKICAtIDAuMAogIG9yaWVudGF0aW9uOiAyNzAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xNTUwbm0KLSBuYW1lOiBvMgogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDUuMjI1CiAgLSA1CiAgb3JpZW50YXRpb246IDAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xNTUwbm0KICAK",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -12067,7 +12455,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_hg9zuab",
@@ -12088,7 +12485,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1NUUklQX0dyYXRpbmdfQ291cGxlcgpjb21wb25lbnRfdHlwZTogR3JhdGluZ0NvdXBsZXIxRAphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKcG9ydHM6Ci0gbmFtZTogbzEKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAwCiAgLSAwCiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzE1NTBubQogIG1vZGVzOgogIC0gbW9kZV9udW1iZXJzOgogICAgLSAwCiAgICAtIDAKICAgIHBvbGFyaXNhdGlvbjogVEUKICAgIHdhdmVsZW5ndGg6IDE1NTAKLSBuYW1lOiB2ZXJ0aWNhbF90ZQogIHBvcnRfdHlwZTogdmVydGljYWxfdGUKICBjZW50ZXI6CiAgLSAzNjkuMDg0CiAgLSAwCiAgb3JpZW50YXRpb246IDAKICB3aWR0aDogMTAKICBjb3VwbGluZ19hbmdsZV9jbGFkZGluZzogNi44ODYKICBmaWJyZV9tb2RlczoKICAtIGZpYnJlX3R5cGU6IFNNRi0yOAogICAgd2F2ZWxlbmd0aDogICAxNTUwLjAK",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -12147,7 +12546,17 @@
                 }
               ],
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "plannedReleaseDate": "",
+              "layoutSvg": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_6hl2ktz",
@@ -12168,7 +12577,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1NUUklQX1dhdmVndWlkZQpjb21wb25lbnRfdHlwZTogV2F2ZWd1aWRlCmF1dGhvcnM6Ci0gbmFtZTogQ09STkVSU1RPTkUKICBvcmdhbmlzYXRpb246IENPUk5FUlNUT05FCmxhc3RfdXBkYXRlZDogMjgvMDcvMjAyNQptb2RlczoKICAtIG1vZGVfbnVtYmVyczoKICAgIC0gMAogICAgLSAwCiAgICBwb2xhcmlzYXRpb246IFRFCiAgICB3YXZlbGVuZ3RoOiAxNTUwCnBvcnRzOgotIG5hbWU6IG8xCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMAogIC0gMC4wCiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzE1NTBubQotIG5hbWU6IG8yCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gMTAwCiAgLSAwLjAKICBvcmllbnRhdGlvbjogMC4wCiAgY3Jvc3Nfc2VjdGlvbjogc3RyaXBfMTU1MG5tCg==",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -12193,7 +12604,17 @@
                   "ts": 1779694498143
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "smatrixGroups": [],
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_99sq18j",
@@ -12214,7 +12635,9 @@
                   "dataUrl": "data:application/yaml;base64,bmFtZTogU09JMjIwbm1fMTU1MG5tX1RFX1NUUklQX1dhdmVndWlkZV9Dcm9zc2luZwpjb21wb25lbnRfdHlwZTogQ3Jvc3NpbmcKYXV0aG9yczoKLSBuYW1lOiBDT1JORVJTVE9ORQogIG9yZ2FuaXNhdGlvbjogQ09STkVSU1RPTkUKbGFzdF91cGRhdGVkOiAyOC8wNy8yMDI1Cm1vZGVzOgogIC0gbW9kZV9udW1iZXJzOgogICAgLSAwCiAgICAtIDAKICAgIHBvbGFyaXNhdGlvbjogVEUKICAgIHdhdmVsZW5ndGg6IDE1NTAKcG9ydHM6Ci0gbmFtZTogbzEKICBwb3J0X3R5cGU6IG9wdGljYWwKICBjZW50ZXI6CiAgLSAwCiAgLSAwCiAgb3JpZW50YXRpb246IDE4MAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzE1NTBubQotIG5hbWU6IG8yCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gNC42MgogIC0gNC42MgogIG9yaWVudGF0aW9uOiA5MAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzE1NTBubQotIG5hbWU6IG8zCiAgcG9ydF90eXBlOiBvcHRpY2FsCiAgY2VudGVyOgogIC0gOS4yNAogIC0gMAogIG9yaWVudGF0aW9uOiAwLjAKICBjcm9zc19zZWN0aW9uOiBzdHJpcF8xNTUwbm0KLSBuYW1lOiBvNAogIHBvcnRfdHlwZTogb3B0aWNhbAogIGNlbnRlcjoKICAtIDQuNjIKICAtIC00LjYyCiAgb3JpZW50YXRpb246IDI3MAogIGNyb3NzX3NlY3Rpb246IHN0cmlwXzE1NTBubQogIAo=",
                   "bbType": "waveguide",
                   "who": "admin",
-                  "added": "2026-05-25"
+                  "added": "2026-05-25",
+                  "filename": "",
+                  "description": ""
                 }
               ],
               "updated": "2026-05-25",
@@ -12273,7 +12696,16 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "gdsContent": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             }
           ],
           "status": "available",
@@ -12379,7 +12811,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_smtk0h0",
@@ -12436,7 +12870,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_0dq0cns",
@@ -12560,7 +12995,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_lx0tgrh",
@@ -12650,7 +13086,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_6bt641l",
@@ -12740,7 +13177,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_uilht1q",
@@ -12830,7 +13268,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_q593999",
@@ -12887,7 +13327,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_zwgw296",
@@ -12977,7 +13418,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_qydjqc4",
@@ -13067,7 +13509,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_kgzslel",
@@ -13157,7 +13600,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_tocuf6k",
@@ -13247,7 +13691,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_63vx975",
@@ -13337,7 +13782,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_84g6njm",
@@ -13394,7 +13841,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_p3s3nix",
@@ -13484,7 +13932,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_fj37h1h",
@@ -13608,7 +14057,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_qs5e4ks",
@@ -13698,7 +14148,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_4yoryh0",
@@ -13788,7 +14239,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_k77neha",
@@ -13878,7 +14330,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_hcbi69d",
@@ -13968,7 +14422,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_ou06zu0",
@@ -14025,7 +14481,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_qwjkn1f",
@@ -14082,7 +14540,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_srbv4i2",
@@ -14172,7 +14631,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_0vjbho3",
@@ -14262,7 +14722,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_29ntsp6",
@@ -14352,7 +14813,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_bxsv70o",
@@ -14442,7 +14904,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_ivvgfwv",
@@ -14532,7 +14995,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_wgt0y0l",
@@ -14589,7 +15054,9 @@
               "edaLinks": [],
               "trl": null,
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "layoutSvg": "",
+              "gdsContent": ""
             },
             {
               "id": "e_0tlke79",
@@ -14646,7 +15113,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             },
             {
               "id": "e_axwq5cb",
@@ -14736,7 +15204,8 @@
               "expanded": false,
               "edaLinks": [],
               "trl": null,
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "gdsContent": ""
             }
           ],
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_passive",
@@ -19450,11 +19919,11 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastPublishedAt": "2026-05-25T07:15:22.198Z",
-    "lastPublishedSha": "61054d4f07ae98a7e4ae2635add4c12482aacb14",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/61054d4f07ae98a7e4ae2635add4c12482aacb14",
-    "lastFetchedAt": "2026-05-25T07:34:08.180Z",
-    "lastFetchedSha": "8526ab54f7b722cda7dc41c277a772c5545a4e1e",
+    "lastPublishedAt": "2026-05-25T07:44:25.195Z",
+    "lastPublishedSha": "0b0274c58ba0313cd45637a2940fb545cdffbfbd",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/0b0274c58ba0313cd45637a2940fb545cdffbfbd",
+    "lastFetchedAt": "2026-05-25T07:39:50.375Z",
+    "lastFetchedSha": "2e82458896f8f5cf7755c7208fd986955fca27bc",
     "lastMergeStats": {
       "tabs": 0,
       "groups": 0,
@@ -19482,9 +19951,9 @@
   "lastGithubFetch": "2026-05-25T04:32:16.587Z",
   "sketchLibrary": [],
   "_distribution": {
-    "publishedAt": "2026-05-25T07:39:16.957Z",
-    "publisherIdentity": "CS_Aiman",
-    "publisherLabel": "CS_Aiman",
+    "publishedAt": "2026-05-25T07:49:38.839Z",
+    "publisherIdentity": "https://github.com/AEmreKaplan/",
+    "publisherLabel": "CS_Emre",
     "publisherRole": "user-admin",
     "appVersion": "v1.0",
     "contributorCount": 0,
@@ -19654,5 +20123,6 @@
       "description": "Floorplan / placement helper",
       "color": "#c4742d"
     }
-  ]
+  ],
+  "contributors": []
 }
