@@ -181,11 +181,6 @@
               "documents": [],
               "testGroups": [
                 {
-                  "id": "tg_avxaq8b",
-                  "name": "bilge tes modu",
-                  "tests": []
-                },
-                {
                   "id": "tg_fi72pl7",
                   "name": "bilge 2 test data",
                   "tests": []
@@ -196,49 +191,13 @@
               "_contribOnly": true
             }
           ]
-        },
-        {
-          "id": "g_pxvrznx",
-          "name": "SOI 220 nm Passive",
-          "platformMeta": {
-            "material": "Si",
-            "thickness": 220
-          },
-          "collapsed": false,
-          "entities": [
-            {
-              "id": "e_4yoryh0",
-              "name": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend",
-              "files": [],
-              "scripts": [],
-              "documents": [],
-              "testGroups": [
-                {
-                  "id": "tg_g8adwjy",
-                  "name": "bilge bend mmi",
-                  "tests": []
-                }
-              ],
-              "smatrixGroups": [
-                {
-                  "id": "sg_ukyjavg",
-                  "name": "bilge s matrix",
-                  "datasets": []
-                }
-              ],
-              "fabTabs": [],
-              "_contribOnly": true
-            }
-          ]
         }
       ]
     }
   ],
   "ownership": {
     "e_ltl8sye": "admin",
-    "layout:e_ltl8sye": "admin",
-    "e_4yoryh0": "admin",
-    "layout:e_4yoryh0": "admin"
+    "layout:e_ltl8sye": "admin"
   },
   "labels": {
     "CS_Bilge": "CS_Bilge"
@@ -253,16 +212,16 @@
     }
   ],
   "_distribution": {
-    "publishedAt": "2026-05-25T22:21:04.200Z",
+    "publishedAt": "2026-05-25T22:46:44.441Z",
     "publisherIdentity": "CS_Bilge",
     "publisherLabel": "CS_Bilge",
     "publisherRole": "user-admin",
     "payloadKind": "user-admin-slice",
     "appVersion": "v1.0",
-    "bbCount": 2,
-    "groupCount": 2,
+    "bbCount": 1,
+    "groupCount": 1,
     "tabCount": 1,
-    "fileCount": 39,
+    "fileCount": 36,
     "sliceFor": "CS_Bilge",
     "termsVersion": "1.1.0",
     "nuclearStripped": true,
