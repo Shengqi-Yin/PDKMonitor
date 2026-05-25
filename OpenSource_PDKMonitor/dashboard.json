@@ -29857,7 +29857,7 @@
   "distribution": {
     "sources": [
       {
-        "id": "s_mploz5f7_0",
+        "id": "s_mplqeakd_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -29865,7 +29865,7 @@
         "enabled": true
       },
       {
-        "id": "s_mploz5f7_1",
+        "id": "s_mplqeakd_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -29880,8 +29880,8 @@
     "lastPublishedAt": "2026-05-25T18:27:37.352Z",
     "lastPublishedSha": "2279220b476b7be84bd6b564e8d044d3da7e9eea",
     "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/2279220b476b7be84bd6b564e8d044d3da7e9eea",
-    "lastFetchedAt": "2026-05-25T21:05:16.403Z",
-    "lastFetchedSha": "16f540d84e8d4ef88256475e061b4ff595ae6b63",
+    "lastFetchedAt": "2026-05-25T21:41:49.071Z",
+    "lastFetchedSha": "d553e5b3e9dfbbfc8915f9f180a66684a18988a2",
     "lastMergeStats": {
       "tabs": 1,
       "groups": 4,
@@ -29909,7 +29909,7 @@
   "lastGithubFetch": "2026-05-25T19:15:25.939Z",
   "sketchLibrary": [],
   "_distribution": {
-    "publishedAt": "2026-05-25T21:06:31.680Z",
+    "publishedAt": "2026-05-25T21:42:45.177Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
