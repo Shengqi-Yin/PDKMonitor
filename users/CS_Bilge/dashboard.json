@@ -151,26 +151,76 @@
       "sketch": "custom"
     }
   ],
-  "tabs": [],
-  "ownership": {},
+  "tabs": [
+    {
+      "id": "tab_p5xwkho",
+      "name": "Technology Platforms",
+      "groups": [
+        {
+          "id": "g_08lhfzj",
+          "name": "Suspended-Silicon Biased",
+          "platformMeta": {
+            "material": "Si",
+            "thickness": 500
+          },
+          "collapsed": false,
+          "entities": [
+            {
+              "id": "e_xg6qd9d",
+              "name": "BilgeBB",
+              "status": "discontinued",
+              "owner": "",
+              "description": "",
+              "githubUrl": "",
+              "files": [],
+              "scripts": [],
+              "datasets": [],
+              "testGroups": [],
+              "updated": "2026-05-25",
+              "kind": "source",
+              "bbType": "waveguide",
+              "dimensionsOn": true,
+              "params": {
+                "width_nm": 500,
+                "length_um": 100,
+                "thickness_nm": 500
+              },
+              "layoutSvg": "",
+              "gdsName": "",
+              "gdsSize": 0,
+              "gdsContent": "",
+              "edaTools": [],
+              "cdi": {},
+              "fabTabs": [],
+              "plannedReleaseDate": "",
+              "trl": null,
+              "documents": [],
+              "smatrixGroups": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ownership": {
+    "e_xg6qd9d": "CS_Bilge"
+  },
   "labels": {
     "CS_Bilge": "CS_Bilge"
   },
   "contributors": [],
   "_distribution": {
-    "publishedAt": "2026-05-25T09:48:46.335Z",
+    "publishedAt": "2026-05-25T09:53:18.085Z",
     "publisherIdentity": "CS_Bilge",
     "publisherLabel": "CS_Bilge",
     "publisherRole": "user-admin",
     "payloadKind": "user-admin-slice",
     "appVersion": "v1.0",
-    "bbCount": 0,
-    "groupCount": 0,
-    "tabCount": 0,
+    "bbCount": 1,
+    "groupCount": 1,
+    "tabCount": 1,
     "fileCount": 0,
     "sliceFor": "CS_Bilge",
-    "termsVersion": "1.1.0",
-    "placeholder": true,
-    "note": "Bootstrap publish — no contributions yet. The author has registered their slice folder; future publishes from this user will populate it."
+    "termsVersion": "1.1.0"
   }
 }
