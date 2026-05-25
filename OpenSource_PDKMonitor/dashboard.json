@@ -1759,7 +1759,59 @@
     "t_7nlncyx": "admin",
     "sg_mteplob": "admin",
     "t_lonfpop": "admin",
-    "sg_n2hf22e": "admin"
+    "sg_n2hf22e": "admin",
+    "d_dpz2eng": "admin",
+    "d_a7mx86b": "admin",
+    "d_k05d7tv": "admin",
+    "d_7xw0vpo": "admin",
+    "d_f4737te": "admin",
+    "d_pkg2jli": "admin",
+    "d_gvra7ro": "admin",
+    "d_otgrsk5": "admin",
+    "d_673upms": "admin",
+    "d_xynwvw1": "admin",
+    "d_zr7tpr8": "admin",
+    "d_8qae5yw": "admin",
+    "d_ghdtmhd": "admin",
+    "d_mluiykl": "admin",
+    "d_i51rgqo": "admin",
+    "d_o7ld9us": "admin",
+    "d_awwl776": "admin",
+    "d_36w889b": "admin",
+    "d_ovchc1y": "admin",
+    "d_3pjob4f": "admin",
+    "d_tllcvzc": "admin",
+    "d_zdslrh1": "admin",
+    "d_lfunjtx": "admin",
+    "d_iows6jy": "admin",
+    "d_ypp8ihw": "admin",
+    "d_x59447k": "admin",
+    "d_bbzg9sp": "admin",
+    "d_3a3x9yj": "admin",
+    "d_ndpd491": "admin",
+    "d_1oyitl1": "admin",
+    "d_r2izm81": "admin",
+    "d_zo34ttt": "admin",
+    "t_7lz5vv1": "admin",
+    "t_u389cyx": "admin",
+    "t_4nfonbf": "admin",
+    "t_ftoscqd": "admin",
+    "t_dnhcxdg": "admin",
+    "t_75zi1vr": "admin",
+    "t_fxjrjqi": "admin",
+    "t_95f1bmg": "admin",
+    "t_9ctc8xr": "admin",
+    "t_h0ydh9e": "admin",
+    "t_592is3o": "admin",
+    "t_xoq0mgf": "admin",
+    "t_hqiu3uf": "admin",
+    "t_gfk64gs": "admin",
+    "t_779ryg4": "admin",
+    "t_oldfri0": "admin",
+    "t_3h4qtxe": "admin",
+    "t_azjkg58": "admin",
+    "t_ms2y01r": "admin",
+    "t_6l3kueg": "admin"
   },
   "labels": {
     "https://github.com/AEmreKaplan/": "CS_Emre",
@@ -12734,54 +12786,62 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_q5hguoc",
+                  "id": "d_a7mx86b",
                   "name": "SOI220nm_1310nm_TE_MZI_Modulator.yaml",
                   "filename": "SOI220nm_1310nm_TE_MZI_Modulator.yaml",
                   "mime": "application/yaml",
                   "size": 1360,
                   "binaryContent": "bmFtZTogU09JMjIwbm1fMTMxMG5tX1RFX01aSV9Nb2R1bGF0b3IKY29tcG9uZW50X3R5cGU6IE1aTQphdXRob3JzOgotIG5hbWU6IENPUk5FUlNUT05FCiAgb3JnYW5pc2F0aW9uOiBDT1JORVJTVE9ORQpsYXN0X3VwZGF0ZWQ6IDI4LzA3LzIwMjUKbW9kZXM6Ci0gbW9kZV9udW1iZXJzOgogIC0gMAogIC0gMAogIHBvbGFyaXNhdGlvbjogVEUKICB3YXZlbGVuZ3RoOiAxMzEwCnBvcnRzOgotIG5hbWU6IHRvcF9hcm1fbl9idXMKICBwb3J0X3R5cGU6IGVsZWN0cmljYWxfcmYKICBjZW50ZXI6CiAgLSAyMjcwLjk4NQogIC0gMzYwCiAgb3JpZW50YXRpb246IDkwCiAgY3Jvc3Nfc2VjdGlvbjogbW9kdWxhdG9yX3RyaQotIG5hbWU6IGJvdF9hcm1fbl9idXMKICBwb3J0X3R5cGU6IGVsZWN0cmljYWxfcmYKICBjZW50ZXI6CiAgLSAyNDcwLjk4NQogIC0gMzYwCiAgb3JpZW50YXRpb246IDkwCiAgY3Jvc3Nfc2VjdGlvbjogbW9kdWxhdG9yX3RyaQotIG5hbWU6IHRvcF9hcm1fc19idXMKICBwb3J0X3R5cGU6IGVsZWN0cmljYWxfcmYKICBjZW50ZXI6CiAgLSAyODAuOTg1CiAgLSAtMzYwCiAgb3JpZW50YXRpb246IDI3MAogIGNyb3NzX3NlY3Rpb246IG1vZHVsYXRvcl90cmkKLSBuYW1lOiBib3RfYXJtX3NfYnVzCiAgcG9ydF90eXBlOiBlbGVjdHJpY2FsX3JmCiAgY2VudGVyOgogIC0gNDgwLjk4NQogIC0gLTM2MAogIG9yaWVudGF0aW9uOiAyNzAKICBjcm9zc19zZWN0aW9uOiBtb2R1bGF0b3JfdHJpCi0gbmFtZTogdmVydGljYWxfdGVfdzEKICBwb3J0X3R5cGU6IHZlcnRpY2FsX3RlCiAgY2VudGVyOgogIC0gMjUuNDQ2CiAgLSAxNDYuNTUKICBvcmllbnRhdGlvbjogMTgwCiAgd2lkdGg6IDEwCiAgY291cGxpbmdfYW5nbGVfY2xhZGRpbmc6IDYuODcxMwogIGZpYnJlX21vZGVzOgogIC0gZmlicmVfdHlwZTogU01GLTI4CiAgICB3YXZlbGVuZ3RoOiAxMzEwLjAKLSBuYW1lOiB2ZXJ0aWNhbF90ZTJfdzIKICBwb3J0X3R5cGU6IHZlcnRpY2FsX3RlCiAgY2VudGVyOgogIC0gMjUuNDQ2CiAgLSAxOTYuNTUKICBvcmllbnRhdGlvbjogMTgwCiAgd2lkdGg6IDEwCiAgY291cGxpbmdfYW5nbGVfY2xhZGRpbmc6IDYuODcxMwogIGZpYnJlX21vZGVzOgogIC0gZmlicmVfdHlwZTogU01GLTI4CiAgICB3YXZlbGVuZ3RoOiAxMzEwLjAKLSBuYW1lOiB2ZXJ0aWNhbF90ZTFfZQogIHBvcnRfdHlwZTogdmVydGljYWxfdGUKICBjZW50ZXI6CiAgLSAyNzI2LjUyNAogIC0gLTEzMi40MzUKICBvcmllbnRhdGlvbjogMAogIHdpZHRoOiAxMAogIGNvdXBsaW5nX2FuZ2xlX2NsYWRkaW5nOiA2Ljg3MTMKICBmaWJyZV9tb2RlczoKICAtIGZpYnJlX3R5cGU6IFNNRi0yOAogICAgd2F2ZWxlbmd0aDogMTMxMC4wCg==",
-                  "bbType": "waveguide",
+                  "bbType": "mzi",
                   "who": "admin",
                   "added": "2026-05-25",
                   "rawText": "name: SOI220nm_1310nm_TE_MZI_Modulator\ncomponent_type: MZM\nauthors:\n- name: CORNERSTONE\n  organisation: CORNERSTONE\nlast_updated: 28/07/2025\nmodes:\n- mode_numbers:\n  - 0\n  - 0\n  polarisation: TE\n  wavelength: 1310\nports:\n- name: top_arm_n_bus\n  port_type: electrical_rf\n  center:\n  - 2270.985\n  - 360\n  orientation: 90\n  cross_section: modulator_tri\n- name: bot_arm_n_bus\n  port_type: electrical_rf\n  center:\n  - 2470.985\n  - 360\n  orientation: 90\n  cross_section: modulator_tri\n- name: top_arm_s_bus\n  port_type: electrical_rf\n  center:\n  - 280.985\n  - -360\n  orientation: 270\n  cross_section: modulator_tri\n- name: bot_arm_s_bus\n  port_type: electrical_rf\n  center:\n  - 480.985\n  - -360\n  orientation: 270\n  cross_section: modulator_tri\n- name: vertical_te_w1\n  port_type: vertical_te\n  center:\n  - 25.446\n  - 146.55\n  orientation: 180\n  width: 10\n  coupling_angle_cladding: 6.8713\n  fibre_modes:\n  - fibre_type: SMF-28\n    wavelength: 1310.0\n- name: vertical_te2_w2\n  port_type: vertical_te\n  center:\n  - 25.446\n  - 196.55\n  orientation: 180\n  width: 10\n  coupling_angle_cladding: 6.8713\n  fibre_modes:\n  - fibre_type: SMF-28\n    wavelength: 1310.0\n- name: vertical_te1_e\n  port_type: vertical_te\n  center:\n  - 2726.524\n  - -132.435\n  orientation: 0\n  width: 10\n  coupling_angle_cladding: 6.8713\n  fibre_modes:\n  - fibre_type: SMF-28\n    wavelength: 1310.0\n"
                 },
                 {
-                  "id": "d_rp0jqst",
+                  "id": "d_r2izm81",
                   "name": "components.md",
                   "filename": "components.md",
                   "mime": "text/markdown",
                   "size": 1243,
                   "binaryContent": "IyBCYXNpYyBjb21wb25lbnRzIAoKYGBge3RvY3RyZWV9CjptYXhkZXB0aDogMAo6Y2FwdGlvbjogQ29tcG9uZW50IHJlZmVyZW5jZQoKSGVhdGVyLm1kClNPSTIyMG5tXzEzMTBubV9URV9NWklfTW9kdWxhdG9yLm1kClNPSTIyMG5tXzEzMTBubV9URV9SSUJfMngxX01NSS5tZApTT0kyMjBubV8xMzEwbm1fVEVfUklCXzJ4Ml9NTUkubWQKU09JMjIwbm1fMTMxMG5tX1RFX1JJQl85MF9EZWdyZWVfQmVuZC5tZApTT0kyMjBubV8xMzEwbm1fVEVfUklCX0dyYXRpbmdfQ291cGxlci5tZApTT0kyMjBubV8xMzEwbm1fVEVfUklCX1dhdmVndWlkZS5tZApTT0kyMjBubV8xMzEwbm1fVEVfUklCX1dhdmVndWlkZV9Dcm9zc2luZy5tZApTT0kyMjBubV8xMzEwbm1fVEVfU1RSSVBfMngxX01NSS5tZApTT0kyMjBubV8xMzEwbm1fVEVfU1RSSVBfMngyX01NSS5tZApTT0kyMjBubV8xMzEwbm1fVEVfU1RSSVBfOTBfRGVncmVlX0JlbmQubWQKU09JMjIwbm1fMTMxMG5tX1RFX1NUUklQX0dyYXRpbmdfQ291cGxlci5tZApTT0kyMjBubV8xMzEwbm1fVEVfU1RSSVBfV2F2ZWd1aWRlLm1kClNPSTIyMG5tXzEzMTBubV9URV9TVFJJUF9XYXZlZ3VpZGVfQ3Jvc3NpbmcubWQKU09JMjIwbm1fMTU1MG5tX1NpbmdsZVF1Yml0R2F0ZV9JSUZfVW9TaGVmZmllbGQubWQKU09JMjIwbm1fMTU1MG5tX1RFX0RlZmVjdF9EZXRlY3Rvci5tZApTT0kyMjBubV8xNTUwbm1fVEVfSXNvbGF0ZWREZXRlY3Rvci5tZApTT0kyMjBubV8xNTUwbm1fVEVfTVpJX01vZHVsYXRvci5tZApTT0kyMjBubV8xNTUwbm1fVEVfUklCXzJ4MV9NTUkubWQKU09JMjIwbm1fMTU1MG5tX1RFX1JJQl8yeDJfTU1JLm1kClNPSTIyMG5tXzE1NTBubV9URV9SSUJfOTBfRGVncmVlX0JlbmQubWQKU09JMjIwbm1fMTU1MG5tX1RFX1JJQl9HcmF0aW5nX0NvdXBsZXIubWQKU09JMjIwbm1fMTU1MG5tX1RFX1JJQl9XYXZlZ3VpZGUubWQKU09JMjIwbm1fMTU1MG5tX1RFX1JJQl9XYXZlZ3VpZGVfQ3Jvc3NpbmcubWQKU09JMjIwbm1fMTU1MG5tX1RFX1NUUklQXzJ4MV9NTUkubWQKU09JMjIwbm1fMTU1MG5tX1RFX1NUUklQXzJ4Ml9NTUkubWQKU09JMjIwbm1fMTU1MG5tX1RFX1NUUklQXzkwX0RlZ3JlZV9CZW5kLm1kClNPSTIyMG5tXzE1NTBubV9URV9TVFJJUF9HcmF0aW5nX0NvdXBsZXIubWQKU09JMjIwbm1fMTU1MG5tX1RFX1NUUklQX1dhdmVndWlkZS5tZApTT0kyMjBubV8xNTUwbm1fVEVfU1RSSVBfV2F2ZWd1aWRlX0Nyb3NzaW5nLm1kCmBgYA==",
-                  "bbType": "waveguide",
+                  "bbType": "mzi",
                   "who": "admin",
                   "added": "2026-05-25",
                   "rawText": "# Basic components \n\n```{toctree}\n:maxdepth: 0\n:caption: Component reference\n\nHeater.md\nSOI220nm_1310nm_TE_MZI_Modulator.md\nSOI220nm_1310nm_TE_RIB_2x1_MMI.md\nSOI220nm_1310nm_TE_RIB_2x2_MMI.md\nSOI220nm_1310nm_TE_RIB_90_Degree_Bend.md\nSOI220nm_1310nm_TE_RIB_Grating_Coupler.md\nSOI220nm_1310nm_TE_RIB_Waveguide.md\nSOI220nm_1310nm_TE_RIB_Waveguide_Crossing.md\nSOI220nm_1310nm_TE_STRIP_2x1_MMI.md\nSOI220nm_1310nm_TE_STRIP_2x2_MMI.md\nSOI220nm_1310nm_TE_STRIP_90_Degree_Bend.md\nSOI220nm_1310nm_TE_STRIP_Grating_Coupler.md\nSOI220nm_1310nm_TE_STRIP_Waveguide.md\nSOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.md\nSOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield.md\nSOI220nm_1550nm_TE_Defect_Detector.md\nSOI220nm_1550nm_TE_IsolatedDetector.md\nSOI220nm_1550nm_TE_MZI_Modulator.md\nSOI220nm_1550nm_TE_RIB_2x1_MMI.md\nSOI220nm_1550nm_TE_RIB_2x2_MMI.md\nSOI220nm_1550nm_TE_RIB_90_Degree_Bend.md\nSOI220nm_1550nm_TE_RIB_Grating_Coupler.md\nSOI220nm_1550nm_TE_RIB_Waveguide.md\nSOI220nm_1550nm_TE_RIB_Waveguide_Crossing.md\nSOI220nm_1550nm_TE_STRIP_2x1_MMI.md\nSOI220nm_1550nm_TE_STRIP_2x2_MMI.md\nSOI220nm_1550nm_TE_STRIP_90_Degree_Bend.md\nSOI220nm_1550nm_TE_STRIP_Grating_Coupler.md\nSOI220nm_1550nm_TE_STRIP_Waveguide.md\nSOI220nm_1550nm_TE_STRIP_Waveguide_Crossing.md\n```"
                 },
                 {
-                  "id": "d_3p1znqu",
+                  "id": "d_zo34ttt",
                   "name": "ready-made.md",
                   "filename": "ready-made.md",
                   "mime": "text/markdown",
                   "size": 75,
                   "binaryContent": "IyBSZWFkeS1tYWRlIAoKYGBge3RvY3RyZWV9CjptYXhkZXB0aDogMAo6Y2FwdGlvbjogQ29tcG9uZW50IHJlZmVyZW5jZQoKYGBg",
-                  "bbType": "waveguide",
+                  "bbType": "mzi",
                   "who": "admin",
                   "added": "2026-05-25",
                   "rawText": "# Ready-made \n\n```{toctree}\n:maxdepth: 0\n:caption: Component reference\n\n```"
                 }
               ],
               "updated": "2026-05-25",
-              "kind": "passive",
-              "bbType": "waveguide",
+              "kind": "active",
+              "bbType": "mzi",
               "dimensionsOn": true,
               "params": {
+                "arm_length_um": 200,
+                "arm_imbalance_um": 50,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "gdsName": "SOI220nm_1310nm_TE_MZI_Modulator.gds",
               "gdsSize": 55222,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -12816,7 +12876,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_6sw9hkg",
+                  "id": "d_i51rgqo",
                   "name": "SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield.yaml",
                   "filename": "SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield.yaml",
                   "mime": "application/yaml",
@@ -12874,7 +12934,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_dihmm22",
+                  "id": "d_o7ld9us",
                   "name": "SOI220nm_1550nm_TE_Defect_Detector.yaml",
                   "filename": "SOI220nm_1550nm_TE_Defect_Detector.yaml",
                   "mime": "application/yaml",
@@ -12932,7 +12992,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_vr2odi1",
+                  "id": "d_awwl776",
                   "name": "SOI220nm_1550nm_TE_IsolatedDetector.yaml",
                   "filename": "SOI220nm_1550nm_TE_IsolatedDetector.yaml",
                   "mime": "application/yaml",
@@ -12990,7 +13050,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_1kpfdmr",
+                  "id": "d_36w889b",
                   "name": "SOI220nm_1550nm_TE_MZI_Modulator.yaml",
                   "filename": "SOI220nm_1550nm_TE_MZI_Modulator.yaml",
                   "mime": "application/yaml",
@@ -13048,7 +13108,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_v2jnwcx",
+                  "id": "d_dpz2eng",
                   "name": "Heater.yaml",
                   "filename": "Heater.yaml",
                   "mime": "application/yaml",
@@ -13106,7 +13166,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_gvdhzey",
+                  "id": "d_7xw0vpo",
                   "name": "SOI220nm_1310nm_TE_RIB_2x2_MMI.yaml",
                   "filename": "SOI220nm_1310nm_TE_RIB_2x2_MMI.yaml",
                   "mime": "application/yaml",
@@ -13151,7 +13211,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_8pymrxl",
+                      "id": "t_u389cyx",
                       "name": "SOI220nm_1310nm_TE_RIB_2x2_MMI",
                       "filename": "SOI220nm_1310nm_TE_RIB_2x2_MMI.csv",
                       "kind": "csv",
@@ -13165,7 +13225,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:12.605Z",
+                      "added": "2026-05-25T14:27:14.184Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13197,7 +13257,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_7zy4o31",
+                  "id": "d_f4737te",
                   "name": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend.yaml",
                   "filename": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend.yaml",
                   "mime": "application/yaml",
@@ -13242,7 +13302,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_vxv897v",
+                      "id": "t_4nfonbf",
                       "name": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend",
                       "filename": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -13256,7 +13316,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:13.146Z",
+                      "added": "2026-05-25T14:27:14.678Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13288,7 +13348,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_u0q5x3b",
+                  "id": "d_pkg2jli",
                   "name": "SOI220nm_1310nm_TE_RIB_Grating_Coupler.yaml",
                   "filename": "SOI220nm_1310nm_TE_RIB_Grating_Coupler.yaml",
                   "mime": "application/yaml",
@@ -13332,7 +13392,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_p06g0zt",
+                      "id": "t_ftoscqd",
                       "name": "SOI220nm_1310nm_TE_RIB_Grating_Coupler",
                       "filename": "SOI220nm_1310nm_TE_RIB_Grating_Coupler.csv",
                       "kind": "csv",
@@ -13346,7 +13406,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:13.632Z",
+                      "added": "2026-05-25T14:27:15.088Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13379,7 +13439,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_zdmk0qf",
+                  "id": "d_gvra7ro",
                   "name": "SOI220nm_1310nm_TE_RIB_Waveguide.yaml",
                   "filename": "SOI220nm_1310nm_TE_RIB_Waveguide.yaml",
                   "mime": "application/yaml",
@@ -13437,7 +13497,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_35qqy6d",
+                  "id": "d_otgrsk5",
                   "name": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing.yaml",
                   "filename": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing.yaml",
                   "mime": "application/yaml",
@@ -13482,7 +13542,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_tkm8rdu",
+                      "id": "t_dnhcxdg",
                       "name": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing",
                       "filename": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -13496,7 +13556,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:14.189Z",
+                      "added": "2026-05-25T14:27:15.659Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13528,7 +13588,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_21jyk3t",
+                  "id": "d_673upms",
                   "name": "SOI220nm_1310nm_TE_STRIP_2x1_MMI.yaml",
                   "filename": "SOI220nm_1310nm_TE_STRIP_2x1_MMI.yaml",
                   "mime": "application/yaml",
@@ -13573,7 +13633,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_0ozqorb",
+                      "id": "t_75zi1vr",
                       "name": "SOI220nm_1310nm_TE_STRIP_2x1_MMI",
                       "filename": "SOI220nm_1310nm_TE_STRIP_2x1_MMI.csv",
                       "kind": "csv",
@@ -13587,7 +13647,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:14.605Z",
+                      "added": "2026-05-25T14:27:16.116Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13619,7 +13679,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_aok3oon",
+                  "id": "d_xynwvw1",
                   "name": "SOI220nm_1310nm_TE_STRIP_2x2_MMI.yaml",
                   "filename": "SOI220nm_1310nm_TE_STRIP_2x2_MMI.yaml",
                   "mime": "application/yaml",
@@ -13664,7 +13724,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_5syrucx",
+                      "id": "t_fxjrjqi",
                       "name": "SOI220nm_1310nm_TE_STRIP_2x2_MMI",
                       "filename": "SOI220nm_1310nm_TE_STRIP_2x2_MMI.csv",
                       "kind": "csv",
@@ -13678,7 +13738,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:15.047Z",
+                      "added": "2026-05-25T14:27:16.685Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13710,7 +13770,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_vv7pe4v",
+                  "id": "d_zr7tpr8",
                   "name": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend.yaml",
                   "filename": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend.yaml",
                   "mime": "application/yaml",
@@ -13755,7 +13815,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_py1ywy8",
+                      "id": "t_95f1bmg",
                       "name": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend",
                       "filename": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -13769,7 +13829,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:15.485Z",
+                      "added": "2026-05-25T14:27:17.087Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13801,7 +13861,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_rawprm8",
+                  "id": "d_8qae5yw",
                   "name": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler.yaml",
                   "filename": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler.yaml",
                   "mime": "application/yaml",
@@ -13845,7 +13905,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_mbad4rc",
+                      "id": "t_9ctc8xr",
                       "name": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler",
                       "filename": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler.csv",
                       "kind": "csv",
@@ -13859,7 +13919,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:15.891Z",
+                      "added": "2026-05-25T14:27:17.444Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13892,7 +13952,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_nob8sie",
+                  "id": "d_ghdtmhd",
                   "name": "SOI220nm_1310nm_TE_STRIP_Waveguide.yaml",
                   "filename": "SOI220nm_1310nm_TE_STRIP_Waveguide.yaml",
                   "mime": "application/yaml",
@@ -13950,7 +14010,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_bqc1eya",
+                  "id": "d_mluiykl",
                   "name": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.yaml",
                   "filename": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.yaml",
                   "mime": "application/yaml",
@@ -13995,7 +14055,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_oaatqdm",
+                      "id": "t_h0ydh9e",
                       "name": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing",
                       "filename": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -14009,7 +14069,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:16.344Z",
+                      "added": "2026-05-25T14:27:17.990Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14041,7 +14101,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_9xudmnj",
+                  "id": "d_ovchc1y",
                   "name": "SOI220nm_1550nm_TE_RIB_2x1_MMI.yaml",
                   "filename": "SOI220nm_1550nm_TE_RIB_2x1_MMI.yaml",
                   "mime": "application/yaml",
@@ -14086,7 +14146,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_6l9iv7l",
+                      "id": "t_592is3o",
                       "name": "SOI220nm_1550nm_TE_RIB_2x1_MMI",
                       "filename": "SOI220nm_1550nm_TE_RIB_2x1_MMI.csv",
                       "kind": "csv",
@@ -14100,7 +14160,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:16.948Z",
+                      "added": "2026-05-25T14:27:18.479Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14132,7 +14192,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_pvp975l",
+                  "id": "d_3pjob4f",
                   "name": "SOI220nm_1550nm_TE_RIB_2x2_MMI.yaml",
                   "filename": "SOI220nm_1550nm_TE_RIB_2x2_MMI.yaml",
                   "mime": "application/yaml",
@@ -14177,7 +14237,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_u1g58rm",
+                      "id": "t_xoq0mgf",
                       "name": "SOI220nm_1550nm_TE_RIB_2x2_MMI",
                       "filename": "SOI220nm_1550nm_TE_RIB_2x2_MMI.csv",
                       "kind": "csv",
@@ -14191,7 +14251,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:17.544Z",
+                      "added": "2026-05-25T14:27:19.155Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14223,7 +14283,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_ajwq5j7",
+                  "id": "d_tllcvzc",
                   "name": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend.yaml",
                   "filename": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend.yaml",
                   "mime": "application/yaml",
@@ -14268,7 +14328,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_6rwo8g6",
+                      "id": "t_hqiu3uf",
                       "name": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend",
                       "filename": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -14282,7 +14342,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:18.103Z",
+                      "added": "2026-05-25T14:27:19.496Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14314,7 +14374,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_49a5csq",
+                  "id": "d_zdslrh1",
                   "name": "SOI220nm_1550nm_TE_RIB_Grating_Coupler.yaml",
                   "filename": "SOI220nm_1550nm_TE_RIB_Grating_Coupler.yaml",
                   "mime": "application/yaml",
@@ -14358,7 +14418,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_2zhcymm",
+                      "id": "t_gfk64gs",
                       "name": "SOI220nm_1550nm_TE_RIB_Grating_Coupler",
                       "filename": "SOI220nm_1550nm_TE_RIB_Grating_Coupler.csv",
                       "kind": "csv",
@@ -14372,7 +14432,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:18.781Z",
+                      "added": "2026-05-25T14:27:20.026Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14405,7 +14465,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_yt6lfoe",
+                  "id": "d_lfunjtx",
                   "name": "SOI220nm_1550nm_TE_RIB_Waveguide.yaml",
                   "filename": "SOI220nm_1550nm_TE_RIB_Waveguide.yaml",
                   "mime": "application/yaml",
@@ -14463,7 +14523,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_eqg6zhh",
+                  "id": "d_iows6jy",
                   "name": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing.yaml",
                   "filename": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing.yaml",
                   "mime": "application/yaml",
@@ -14508,7 +14568,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_49o0riq",
+                      "id": "t_779ryg4",
                       "name": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing",
                       "filename": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -14522,7 +14582,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:19.297Z",
+                      "added": "2026-05-25T14:27:20.700Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14554,7 +14614,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_a2orzwu",
+                  "id": "d_ypp8ihw",
                   "name": "SOI220nm_1550nm_TE_STRIP_2x1_MMI.yaml",
                   "filename": "SOI220nm_1550nm_TE_STRIP_2x1_MMI.yaml",
                   "mime": "application/yaml",
@@ -14599,7 +14659,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_h42z0an",
+                      "id": "t_oldfri0",
                       "name": "SOI220nm_1550nm_TE_STRIP_2x1_MMI",
                       "filename": "SOI220nm_1550nm_TE_STRIP_2x1_MMI.csv",
                       "kind": "csv",
@@ -14613,7 +14673,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:19.689Z",
+                      "added": "2026-05-25T14:27:21.249Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14645,7 +14705,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_34wdp71",
+                  "id": "d_x59447k",
                   "name": "SOI220nm_1550nm_TE_STRIP_2x2_MMI.yaml",
                   "filename": "SOI220nm_1550nm_TE_STRIP_2x2_MMI.yaml",
                   "mime": "application/yaml",
@@ -14690,7 +14750,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_re1q9jq",
+                      "id": "t_3h4qtxe",
                       "name": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
                       "filename": "SOI220nm_1550nm_TE_STRIP_2x2_MMI.csv",
                       "kind": "csv",
@@ -14704,7 +14764,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:20.108Z",
+                      "added": "2026-05-25T14:27:22.042Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14736,7 +14796,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_ery198h",
+                  "id": "d_k05d7tv",
                   "name": "SOI220nm_1310nm_TE_RIB_2x1_MMI.yaml",
                   "filename": "SOI220nm_1310nm_TE_RIB_2x1_MMI.yaml",
                   "mime": "application/yaml",
@@ -14781,7 +14841,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_1pr1wp7",
+                      "id": "t_7lz5vv1",
                       "name": "SOI220nm_1310nm_TE_RIB_2x1_MMI",
                       "filename": "SOI220nm_1310nm_TE_RIB_2x1_MMI.csv",
                       "kind": "csv",
@@ -14795,7 +14855,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:12.076Z",
+                      "added": "2026-05-25T14:27:13.670Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14804,7 +14864,15 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_8bogbvs",
@@ -14819,7 +14887,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_nu6vgi1",
+                  "id": "d_bbzg9sp",
                   "name": "SOI220nm_1550nm_TE_STRIP_90_Degree_Bend.yaml",
                   "filename": "SOI220nm_1550nm_TE_STRIP_90_Degree_Bend.yaml",
                   "mime": "application/yaml",
@@ -14864,7 +14932,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_ivx8plp",
+                      "id": "t_azjkg58",
                       "name": "SOI220nm_1550nm_TE_STRIP_90_Degree_Bend",
                       "filename": "SOI220nm_1550nm_TE_STRIP_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -14878,7 +14946,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:20.604Z",
+                      "added": "2026-05-25T14:27:22.377Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14887,7 +14955,15 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_7c4kvc3",
@@ -14902,7 +14978,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_0nrged3",
+                  "id": "d_3a3x9yj",
                   "name": "SOI220nm_1550nm_TE_STRIP_Grating_Coupler.yaml",
                   "filename": "SOI220nm_1550nm_TE_STRIP_Grating_Coupler.yaml",
                   "mime": "application/yaml",
@@ -14946,7 +15022,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_7nlncyx",
+                      "id": "t_ms2y01r",
                       "name": "SOI220nm_1550nm_TE_STRIP_Grating_Coupler",
                       "filename": "SOI220nm_1550nm_TE_STRIP_Grating_Coupler.csv",
                       "kind": "csv",
@@ -14960,7 +15036,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:21.194Z",
+                      "added": "2026-05-25T14:27:22.770Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14970,7 +15046,15 @@
                 }
               ],
               "_gdsStripped": true,
-              "_svgStripped": true
+              "_svgStripped": true,
+              "plannedReleaseDate": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_agjhjfj",
@@ -14985,7 +15069,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_0cm9bow",
+                  "id": "d_ndpd491",
                   "name": "SOI220nm_1550nm_TE_STRIP_Waveguide.yaml",
                   "filename": "SOI220nm_1550nm_TE_STRIP_Waveguide.yaml",
                   "mime": "application/yaml",
@@ -15019,7 +15103,16 @@
                   "ts": 1779718257750
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "smatrixGroups": [],
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             },
             {
               "id": "e_ur55ed7",
@@ -15034,7 +15127,7 @@
               "testGroups": [],
               "documents": [
                 {
-                  "id": "d_e3zgo2j",
+                  "id": "d_1oyitl1",
                   "name": "SOI220nm_1550nm_TE_STRIP_Waveguide_Crossing.yaml",
                   "filename": "SOI220nm_1550nm_TE_STRIP_Waveguide_Crossing.yaml",
                   "mime": "application/yaml",
@@ -15079,7 +15172,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_lonfpop",
+                      "id": "t_6l3kueg",
                       "name": "SOI220nm_1550nm_TE_STRIP_Waveguide_Crossing",
                       "filename": "SOI220nm_1550nm_TE_STRIP_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -15093,7 +15186,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T14:11:21.640Z",
+                      "added": "2026-05-25T14:27:23.348Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15102,7 +15195,15 @@
                   "collapsed": false
                 }
               ],
-              "_gdsStripped": true
+              "_gdsStripped": true,
+              "plannedReleaseDate": "",
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null
             }
           ],
           "status": "available",
@@ -22545,10 +22646,10 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastPublishedAt": "2026-05-25T14:10:26.378Z",
-    "lastPublishedSha": "b1afa5f631102974c4b177e7df1fb4ebe1a4991b",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/b1afa5f631102974c4b177e7df1fb4ebe1a4991b",
-    "lastFetchedAt": "2026-05-25T14:23:08.544Z",
+    "lastPublishedAt": "2026-05-25T14:25:06.737Z",
+    "lastPublishedSha": "f5bd0f7e90bd6b2191f78f785b49317dc9b4eff2",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/f5bd0f7e90bd6b2191f78f785b49317dc9b4eff2",
+    "lastFetchedAt": "2026-05-25T14:25:30.607Z",
     "lastFetchedSha": "d553e5b3e9dfbbfc8915f9f180a66684a18988a2",
     "lastMergeStats": {
       "tabs": 0,
@@ -22577,7 +22678,7 @@
   "lastGithubFetch": "2026-05-25T14:08:47.705Z",
   "sketchLibrary": [],
   "_distribution": {
-    "publishedAt": "2026-05-25T14:25:06.737Z",
+    "publishedAt": "2026-05-25T14:31:51.660Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
