@@ -14615,17 +14615,27 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "mmi",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 220
+                "width_um": 6,
+                "length_um": 30,
+                "thickness_nm": 220,
+                "in_ports": 1,
+                "out_ports": 2,
+                "stub_width_nm": 500
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.367257e-1\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"48\" y=\"239.48867313915858\" width=\"904\" height=\"117.02265372168284\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 350.8 319.9 L 350.8 303.5 L 204.5 299.5 L 48.0 299.5 L 48.0 296.5 L 204.5 296.5 L 350.8 292.5 L 350.8 276.1 L 649.2 276.1 L 649.2 281.4 L 795.5 285.4 L 952.0 285.4 L 952.0 288.3 L 795.5 288.3 L 649.2 292.3 L 649.2 303.7 L 795.5 307.7 L 952.0 307.7 L 952.0 310.6 L 795.5 310.6 L 649.2 314.6 L 649.2 319.9 L 350.8 319.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 314.2 356.5 L 314.2 339.1 L 204.0 336.0 L 48.0 336.0 L 48.0 260.0 L 204.0 260.0 L 314.2 256.9 L 314.2 239.5 L 685.8 239.5 L 685.8 245.8 L 796.0 248.8 L 952.0 248.8 L 952.0 347.2 L 796.0 347.2 L 685.8 350.2 L 685.8 356.5 L 314.2 356.5 Z\" fill=\"#f5a83a\" fill-opacity=\"0.55\" stroke=\"#f5a83a\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1310nm_TE_RIB_2x1_MMI</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">123.60 × 16.00 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span><span class=\"gds-legend-chip\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#f5a83a;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 3 </span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L5/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1310nm_TE_RIB_2x1_MMI.gds",
               "gdsSize": 500,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -14711,17 +14721,27 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "mmi",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 220
+                "width_um": 6,
+                "length_um": 30,
+                "thickness_nm": 220,
+                "in_ports": 1,
+                "out_ports": 2,
+                "stub_width_nm": 500
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.367257e-1\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"48\" y=\"239.48867313915858\" width=\"904\" height=\"117.02265372168284\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 298.9 310.9 L 152.6 306.9 L 152.6 304.0 L 298.9 299.9 L 298.9 310.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 298.9 296.1 L 152.6 292.0 L 152.6 289.1 L 298.9 285.1 L 298.9 296.1 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 701.1 310.9 L 701.1 299.9 L 847.4 304.0 L 847.4 306.9 L 701.1 310.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 701.1 296.1 L 701.1 285.1 L 847.4 289.1 L 847.4 292.0 L 701.1 296.1 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 847.4 306.9 L 847.4 304.0 L 952.0 304.0 L 952.0 306.9 L 847.4 306.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 847.4 292.0 L 847.4 289.1 L 952.0 289.1 L 952.0 292.0 L 847.4 292.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 292.0 L 48.0 289.1 L 152.6 289.1 L 152.6 292.0 L 48.0 292.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 306.9 L 48.0 304.0 L 152.6 304.0 L 152.6 306.9 L 48.0 306.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 298.9 319.9 L 298.9 276.1 L 701.1 276.1 L 701.1 319.9 L 298.9 319.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 262.3 356.5 L 262.3 346.5 L 152.1 343.5 L 48.0 343.5 L 48.0 252.5 L 152.1 252.5 L 262.3 249.5 L 262.3 239.5 L 737.7 239.5 L 737.7 249.5 L 847.9 252.5 L 952.0 252.5 L 952.0 343.5 L 847.9 343.5 L 737.7 346.5 L 737.7 356.5 L 262.3 356.5 Z\" fill=\"#f5a83a\" fill-opacity=\"0.55\" stroke=\"#f5a83a\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1310nm_TE_RIB_2x2_MMI</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">123.60 × 16.00 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span><span class=\"gds-legend-chip\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#f5a83a;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 3 </span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L5/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1310nm_TE_RIB_2x2_MMI.gds",
               "gdsSize": 868,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -14802,17 +14822,25 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "bend",
               "dimensionsOn": true,
               "params": {
+                "radius_um": 10,
+                "angle_deg": 90,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"6.344538e-2\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"262\" y=\"60\" width=\"476\" height=\"476\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 340.8 536.0 L 340.9 526.1 L 341.3 516.2 L 341.9 506.3 L 342.8 496.4 L 343.9 486.6 L 345.2 476.8 L 346.8 467.0 L 348.7 457.3 L 350.8 447.6 L 353.1 438.0 L 355.6 428.4 L 358.4 418.9 L 361.5 409.5 L 364.8 400.1 L 368.3 390.9 L 372.0 381.7 L 376.0 372.6 L 380.1 363.6 L 384.5 354.8 L 389.2 346.0 L 394.0 337.4 L 399.1 328.9 L 404.3 320.5 L 409.8 312.2 L 415.5 304.1 L 421.4 296.1 L 427.5 288.3 L 433.7 280.7 L 440.2 273.2 L 446.8 265.8 L 453.7 258.6 L 460.7 251.6 L 467.8 244.8 L 475.2 238.2 L 482.7 231.7 L 490.4 225.4 L 498.2 219.4 L 506.1 213.5 L 514.2 207.8 L 522.5 202.3 L 530.9 197.1 L 539.4 192.0 L 548.0 187.1 L 556.8 182.5 L 565.7 178.1 L 574.6 173.9 L 583.7 170.0 L 592.9 166.2 L 602.2 162.7 L 611.5 159.5 L 620.9 156.4 L 630.4 153.6 L 640.0 151.1 L 649.6 148.7 L 659.3 146.7 L 669.0 144.8 L 678.8 143.2 L 688.6 141.9 L 698.5 140.8 L 708.3 139.9 L 718.2 139.3 L 728.1 138.9 L 738.0 138.8 L 738.0 145.1 L 728.1 145.2 L 718.2 145.6 L 708.3 146.2 L 698.5 147.1 L 688.6 148.2 L 678.8 149.6 L 669.1 151.2 L 659.3 153.1 L 649.7 155.2 L 640.0 157.6 L 630.5 160.2 L 621.0 163.0 L 611.6 166.1 L 602.3 169.4 L 593.0 173.0 L 583.9 176.8 L 574.8 180.8 L 565.9 185.0 L 557.0 189.5 L 548.3 194.2 L 539.7 199.1 L 531.2 204.3 L 522.9 209.6 L 514.7 215.1 L 506.7 220.9 L 498.7 226.9 L 491.0 233.0 L 483.4 239.4 L 475.9 245.9 L 468.7 252.7 L 461.6 259.6 L 454.7 266.7 L 447.9 273.9 L 441.4 281.4 L 435.0 289.0 L 428.9 296.7 L 422.9 304.6 L 417.2 312.7 L 411.6 320.9 L 406.3 329.2 L 401.1 337.7 L 396.2 346.3 L 391.5 355.0 L 387.0 363.9 L 382.8 372.8 L 378.8 381.9 L 375.0 391.0 L 371.4 400.2 L 368.1 409.6 L 365.0 419.0 L 362.2 428.5 L 359.6 438.0 L 357.2 447.6 L 355.1 457.3 L 353.2 467.0 L 351.6 476.8 L 350.2 486.6 L 349.1 496.5 L 348.2 506.3 L 347.6 516.2 L 347.2 526.1 L 347.1 536.0 L 340.8 536.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 262.0 536.0 L 262.1 524.2 L 262.6 512.2 L 263.3 500.4 L 264.3 488.6 L 265.7 476.7 L 267.3 465.0 L 269.2 453.3 L 271.4 441.7 L 273.9 430.0 L 276.7 418.5 L 279.8 407.1 L 283.1 395.6 L 286.8 384.3 L 290.7 373.2 L 294.9 362.1 L 299.4 351.1 L 304.1 340.2 L 309.1 329.4 L 314.4 318.8 L 320.0 308.3 L 325.8 298.0 L 331.8 287.8 L 338.2 277.7 L 344.7 267.8 L 351.5 258.2 L 358.6 248.6 L 365.9 239.1 L 373.4 230.0 L 381.1 221.0 L 389.0 212.2 L 397.5 203.3 L 405.3 195.5 L 414.2 187.0 L 423.0 179.1 L 432.0 171.3 L 441.2 163.8 L 450.6 156.5 L 460.1 149.5 L 469.8 142.7 L 479.8 136.1 L 489.8 129.8 L 500.0 123.8 L 510.4 117.9 L 520.9 112.4 L 531.5 107.1 L 542.3 102.1 L 553.1 97.4 L 564.1 92.9 L 575.2 88.7 L 586.4 84.8 L 597.7 81.1 L 609.1 77.7 L 620.6 74.7 L 632.1 71.9 L 643.7 69.4 L 655.4 67.2 L 667.1 65.3 L 678.8 63.7 L 690.5 62.3 L 702.4 61.3 L 714.3 60.6 L 726.2 60.1 L 738.0 60.0 L 738.0 223.0 L 729.7 224.0 L 722.5 224.3 L 714.4 224.8 L 706.3 225.5 L 698.8 226.4 L 690.3 227.6 L 683.2 228.8 L 675.1 230.3 L 667.5 232.0 L 659.8 233.9 L 652.2 235.9 L 645.1 238.1 L 636.6 240.8 L 629.6 243.3 L 622.2 246.2 L 614.8 249.2 L 608.1 252.2 L 600.3 255.9 L 593.8 259.2 L 586.2 263.3 L 579.9 266.9 L 573.0 271.1 L 566.3 275.4 L 559.4 280.0 L 553.4 284.4 L 546.8 289.3 L 541.0 293.9 L 534.8 299.1 L 528.6 304.6 L 523.1 309.7 L 517.3 315.3 L 511.7 321.1 L 506.4 326.8 L 501.2 332.7 L 496.0 338.9 L 491.3 344.8 L 486.4 351.4 L 481.9 357.7 L 477.6 364.0 L 473.1 371.1 L 469.0 377.8 L 465.3 384.3 L 461.2 391.8 L 457.9 398.5 L 454.3 405.9 L 451.2 412.8 L 448.3 420.0 L 445.3 427.6 L 442.7 435.0 L 440.0 443.2 L 438.0 449.9 L 435.9 457.8 L 434.0 465.3 L 432.4 472.8 L 430.7 481.5 L 429.6 488.3 L 428.4 496.8 L 427.5 504.3 L 426.8 512.3 L 426.3 520.5 L 426.0 527.7 L 425.1 536.0 L 262.0 536.0 Z\" fill=\"#f5a83a\" fill-opacity=\"0.55\" stroke=\"#f5a83a\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1310nm_TE_RIB_90_Degree_Bend</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">30.20 × 30.20 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span><span class=\"gds-legend-chip\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#f5a83a;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 3 </span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L5/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend.gds",
               "gdsSize": 2236,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -14893,16 +14921,25 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "grating-coupler",
               "dimensionsOn": true,
               "params": {
+                "period_nm": 630,
+                "n_periods": 28,
+                "fill_factor": 0.5,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "gdsName": "SOI220nm_1310nm_TE_RIB_Grating_Coupler.gds",
               "gdsSize": 5468,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -14964,7 +15001,7 @@
               "name": "SOI220nm_1310nm_TE_RIB_Waveguide",
               "status": "available",
               "owner": "admin",
-              "description": "",
+              "description": "Shallow etch waveguide",
               "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/components/SOI220nm_1310nm_TE_RIB_Waveguide.gds",
               "files": [],
               "scripts": [],
@@ -14995,7 +15032,14 @@
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.106195e-1\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"48.00000000000006\" y=\"250.99200000000002\" width=\"903.9999999999999\" height=\"94.01599999999999\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 48.0 299.8 L 48.0 296.2 L 952.0 296.2 L 952.0 299.8 L 48.0 299.8 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 345.0 L 48.0 251.0 L 952.0 251.0 L 952.0 345.0 L 48.0 345.0 Z\" fill=\"#f5a83a\" fill-opacity=\"0.55\" stroke=\"#f5a83a\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1310nm_TE_RIB_Waveguide</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">100.00 × 10.40 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span><span class=\"gds-legend-chip\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#f5a83a;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 3 </span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L5/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1310nm_TE_RIB_Waveguide.gds",
               "gdsSize": 262,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15043,17 +15087,24 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "crossing",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
+                "arm_width_nm": 500,
+                "arm_length_um": 8,
                 "thickness_nm": 220
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"4.042017e-2\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"262\" y=\"60\" width=\"476\" height=\"476\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 495.1 412.3 L 491.1 402.8 L 487.6 393.2 L 485.3 383.7 L 485.1 374.2 L 485.2 364.7 L 483.0 355.1 L 482.0 345.6 L 482.1 336.1 L 479.6 326.6 L 479.1 318.9 L 471.4 318.4 L 461.9 315.9 L 452.4 316.0 L 442.9 315.0 L 433.3 312.8 L 423.8 312.9 L 414.3 312.7 L 404.8 310.4 L 395.2 306.9 L 385.7 302.9 L 385.7 293.1 L 395.2 289.1 L 404.8 285.6 L 414.3 283.3 L 423.8 283.1 L 433.3 283.2 L 442.9 281.0 L 452.4 280.0 L 461.9 280.1 L 471.4 277.6 L 479.1 277.1 L 479.6 269.4 L 482.1 259.9 L 482.0 250.4 L 483.0 240.9 L 485.2 231.3 L 485.1 221.8 L 485.3 212.3 L 487.6 202.8 L 491.1 193.2 L 495.1 183.7 L 504.9 183.7 L 508.9 193.2 L 512.4 202.8 L 514.7 212.3 L 514.9 221.8 L 514.8 231.3 L 517.0 240.9 L 518.0 250.4 L 517.9 259.9 L 520.4 269.4 L 520.9 277.1 L 528.6 277.6 L 538.1 280.1 L 547.6 280.0 L 557.1 281.0 L 566.7 283.2 L 576.2 283.1 L 585.7 283.3 L 595.2 285.6 L 604.8 289.1 L 614.3 293.1 L 614.3 302.9 L 604.8 306.9 L 595.2 310.4 L 585.7 312.7 L 576.2 312.9 L 566.7 312.8 L 557.1 315.0 L 547.6 316.0 L 538.1 315.9 L 528.6 318.4 L 520.9 318.9 L 520.4 326.6 L 517.9 336.1 L 518.0 345.6 L 517.0 355.1 L 514.8 364.7 L 514.9 374.2 L 514.7 383.7 L 512.4 393.2 L 508.9 402.8 L 504.9 412.3 L 495.1 412.3 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 412.5 536.0 L 375.8 447.7 L 369.1 429.3 L 369.1 428.9 L 368.7 428.9 L 350.3 422.2 L 262.0 385.5 L 262.0 210.5 L 350.3 173.8 L 368.7 167.1 L 369.1 167.1 L 369.1 166.7 L 375.8 148.3 L 412.5 60.0 L 587.5 60.0 L 624.2 148.3 L 630.9 166.7 L 630.9 167.1 L 631.3 167.1 L 649.7 173.8 L 738.0 210.5 L 738.0 385.5 L 649.7 422.2 L 631.3 428.9 L 630.9 428.9 L 630.9 429.3 L 624.2 447.7 L 587.5 536.0 L 412.5 536.0 Z\" fill=\"#f5a83a\" fill-opacity=\"0.55\" stroke=\"#f5a83a\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1310nm_TE_RIB_Waveguide_Crossing</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">19.24 × 19.24 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span><span class=\"gds-legend-chip\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#f5a83a;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 3 </span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L5/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing.gds",
               "gdsSize": 1104,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15134,17 +15185,27 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "mmi",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 220
+                "width_um": 6,
+                "length_um": 30,
+                "thickness_nm": 220,
+                "in_ports": 1,
+                "out_ports": 2,
+                "stub_width_nm": 500
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.359513e-1\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"48\" y=\"275.93327908869\" width=\"904\" height=\"44.133441822620014\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 647.5 314.7 L 647.5 303.7 L 794.6 307.7 L 794.6 310.7 L 647.5 314.7 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 647.5 292.3 L 647.5 281.3 L 794.6 285.3 L 794.6 288.3 L 647.5 292.3 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 352.5 303.5 L 205.4 299.5 L 205.4 296.5 L 352.5 292.5 L 352.5 303.5 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 352.5 320.1 L 352.5 275.9 L 647.5 275.9 L 647.5 320.1 L 352.5 320.1 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 794.6 310.7 L 794.6 307.7 L 952.0 307.7 L 952.0 310.7 L 794.6 310.7 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 794.6 288.3 L 794.6 285.3 L 952.0 285.3 L 952.0 288.3 L 794.6 288.3 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 299.5 L 48.0 296.5 L 205.4 296.5 L 205.4 299.5 L 48.0 299.5 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1310nm_TE_STRIP_2x1_MMI</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">122.90 × 6.00 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1310nm_TE_STRIP_2x1_MMI.gds",
               "gdsSize": 582,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15225,17 +15286,27 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "mmi",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 220
+                "width_um": 6,
+                "length_um": 30,
+                "thickness_nm": 220,
+                "in_ports": 1,
+                "out_ports": 2,
+                "stub_width_nm": 500
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.350664e-1\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"48\" y=\"275.7886977886978\" width=\"904\" height=\"44.422604422604415\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 301.9 311.1 L 153.9 307.0 L 153.9 304.0 L 301.9 300.0 L 301.9 311.1 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 301.9 296.0 L 153.9 292.0 L 153.9 289.0 L 301.9 284.9 L 301.9 296.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 698.1 311.1 L 698.1 300.0 L 846.1 304.0 L 846.1 307.0 L 698.1 311.1 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 698.1 296.0 L 698.1 284.9 L 846.1 289.0 L 846.1 292.0 L 698.1 296.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 301.9 320.2 L 301.9 275.8 L 698.1 275.8 L 698.1 320.2 L 301.9 320.2 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 292.0 L 48.0 289.0 L 153.9 289.0 L 153.9 292.0 L 48.0 292.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 307.0 L 48.0 304.0 L 153.9 304.0 L 153.9 307.0 L 48.0 307.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 846.1 307.0 L 846.1 304.0 L 952.0 304.0 L 952.0 307.0 L 846.1 307.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 846.1 292.0 L 846.1 289.0 L 952.0 289.0 L 952.0 292.0 L 846.1 292.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1310nm_TE_STRIP_2x2_MMI</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">122.10 × 6.00 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1310nm_TE_STRIP_2x2_MMI.gds",
               "gdsSize": 710,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15316,17 +15387,25 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "bend",
               "dimensionsOn": true,
               "params": {
+                "radius_um": 10,
+                "angle_deg": 90,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.092437e-2\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"262\" y=\"60\" width=\"476\" height=\"476\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 262.0 536.0 L 262.6 510.3 L 264.7 484.6 L 268.1 459.0 L 273.0 433.7 L 279.2 408.7 L 286.8 384.0 L 295.7 359.8 L 305.9 336.1 L 317.4 313.0 L 330.0 290.6 L 343.9 268.9 L 358.9 247.9 L 375.1 227.8 L 392.4 208.6 L 410.6 190.4 L 429.8 173.1 L 449.9 156.9 L 470.9 141.9 L 492.6 128.0 L 515.0 115.4 L 538.1 103.9 L 561.8 93.7 L 586.0 84.8 L 610.6 77.3 L 635.6 71.1 L 660.9 66.2 L 686.5 62.7 L 712.2 60.6 L 738.0 60.0 L 738.0 96.6 L 713.5 97.2 L 688.9 99.3 L 664.5 102.7 L 640.3 107.5 L 616.4 113.6 L 592.9 121.1 L 569.8 129.9 L 547.3 140.0 L 525.4 151.4 L 504.2 163.9 L 483.7 177.5 L 464.0 192.4 L 445.2 208.3 L 427.2 225.2 L 410.3 243.2 L 394.4 262.0 L 379.5 281.7 L 365.9 302.2 L 353.4 323.4 L 342.0 345.3 L 332.0 367.8 L 323.1 390.8 L 315.7 414.3 L 309.5 438.2 L 304.7 462.4 L 301.3 486.8 L 299.3 511.4 L 298.6 536.0 L 262.0 536.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1310nm_TE_STRIP_90_Degree_Bend</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">5.20 × 5.20 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend.gds",
               "gdsSize": 646,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15407,16 +15486,25 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "grating-coupler",
               "dimensionsOn": true,
               "params": {
+                "period_nm": 630,
+                "n_periods": 28,
+                "fill_factor": 0.5,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "gdsName": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler.gds",
               "gdsSize": 5390,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15509,7 +15597,14 @@
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.106195e-1\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"48.00000000000006\" y=\"296.192\" width=\"903.9999999999999\" height=\"3.6159999999999997\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 48.0 299.8 L 48.0 296.2 L 952.0 296.2 L 952.0 299.8 L 48.0 299.8 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1310nm_TE_STRIP_Waveguide</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">100.00 × 0.40 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1310nm_TE_STRIP_Waveguide.gds",
               "gdsSize": 200,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15557,17 +15652,24 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "crossing",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
+                "arm_width_nm": 500,
+                "arm_length_um": 8,
                 "thickness_nm": 220
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.779412e-2\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"262\" y=\"60\" width=\"476\" height=\"476\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 488.8 536.0 L 483.1 514.4 L 466.3 492.7 L 467.2 471.1 L 467.2 449.5 L 463.3 427.8 L 459.9 406.2 L 452.2 384.5 L 445.9 352.1 L 413.5 345.8 L 391.8 338.1 L 370.2 334.7 L 348.5 330.8 L 326.9 330.8 L 305.3 331.7 L 283.6 314.9 L 262.0 309.2 L 262.0 286.8 L 283.6 281.1 L 305.3 264.3 L 326.9 265.2 L 348.5 265.2 L 370.2 261.3 L 391.8 257.9 L 413.5 250.2 L 445.9 243.9 L 452.2 211.5 L 459.9 189.8 L 463.3 168.2 L 467.2 146.5 L 467.2 124.9 L 466.3 103.3 L 483.1 81.6 L 488.8 60.0 L 511.2 60.0 L 516.9 81.6 L 533.7 103.3 L 532.8 124.9 L 532.8 146.5 L 536.7 168.2 L 540.1 189.8 L 547.8 211.5 L 554.1 243.9 L 586.5 250.2 L 608.2 257.9 L 629.8 261.3 L 651.5 265.2 L 673.1 265.2 L 694.7 264.3 L 716.4 281.1 L 738.0 286.8 L 738.0 309.2 L 716.4 314.9 L 694.7 331.7 L 673.1 330.8 L 651.5 330.8 L 629.8 334.7 L 608.2 338.1 L 586.5 345.8 L 554.1 352.1 L 547.8 384.5 L 540.1 406.2 L 536.7 427.8 L 532.8 449.5 L 532.8 471.1 L 533.7 492.7 L 516.9 514.4 L 511.2 536.0 L 488.8 536.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">8.47 × 8.47 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.gds",
               "gdsSize": 722,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15677,17 +15779,27 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "mmi",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 220
+                "width_um": 6,
+                "length_um": 30,
+                "thickness_nm": 220,
+                "in_ports": 1,
+                "out_ports": 2,
+                "stub_width_nm": 500
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.025442e-1\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"48\" y=\"219.98489751887809\" width=\"904\" height=\"156.0302049622438\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 659.4 290.0 L 659.4 275.4 L 854.5 280.5 L 854.5 284.9 L 659.4 290.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 659.4 320.6 L 659.4 306.0 L 854.5 311.1 L 854.5 315.5 L 659.4 320.6 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 340.6 305.3 L 145.5 300.2 L 145.5 295.8 L 340.6 290.7 L 340.6 305.3 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 340.6 327.3 L 340.6 268.7 L 659.4 268.7 L 659.4 327.3 L 340.6 327.3 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 854.5 315.5 L 854.5 311.1 L 952.0 311.1 L 952.0 315.5 L 854.5 315.5 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 854.5 284.9 L 854.5 280.5 L 952.0 280.5 L 952.0 284.9 L 854.5 284.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 300.2 L 48.0 295.8 L 145.5 295.8 L 145.5 300.2 L 48.0 300.2 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 291.8 376.0 L 291.8 352.8 L 145.0 349.0 L 48.0 349.0 L 48.0 247.0 L 145.0 247.0 L 291.8 243.2 L 291.8 220.0 L 708.2 220.0 L 708.2 227.9 L 855.0 231.7 L 952.0 231.7 L 952.0 364.3 L 855.0 364.3 L 708.2 368.1 L 708.2 376.0 L 291.8 376.0 Z\" fill=\"#f5a83a\" fill-opacity=\"0.55\" stroke=\"#f5a83a\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1550nm_TE_RIB_2x1_MMI</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">92.70 × 16.00 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span><span class=\"gds-legend-chip\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#f5a83a;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 3 </span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L5/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1550nm_TE_RIB_2x1_MMI.gds",
               "gdsSize": 740,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15773,17 +15885,27 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "mmi",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 220
+                "width_um": 6,
+                "length_um": 30,
+                "thickness_nm": 220,
+                "in_ports": 1,
+                "out_ports": 2,
+                "stub_width_nm": 500
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.159292e-1\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"48\" y=\"228.99236641221376\" width=\"904\" height=\"138.01526717557252\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 306.8 295.7 L 134.3 291.2 L 134.3 287.3 L 306.8 282.8 L 306.8 295.7 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 306.8 313.2 L 134.3 308.7 L 134.3 304.8 L 306.8 300.3 L 306.8 313.2 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 693.2 295.7 L 693.2 282.8 L 865.7 287.3 L 865.7 291.2 L 693.2 295.7 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 693.2 313.2 L 693.2 300.3 L 865.7 304.8 L 865.7 308.7 L 693.2 313.2 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 306.8 323.9 L 306.8 272.1 L 693.2 272.1 L 693.2 323.9 L 306.8 323.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 865.7 291.2 L 865.7 287.3 L 952.0 287.3 L 952.0 291.2 L 865.7 291.2 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 865.7 308.7 L 865.7 304.8 L 952.0 304.8 L 952.0 308.7 L 865.7 308.7 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 308.7 L 48.0 304.8 L 134.3 304.8 L 134.3 308.7 L 48.0 308.7 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 291.2 L 48.0 287.3 L 134.3 287.3 L 134.3 291.2 L 48.0 291.2 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 263.6 367.0 L 263.6 355.2 L 133.8 351.8 L 48.0 351.8 L 48.0 244.2 L 133.8 244.2 L 263.6 240.8 L 263.6 229.0 L 736.4 229.0 L 736.4 240.8 L 866.2 244.2 L 952.0 244.2 L 952.0 351.8 L 866.2 351.8 L 736.4 355.2 L 736.4 367.0 L 263.6 367.0 Z\" fill=\"#f5a83a\" fill-opacity=\"0.55\" stroke=\"#f5a83a\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1550nm_TE_RIB_2x2_MMI</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">104.80 × 16.00 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span><span class=\"gds-legend-chip\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#f5a83a;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 3 </span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L5/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1550nm_TE_RIB_2x2_MMI.gds",
               "gdsSize": 868,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15864,17 +15986,25 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "bend",
               "dimensionsOn": true,
               "params": {
+                "radius_um": 10,
+                "angle_deg": 90,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"6.349790e-2\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"262\" y=\"60\" width=\"476\" height=\"476\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 340.7 536.0 L 340.9 526.1 L 341.2 516.2 L 341.8 506.3 L 342.7 496.4 L 343.8 486.6 L 345.2 476.8 L 346.8 467.0 L 348.6 457.3 L 350.7 447.6 L 353.0 438.0 L 355.6 428.4 L 358.4 418.9 L 361.4 409.5 L 364.7 400.1 L 368.2 390.9 L 371.9 381.7 L 375.9 372.6 L 380.1 363.6 L 384.5 354.8 L 389.1 346.0 L 393.9 337.4 L 399.0 328.9 L 404.3 320.5 L 409.8 312.2 L 415.4 304.1 L 421.3 296.1 L 427.4 288.3 L 433.7 280.7 L 440.1 273.1 L 446.8 265.8 L 453.6 258.6 L 460.6 251.6 L 467.8 244.8 L 475.1 238.1 L 482.6 231.7 L 490.3 225.4 L 498.1 219.3 L 506.1 213.5 L 514.2 207.8 L 522.4 202.3 L 530.8 197.0 L 539.4 192.0 L 548.0 187.1 L 556.7 182.5 L 565.6 178.1 L 574.6 173.9 L 583.7 169.9 L 592.8 166.2 L 602.1 162.7 L 611.5 159.4 L 620.9 156.4 L 630.4 153.6 L 639.9 151.0 L 649.6 148.7 L 659.3 146.6 L 669.0 144.8 L 678.8 143.2 L 688.6 141.8 L 698.4 140.7 L 708.3 139.8 L 718.2 139.2 L 728.1 138.9 L 738.0 138.7 L 738.0 145.8 L 728.1 145.9 L 718.3 146.3 L 708.4 146.9 L 698.5 147.8 L 688.7 148.9 L 678.9 150.3 L 669.2 151.9 L 659.5 153.8 L 649.8 155.9 L 640.2 158.3 L 630.7 160.9 L 621.2 163.7 L 611.8 166.8 L 602.5 170.1 L 593.3 173.7 L 584.1 177.4 L 575.1 181.5 L 566.2 185.7 L 557.3 190.2 L 548.6 194.8 L 540.1 199.8 L 531.6 204.9 L 523.3 210.2 L 515.1 215.8 L 507.1 221.5 L 499.2 227.5 L 491.4 233.6 L 483.8 239.9 L 476.4 246.5 L 469.2 253.2 L 462.1 260.1 L 455.2 267.2 L 448.5 274.4 L 441.9 281.8 L 435.6 289.4 L 429.4 297.2 L 423.5 305.1 L 417.7 313.1 L 412.2 321.3 L 406.9 329.6 L 401.7 338.1 L 396.8 346.7 L 392.1 355.3 L 387.7 364.2 L 383.5 373.1 L 379.4 382.1 L 375.6 391.3 L 372.1 400.5 L 368.8 409.8 L 365.7 419.2 L 362.9 428.7 L 360.3 438.2 L 357.9 447.8 L 355.8 457.5 L 353.9 467.2 L 352.3 476.9 L 350.9 486.7 L 349.8 496.5 L 348.9 506.4 L 348.3 516.2 L 347.9 526.1 L 347.8 536.0 L 340.7 536.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 262.0 536.0 L 262.1 524.2 L 262.6 512.3 L 263.3 500.4 L 264.3 488.6 L 265.7 476.8 L 267.3 465.1 L 269.2 453.4 L 271.4 441.6 L 273.9 430.1 L 276.7 418.5 L 279.8 407.1 L 283.1 395.7 L 286.8 384.4 L 290.7 373.2 L 294.9 362.0 L 299.3 351.1 L 304.1 340.2 L 309.1 329.4 L 314.4 318.8 L 319.9 308.4 L 325.8 298.0 L 331.8 287.8 L 338.1 277.8 L 344.7 267.8 L 351.5 258.1 L 358.5 248.6 L 365.8 239.2 L 373.3 230.1 L 381.1 221.0 L 389.0 212.2 L 397.2 203.7 L 405.6 195.2 L 414.3 187.0 L 423.0 179.1 L 432.0 171.4 L 441.2 163.8 L 450.6 156.5 L 460.1 149.5 L 469.8 142.7 L 479.7 136.1 L 489.8 129.8 L 500.0 123.8 L 510.3 117.9 L 520.9 112.4 L 531.4 107.1 L 542.2 102.1 L 553.0 97.4 L 564.1 92.9 L 575.2 88.7 L 586.4 84.8 L 597.7 81.1 L 609.0 77.8 L 620.5 74.7 L 632.0 71.9 L 643.6 69.4 L 655.3 67.2 L 667.1 65.3 L 678.8 63.7 L 690.6 62.3 L 702.4 61.3 L 714.3 60.6 L 726.2 60.1 L 738.0 60.0 L 738.0 223.7 L 729.7 224.7 L 722.2 225.0 L 714.5 225.4 L 706.6 226.1 L 698.8 227.0 L 690.4 228.2 L 683.1 229.4 L 675.8 230.8 L 667.2 232.7 L 660.0 234.5 L 652.7 236.5 L 644.5 238.9 L 637.3 241.3 L 629.8 244.0 L 622.6 246.7 L 615.0 249.9 L 607.9 253.0 L 601.1 256.3 L 593.9 259.9 L 586.6 263.8 L 580.4 267.4 L 572.8 272.0 L 567.4 275.4 L 567.2 275.6 L 559.9 280.5 L 553.4 285.2 L 547.5 289.6 L 541.2 294.6 L 535.2 299.7 L 529.5 304.7 L 523.0 310.7 L 522.7 310.9 L 517.8 315.8 L 512.9 320.8 L 512.7 321.0 L 506.7 327.5 L 501.6 333.2 L 496.7 339.1 L 491.5 345.6 L 487.2 351.3 L 482.5 357.9 L 477.6 365.2 L 477.4 365.4 L 474.0 370.8 L 469.6 378.1 L 465.6 385.0 L 462.0 391.7 L 458.2 399.2 L 455.0 405.9 L 451.8 413.1 L 448.8 420.4 L 445.8 428.1 L 443.4 434.9 L 440.9 442.7 L 438.5 450.6 L 436.5 458.0 L 434.7 465.2 L 433.0 473.3 L 431.4 481.3 L 430.2 488.7 L 429.0 496.8 L 428.2 504.3 L 427.5 512.4 L 427.0 520.6 L 426.7 527.7 L 425.7 536.0 L 262.0 536.0 Z\" fill=\"#f5a83a\" fill-opacity=\"0.55\" stroke=\"#f5a83a\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1550nm_TE_RIB_90_Degree_Bend</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">30.23 × 30.23 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span><span class=\"gds-legend-chip\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#f5a83a;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 3 </span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L5/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend.gds",
               "gdsSize": 2268,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -15955,16 +16085,25 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "grating-coupler",
               "dimensionsOn": true,
               "params": {
+                "period_nm": 630,
+                "n_periods": 28,
+                "fill_factor": 0.5,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "gdsName": "SOI220nm_1550nm_TE_RIB_EBL_Apodised_Grating_Coupler.gds",
               "gdsSize": 27282,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -16047,16 +16186,25 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "grating-coupler",
               "dimensionsOn": true,
               "params": {
+                "period_nm": 630,
+                "n_periods": 28,
+                "fill_factor": 0.5,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "gdsName": "SOI220nm_1550nm_TE_RIB_Grating_Coupler.gds",
               "gdsSize": 4188,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -16139,16 +16287,24 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "mzi",
               "dimensionsOn": true,
               "params": {
+                "arm_length_um": 200,
+                "arm_imbalance_um": 50,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "gdsName": "SOI220nm_1550nm_TE_RIB_MZI.gds",
               "gdsSize": 114304,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -16256,17 +16412,24 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "crossing",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
+                "arm_width_nm": 500,
+                "arm_length_um": 8,
                 "thickness_nm": 220
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"4.042017e-2\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"262\" y=\"60\" width=\"476\" height=\"476\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 494.4 412.3 L 490.1 402.8 L 488.8 393.2 L 482.7 383.7 L 483.4 374.2 L 483.7 364.7 L 483.8 355.1 L 482.7 345.6 L 482.1 336.1 L 479.6 326.6 L 479.1 318.9 L 471.4 318.4 L 461.9 315.9 L 452.4 315.3 L 442.9 314.2 L 433.3 314.3 L 423.8 314.6 L 414.3 315.3 L 404.8 309.2 L 395.2 307.9 L 385.7 303.6 L 385.7 292.4 L 395.2 288.1 L 404.8 286.8 L 414.3 280.7 L 423.8 281.4 L 433.3 281.7 L 442.9 281.8 L 452.4 280.7 L 461.9 280.1 L 471.4 277.6 L 479.1 277.1 L 479.6 269.4 L 482.1 259.9 L 482.7 250.4 L 483.8 240.9 L 483.7 231.3 L 483.4 221.8 L 482.7 212.3 L 488.8 202.8 L 490.1 193.2 L 494.4 183.7 L 505.6 183.7 L 509.9 193.2 L 511.2 202.8 L 517.3 212.3 L 516.6 221.8 L 516.3 231.3 L 516.2 240.9 L 517.3 250.4 L 517.9 259.9 L 520.4 269.4 L 520.9 277.1 L 528.6 277.6 L 538.1 280.1 L 547.6 280.7 L 557.1 281.8 L 566.7 281.7 L 576.2 281.4 L 585.7 280.7 L 595.2 286.8 L 604.8 288.1 L 614.3 292.4 L 614.3 303.6 L 604.8 307.9 L 595.2 309.2 L 585.7 315.3 L 576.2 314.6 L 566.7 314.3 L 557.1 314.2 L 547.6 315.3 L 538.1 315.9 L 528.6 318.4 L 520.9 318.9 L 520.4 326.6 L 517.9 336.1 L 517.3 345.6 L 516.2 355.1 L 516.3 364.7 L 516.6 374.2 L 517.3 383.7 L 511.2 393.2 L 509.9 402.8 L 505.6 412.3 L 494.4 412.3 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 414.8 536.0 L 370.0 437.4 L 369.9 437.1 L 366.4 431.6 L 360.9 428.1 L 360.6 428.0 L 262.0 383.2 L 262.0 212.8 L 360.6 168.0 L 360.9 167.9 L 366.4 164.4 L 369.9 158.9 L 370.0 158.6 L 414.8 60.0 L 585.2 60.0 L 630.0 158.6 L 630.1 158.9 L 633.6 164.4 L 639.1 167.9 L 639.4 168.0 L 738.0 212.8 L 738.0 383.2 L 639.4 428.0 L 639.1 428.1 L 633.6 431.6 L 630.1 437.1 L 630.0 437.4 L 585.2 536.0 L 414.8 536.0 Z\" fill=\"#f5a83a\" fill-opacity=\"0.55\" stroke=\"#f5a83a\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1550nm_TE_RIB_Waveguide_Crossing</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">19.24 × 19.24 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span><span class=\"gds-legend-chip\" data-ld=\"5/0\" data-layer=\"5\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 3 \" data-layer-desc=\"[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#f5a83a;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 3 </span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L5/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing.gds",
               "gdsSize": 1104,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -16347,17 +16510,27 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "mmi",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 220
+                "width_um": 6,
+                "length_um": 30,
+                "thickness_nm": 220,
+                "in_ports": 1,
+                "out_ports": 2,
+                "stub_width_nm": 500
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.015487e-1\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"48\" y=\"268.45751633986924\" width=\"904\" height=\"59.08496732026144\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 343.4 305.4 L 146.5 300.2 L 146.5 295.8 L 343.4 290.6 L 343.4 305.4 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 656.6 320.8 L 656.6 306.1 L 853.5 311.2 L 853.5 315.7 L 656.6 320.8 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 656.6 289.9 L 656.6 275.2 L 853.5 280.3 L 853.5 284.8 L 656.6 289.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 343.4 327.5 L 343.4 268.5 L 656.6 268.5 L 656.6 327.5 L 343.4 327.5 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 300.2 L 48.0 295.8 L 146.5 295.8 L 146.5 300.2 L 48.0 300.2 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 853.5 284.8 L 853.5 280.3 L 952.0 280.3 L 952.0 284.8 L 853.5 284.8 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 853.5 315.7 L 853.5 311.2 L 952.0 311.2 L 952.0 315.7 L 853.5 315.7 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1550nm_TE_STRIP_2x1_MMI</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">91.80 × 6.00 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1550nm_TE_STRIP_2x1_MMI.gds",
               "gdsSize": 582,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -16438,17 +16611,27 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "mmi",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 220
+                "width_um": 6,
+                "length_um": 30,
+                "thickness_nm": 220,
+                "in_ports": 1,
+                "out_ports": 2,
+                "stub_width_nm": 500
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.133850e-1\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"47.99999999999994\" y=\"271.5414634146341\" width=\"904.0000000000001\" height=\"52.91707317073171\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 312.6 295.7 L 136.2 291.0 L 136.2 287.1 L 312.6 282.4 L 312.6 295.7 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 312.6 313.6 L 136.2 308.9 L 136.2 305.0 L 312.6 300.3 L 312.6 313.6 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 687.4 295.7 L 687.4 282.4 L 863.8 287.1 L 863.8 291.0 L 687.4 295.7 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 687.4 313.6 L 687.4 300.3 L 863.8 305.0 L 863.8 308.9 L 687.4 313.6 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 312.6 324.5 L 312.6 271.5 L 687.4 271.5 L 687.4 324.5 L 312.6 324.5 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 308.9 L 48.0 305.0 L 136.2 305.0 L 136.2 308.9 L 48.0 308.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 48.0 291.0 L 48.0 287.1 L 136.2 287.1 L 136.2 291.0 L 48.0 291.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 863.8 291.0 L 863.8 287.1 L 952.0 287.1 L 952.0 291.0 L 863.8 291.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" /><path d=\"M 863.8 308.9 L 863.8 305.0 L 952.0 305.0 L 952.0 308.9 L 863.8 308.9 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1550nm_TE_STRIP_2x2_MMI</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">102.50 × 6.00 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1550nm_TE_STRIP_2x2_MMI.gds",
               "gdsSize": 710,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -16529,17 +16712,25 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "bend",
               "dimensionsOn": true,
               "params": {
+                "radius_um": 10,
+                "angle_deg": 90,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.097689e-2\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"262\" y=\"60\" width=\"476\" height=\"476\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 262.0 536.0 L 262.6 510.1 L 264.7 484.4 L 268.2 458.9 L 273.0 433.6 L 279.3 408.6 L 286.9 384.0 L 295.7 359.7 L 305.9 336.0 L 317.4 313.0 L 330.1 290.5 L 344.0 268.8 L 359.0 247.8 L 375.1 227.8 L 392.4 208.6 L 410.6 190.4 L 429.7 173.1 L 449.8 157.0 L 470.8 141.9 L 492.6 128.1 L 515.0 115.4 L 538.1 103.9 L 561.8 93.7 L 586.0 84.8 L 610.6 77.2 L 635.7 71.0 L 661.0 66.2 L 686.5 62.7 L 712.2 60.6 L 738.0 60.0 L 738.0 101.0 L 713.6 101.6 L 689.3 103.6 L 665.1 107.1 L 641.2 111.8 L 617.6 117.9 L 594.3 125.3 L 571.5 134.0 L 549.2 144.0 L 527.6 155.2 L 506.5 167.6 L 486.2 181.2 L 466.7 195.8 L 448.0 211.6 L 430.3 228.4 L 413.5 246.1 L 397.7 264.8 L 383.1 284.3 L 369.5 304.6 L 357.1 325.6 L 346.0 347.3 L 336.0 369.6 L 327.3 392.3 L 319.9 415.6 L 313.8 439.2 L 309.1 463.1 L 305.6 487.3 L 303.6 511.6 L 303.0 536.0 L 262.0 536.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1550nm_TE_STRIP_90_Degree_Bend</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">5.23 × 5.23 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1550nm_TE_STRIP_90_Degree_Bend.gds",
               "gdsSize": 646,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -16620,16 +16811,25 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "grating-coupler",
               "dimensionsOn": true,
               "params": {
+                "period_nm": 630,
+                "n_periods": 28,
+                "fill_factor": 0.5,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "gdsName": "SOI220nm_1550nm_TE_STRIP_Grating_Coupler.gds",
               "gdsSize": 4110,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -16712,16 +16912,24 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "mzi",
               "dimensionsOn": true,
               "params": {
+                "arm_length_um": 200,
+                "arm_imbalance_um": 50,
                 "width_nm": 500,
-                "length_um": 100,
                 "thickness_nm": 220
               },
               "gdsName": "SOI220nm_1550nm_TE_STRIP_MZI.gds",
               "gdsSize": 65490,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -16829,17 +17037,24 @@
               ],
               "updated": "2026-05-25",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "crossing",
               "dimensionsOn": true,
               "params": {
-                "width_nm": 500,
-                "length_um": 100,
+                "arm_width_nm": 500,
+                "arm_length_um": 8,
                 "thickness_nm": 220
               },
               "layoutSvg": "<svg viewBox=\"0 0 1000 560\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" style=\"width:100%;height:auto;display:block;background:#0b1117;\" data-um-per-svgunit=\"1.941176e-2\">\n    <rect x=\"0\" y=\"0\" width=\"1000\" height=\"560\" fill=\"#0b1117\"/>\n    <rect x=\"262\" y=\"60\" width=\"476\" height=\"476\"\n          fill=\"none\" stroke=\"#2a323d\" stroke-width=\"0.5\" stroke-dasharray=\"4 4\" />\n    <path d=\"M 488.4 536.0 L 488.7 516.2 L 484.5 496.3 L 469.1 476.5 L 465.6 456.7 L 464.7 436.8 L 463.5 417.0 L 458.8 397.2 L 459.1 377.3 L 452.4 357.5 L 452.3 345.7 L 440.5 345.6 L 420.7 338.9 L 400.8 339.2 L 381.0 334.5 L 361.2 333.3 L 341.3 332.4 L 321.5 328.9 L 301.7 313.5 L 281.8 309.3 L 262.0 309.6 L 262.0 286.4 L 281.8 286.7 L 301.7 282.5 L 321.5 267.1 L 341.3 263.6 L 361.2 262.7 L 381.0 261.5 L 400.8 256.8 L 420.7 257.1 L 440.5 250.4 L 452.3 250.3 L 452.4 238.5 L 459.1 218.7 L 458.8 198.8 L 463.5 179.0 L 464.7 159.2 L 465.6 139.3 L 469.1 119.5 L 484.5 99.7 L 488.7 79.8 L 488.4 60.0 L 511.6 60.0 L 511.3 79.8 L 515.5 99.7 L 530.9 119.5 L 534.4 139.3 L 535.3 159.2 L 536.5 179.0 L 541.2 198.8 L 540.9 218.7 L 547.6 238.5 L 547.7 250.3 L 559.5 250.4 L 579.3 257.1 L 599.2 256.8 L 619.0 261.5 L 638.8 262.7 L 658.7 263.6 L 678.5 267.1 L 698.3 282.5 L 718.2 286.7 L 738.0 286.4 L 738.0 309.6 L 718.2 309.3 L 698.3 313.5 L 678.5 328.9 L 658.7 332.4 L 638.8 333.3 L 619.0 334.5 L 599.2 339.2 L 579.3 338.9 L 559.5 345.6 L 547.7 345.7 L 547.6 357.5 L 540.9 377.3 L 541.2 397.2 L 536.5 417.0 L 535.3 436.8 L 534.4 456.7 L 530.9 476.5 L 515.5 496.3 L 511.3 516.2 L 511.6 536.0 L 488.4 536.0 Z\" fill=\"#d29922\" fill-opacity=\"0.55\" stroke=\"#d29922\" stroke-width=\"0.5\"\n                    class=\"gds-layer-el\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                    data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\" />\n    \n    <text x=\"500\" y=\"26\" text-anchor=\"middle\" fill=\"#e6edf3\" font-size=\"14\" font-family=\"ui-monospace,monospace\">SOI220nm_1550nm_TE_STRIP_Waveguide_Crossing</text>\n    <text x=\"500\" y=\"46\" text-anchor=\"middle\" fill=\"#6e7681\" font-size=\"11\" font-family=\"ui-monospace,monospace\">9.24 × 9.24 µm  (parsed from .gds)</text>\n  </svg><div style=\"padding:10px 12px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;background:var(--panel-2);border-top:1px solid var(--border);\">\n    <span style=\"font-size:11px;color:var(--text-faint);align-self:center;margin-right:4px;\">GDS layers:</span>\n    <span class=\"gds-legend-chip\" data-ld=\"3/0\" data-layer=\"3\" data-datatype=\"0\"\n                  data-layer-name=\"Silicon etch 2 negative\" data-layer-desc=\"[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)\"\n                  style=\"display:inline-flex;align-items:center;gap:6px;background:var(--panel-3);border:1px solid var(--border);border-radius:4px;padding:3px 9px;font-size:11px;font-family:ui-monospace,monospace;cursor:help;\">\n       <span style=\"display:inline-block;width:12px;height:12px;background:#d29922;opacity:0.85;border-radius:2px;\"></span>\n       <span style=\"color:var(--text);\">Silicon etch 2 negative</span>\n       <span style=\"color:var(--text-faint);font-size:9.5px;\">L3/0</span>\n     </span>\n  </div>",
               "gdsName": "SOI220nm_1550nm_TE_STRIP_Waveguide_Crossing.gds",
               "gdsSize": 850,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -21835,9 +22050,9 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastPublishedAt": "2026-05-25T14:31:51.660Z",
-    "lastPublishedSha": "0b1659cf3ed36d5fd3489913f82e0e940eb9de32",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/0b1659cf3ed36d5fd3489913f82e0e940eb9de32",
+    "lastPublishedAt": "2026-05-25T14:37:24.414Z",
+    "lastPublishedSha": "3e6d629fdfc5885775eda0fd45c96da7ffebbdf5",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/3e6d629fdfc5885775eda0fd45c96da7ffebbdf5",
     "lastFetchedAt": "2026-05-25T14:25:30.607Z",
     "lastFetchedSha": "d553e5b3e9dfbbfc8915f9f180a66684a18988a2",
     "lastMergeStats": {
@@ -21867,7 +22082,7 @@
   "lastGithubFetch": "2026-05-25T14:08:47.705Z",
   "sketchLibrary": [],
   "_distribution": {
-    "publishedAt": "2026-05-25T14:37:24.414Z",
+    "publishedAt": "2026-05-25T14:50:42.162Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
