@@ -10457,7 +10457,7 @@
           }
         },
         {
-          "id": "t_wrt4vm9",
+          "id": "t_lhmm0lh",
           "name": "SOI220nm_1310nm_TE_MZI_Modulator.gds",
           "filename": "SOI220nm_1310nm_TE_MZI_Modulator.gds",
           "size": 55222,
@@ -10476,7 +10476,7 @@
           "_stripped": true
         },
         {
-          "id": "t_z8tzgj2",
+          "id": "t_g93w1y6",
           "name": "SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield.gds",
           "filename": "SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield.gds",
           "size": 85704,
@@ -10495,7 +10495,7 @@
           "_stripped": true
         },
         {
-          "id": "t_f61k1f8",
+          "id": "t_zg6w0ox",
           "name": "SOI220nm_1550nm_TE_Defect_Detector.gds",
           "filename": "SOI220nm_1550nm_TE_Defect_Detector.gds",
           "size": 8680,
@@ -10514,7 +10514,7 @@
           }
         },
         {
-          "id": "t_74grc67",
+          "id": "t_kg1yayu",
           "name": "SOI220nm_1550nm_TE_IsolatedDetector.gds",
           "filename": "SOI220nm_1550nm_TE_IsolatedDetector.gds",
           "size": 842,
@@ -10533,7 +10533,7 @@
           }
         },
         {
-          "id": "t_rqjllns",
+          "id": "t_59x9pb0",
           "name": "SOI220nm_1550nm_TE_MZI_Modulator.gds",
           "filename": "SOI220nm_1550nm_TE_MZI_Modulator.gds",
           "size": 69134,
@@ -10552,7 +10552,7 @@
           "_stripped": true
         },
         {
-          "id": "t_nfk9gvy",
+          "id": "t_pr2hck0",
           "name": "Heater.gds",
           "filename": "Heater.gds",
           "size": 684,
@@ -10571,7 +10571,7 @@
           }
         },
         {
-          "id": "t_stazmyo",
+          "id": "t_8wrdtu6",
           "name": "SOI220nm_1310nm_TE_RIB_2x2_MMI.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_2x2_MMI.gds",
           "size": 868,
@@ -10590,7 +10590,7 @@
           }
         },
         {
-          "id": "t_tjc2i9n",
+          "id": "t_ozch0gg",
           "name": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend.gds",
           "size": 2236,
@@ -10609,7 +10609,7 @@
           }
         },
         {
-          "id": "t_r6x1aim",
+          "id": "t_svc1bb5",
           "name": "SOI220nm_1310nm_TE_RIB_Grating_Coupler.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_Grating_Coupler.gds",
           "size": 5468,
@@ -10628,7 +10628,7 @@
           }
         },
         {
-          "id": "t_wt4eppb",
+          "id": "t_5qda4es",
           "name": "SOI220nm_1310nm_TE_RIB_Waveguide.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_Waveguide.gds",
           "size": 262,
@@ -10647,7 +10647,7 @@
           }
         },
         {
-          "id": "t_20xc71e",
+          "id": "t_nhjkywz",
           "name": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing.gds",
           "size": 1104,
@@ -10666,7 +10666,7 @@
           }
         },
         {
-          "id": "t_8lbsoxt",
+          "id": "t_lnemxux",
           "name": "SOI220nm_1310nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_2x1_MMI.gds",
           "size": 582,
@@ -10685,7 +10685,7 @@
           }
         },
         {
-          "id": "t_kci8p6f",
+          "id": "t_h7v2ovk",
           "name": "SOI220nm_1310nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_2x2_MMI.gds",
           "size": 710,
@@ -10704,7 +10704,7 @@
           }
         },
         {
-          "id": "t_k4bjckk",
+          "id": "t_bfol0or",
           "name": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend.gds",
           "size": 646,
@@ -10723,7 +10723,7 @@
           }
         },
         {
-          "id": "t_pesdou4",
+          "id": "t_nagyx5h",
           "name": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler.gds",
           "size": 5390,
@@ -10742,7 +10742,7 @@
           }
         },
         {
-          "id": "t_pc5l326",
+          "id": "t_zy73vuo",
           "name": "SOI220nm_1310nm_TE_STRIP_Waveguide.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_Waveguide.gds",
           "size": 200,
@@ -10761,7 +10761,7 @@
           }
         },
         {
-          "id": "t_2xva0pl",
+          "id": "t_b7jnegq",
           "name": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.gds",
           "size": 722,
@@ -10780,7 +10780,7 @@
           }
         },
         {
-          "id": "t_lagbz2m",
+          "id": "t_vy0g5v8",
           "name": "SOI220nm_1550nm_TE_RIB_2x1_MMI.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_2x1_MMI.gds",
           "size": 740,
@@ -10799,7 +10799,7 @@
           }
         },
         {
-          "id": "t_0ahfxq8",
+          "id": "t_w0e2439",
           "name": "SOI220nm_1550nm_TE_RIB_2x2_MMI.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_2x2_MMI.gds",
           "size": 868,
@@ -10818,7 +10818,7 @@
           }
         },
         {
-          "id": "t_ovp6zuv",
+          "id": "t_7k1p4mg",
           "name": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend.gds",
           "size": 2268,
@@ -10837,7 +10837,7 @@
           }
         },
         {
-          "id": "t_d68h2mf",
+          "id": "t_24x6fmh",
           "name": "SOI220nm_1550nm_TE_RIB_Grating_Coupler.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_Grating_Coupler.gds",
           "size": 4188,
@@ -10856,7 +10856,7 @@
           }
         },
         {
-          "id": "t_ydbf4ji",
+          "id": "t_oooo3lu",
           "name": "SOI220nm_1550nm_TE_RIB_Waveguide.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_Waveguide.gds",
           "size": 262,
@@ -10875,7 +10875,7 @@
           }
         },
         {
-          "id": "t_j2quqcv",
+          "id": "t_g8vzkge",
           "name": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing.gds",
           "size": 1104,
@@ -10894,7 +10894,7 @@
           }
         },
         {
-          "id": "t_4k6mdtq",
+          "id": "t_hqlwzrz",
           "name": "SOI220nm_1550nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SOI220nm_1550nm_TE_STRIP_2x1_MMI.gds",
           "size": 582,
@@ -10913,7 +10913,7 @@
           }
         },
         {
-          "id": "t_cnrn3a4",
+          "id": "t_hd4eyku",
           "name": "SOI220nm_1550nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SOI220nm_1550nm_TE_STRIP_2x2_MMI.gds",
           "size": 710,
@@ -10932,7 +10932,7 @@
           }
         },
         {
-          "id": "t_rp6gt9j",
+          "id": "t_r66nawb",
           "name": "Cell0_SOI220_Full_1550nm_Packaging_Template.gds",
           "filename": "Cell0_SOI220_Full_1550nm_Packaging_Template.gds",
           "size": 149906,
@@ -10951,7 +10951,7 @@
           "_stripped": true
         },
         {
-          "id": "t_7mjfsd4",
+          "id": "t_apk2l4r",
           "name": "Heater.gds",
           "filename": "Heater.gds",
           "size": 684,
@@ -10970,7 +10970,7 @@
           }
         },
         {
-          "id": "t_2qwig1b",
+          "id": "t_7njwfyb",
           "name": "SOI220nm_1310nm_TE_RIB_2x1_MMI.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_2x1_MMI.gds",
           "size": 500,
@@ -10989,7 +10989,7 @@
           }
         },
         {
-          "id": "t_mu6wvip",
+          "id": "t_5uvqtzi",
           "name": "SOI220nm_1310nm_TE_RIB_2x2_MMI.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_2x2_MMI.gds",
           "size": 868,
@@ -11008,7 +11008,7 @@
           }
         },
         {
-          "id": "t_0qlsxwj",
+          "id": "t_3q5k4jz",
           "name": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend.gds",
           "size": 2236,
@@ -11027,7 +11027,7 @@
           }
         },
         {
-          "id": "t_uf6xxjx",
+          "id": "t_izjtftk",
           "name": "SOI220nm_1310nm_TE_RIB_Grating_Coupler.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_Grating_Coupler.gds",
           "size": 5468,
@@ -11046,7 +11046,7 @@
           }
         },
         {
-          "id": "t_2v1xbla",
+          "id": "t_gtrbauy",
           "name": "SOI220nm_1310nm_TE_RIB_Waveguide.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_Waveguide.gds",
           "size": 262,
@@ -11065,7 +11065,7 @@
           }
         },
         {
-          "id": "t_97hq0m2",
+          "id": "t_8jd1zis",
           "name": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing.gds",
           "filename": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing.gds",
           "size": 1104,
@@ -11084,7 +11084,7 @@
           }
         },
         {
-          "id": "t_dhj1cgx",
+          "id": "t_wl9e5gy",
           "name": "SOI220nm_1310nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_2x1_MMI.gds",
           "size": 582,
@@ -11103,7 +11103,7 @@
           }
         },
         {
-          "id": "t_gy8mpg3",
+          "id": "t_eu0esd9",
           "name": "SOI220nm_1310nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_2x2_MMI.gds",
           "size": 710,
@@ -11122,7 +11122,7 @@
           }
         },
         {
-          "id": "t_syeq88i",
+          "id": "t_fklwa4d",
           "name": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend.gds",
           "size": 646,
@@ -11141,7 +11141,7 @@
           }
         },
         {
-          "id": "t_elnliis",
+          "id": "t_yinvakz",
           "name": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler.gds",
           "size": 5390,
@@ -11160,7 +11160,7 @@
           }
         },
         {
-          "id": "t_cmq5f9o",
+          "id": "t_rjt7sxl",
           "name": "SOI220nm_1310nm_TE_STRIP_Waveguide.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_Waveguide.gds",
           "size": 200,
@@ -11179,7 +11179,7 @@
           }
         },
         {
-          "id": "t_8u2xqf6",
+          "id": "t_czuafix",
           "name": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.gds",
           "filename": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.gds",
           "size": 722,
@@ -11198,7 +11198,7 @@
           }
         },
         {
-          "id": "t_ge6k7qd",
+          "id": "t_zh7sdhe",
           "name": "SOI220nm_1550nm_TE_RIB_2x1_MMI.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_2x1_MMI.gds",
           "size": 740,
@@ -11217,7 +11217,7 @@
           }
         },
         {
-          "id": "t_td3ff73",
+          "id": "t_1tj8y4v",
           "name": "SOI220nm_1550nm_TE_RIB_2x2_MMI.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_2x2_MMI.gds",
           "size": 868,
@@ -11236,7 +11236,7 @@
           }
         },
         {
-          "id": "t_wmyvix2",
+          "id": "t_k55bth8",
           "name": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend.gds",
           "size": 2268,
@@ -11255,7 +11255,7 @@
           }
         },
         {
-          "id": "t_2kr8w4q",
+          "id": "t_e63fds7",
           "name": "SOI220nm_1550nm_TE_RIB_EBL_Apodised_Grating_Coupler.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_EBL_Apodised_Grating_Coupler.gds",
           "size": 27282,
@@ -11274,7 +11274,7 @@
           "_stripped": true
         },
         {
-          "id": "t_f0oqvhn",
+          "id": "t_l6ltq9x",
           "name": "SOI220nm_1550nm_TE_RIB_Grating_Coupler.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_Grating_Coupler.gds",
           "size": 4188,
@@ -11293,7 +11293,7 @@
           }
         },
         {
-          "id": "t_bkusigu",
+          "id": "t_cfhtb6g",
           "name": "SOI220nm_1550nm_TE_RIB_MZI.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_MZI.gds",
           "size": 114304,
@@ -11312,7 +11312,7 @@
           "_stripped": true
         },
         {
-          "id": "t_0pckv30",
+          "id": "t_mr641uy",
           "name": "SOI220nm_1550nm_TE_RIB_Waveguide.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_Waveguide.gds",
           "size": 262,
@@ -11331,7 +11331,7 @@
           }
         },
         {
-          "id": "t_5elxk9h",
+          "id": "t_kumztgb",
           "name": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing.gds",
           "filename": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing.gds",
           "size": 1104,
@@ -11350,7 +11350,7 @@
           }
         },
         {
-          "id": "t_ezeffym",
+          "id": "t_x310wym",
           "name": "SOI220nm_1550nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SOI220nm_1550nm_TE_STRIP_2x1_MMI.gds",
           "size": 582,
@@ -11369,7 +11369,7 @@
           }
         },
         {
-          "id": "t_sv46yjf",
+          "id": "t_pgha6rq",
           "name": "SOI220nm_1550nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SOI220nm_1550nm_TE_STRIP_2x2_MMI.gds",
           "size": 710,
@@ -11388,7 +11388,7 @@
           }
         },
         {
-          "id": "t_5nytp39",
+          "id": "t_0koiecy",
           "name": "SOI220nm_1550nm_TE_STRIP_90_Degree_Bend.gds",
           "filename": "SOI220nm_1550nm_TE_STRIP_90_Degree_Bend.gds",
           "size": 646,
@@ -11407,7 +11407,7 @@
           }
         },
         {
-          "id": "t_axgui71",
+          "id": "t_u14b3pm",
           "name": "SOI220nm_1550nm_TE_STRIP_Grating_Coupler.gds",
           "filename": "SOI220nm_1550nm_TE_STRIP_Grating_Coupler.gds",
           "size": 4110,
@@ -11426,7 +11426,7 @@
           }
         },
         {
-          "id": "t_4t0d8j8",
+          "id": "t_ju47iu8",
           "name": "SOI220nm_1550nm_TE_STRIP_MZI.gds",
           "filename": "SOI220nm_1550nm_TE_STRIP_MZI.gds",
           "size": 65490,
@@ -11445,7 +11445,7 @@
           "_stripped": true
         },
         {
-          "id": "t_02o13kz",
+          "id": "t_d0ktey4",
           "name": "SOI220nm_1550nm_TE_STRIP_Waveguide.gds",
           "filename": "SOI220nm_1550nm_TE_STRIP_Waveguide.gds",
           "size": 200,
@@ -11464,7 +11464,7 @@
           }
         },
         {
-          "id": "t_nympz14",
+          "id": "t_6ou6iju",
           "name": "SOI220nm_1550nm_TE_STRIP_Waveguide_Crossing.gds",
           "filename": "SOI220nm_1550nm_TE_STRIP_Waveguide_Crossing.gds",
           "size": 850,
@@ -11483,7 +11483,7 @@
           }
         },
         {
-          "id": "t_laf1zh8",
+          "id": "t_3e5vuvv",
           "name": "Suspendedsilicon500nm_3800nm_TE_90_DegreeBend.gds",
           "filename": "Suspendedsilicon500nm_3800nm_TE_90_DegreeBend.gds",
           "size": 14868,
@@ -11502,7 +11502,7 @@
           "_stripped": true
         },
         {
-          "id": "t_wtkudo8",
+          "id": "t_1lr2675",
           "name": "Suspendedsilicon500nm_3800nm_TE_GratingCoupler.gds",
           "filename": "Suspendedsilicon500nm_3800nm_TE_GratingCoupler.gds",
           "size": 99476,
@@ -11521,7 +11521,7 @@
           "_stripped": true
         },
         {
-          "id": "t_h7xieh1",
+          "id": "t_u7rv9bj",
           "name": "Suspendedsilicon500nm_3800nm_TE_SBend.gds",
           "filename": "Suspendedsilicon500nm_3800nm_TE_SBend.gds",
           "size": 9356,
@@ -11540,7 +11540,7 @@
           }
         },
         {
-          "id": "t_xa4a944",
+          "id": "t_bt9v53o",
           "name": "Suspendedsilicon500nm_3800nm_TE_Waveguide.gds",
           "filename": "Suspendedsilicon500nm_3800nm_TE_Waveguide.gds",
           "size": 116496,
@@ -11559,7 +11559,7 @@
           "_stripped": true
         },
         {
-          "id": "t_1pzv2uw",
+          "id": "t_ryqwugv",
           "name": "Heater.gds",
           "filename": "Heater.gds",
           "size": 684,
@@ -11578,7 +11578,7 @@
           }
         },
         {
-          "id": "t_19asl31",
+          "id": "t_rukrxo5",
           "name": "Heater_with_isolation_trench.gds",
           "filename": "Heater_with_isolation_trench.gds",
           "size": 834,
@@ -11597,7 +11597,7 @@
           }
         },
         {
-          "id": "t_bbse751",
+          "id": "t_cazxmn3",
           "name": "SOI340nm_1310nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SOI340nm_1310nm_TE_STRIP_2x1_MMI.gds",
           "size": 582,
@@ -11616,7 +11616,7 @@
           }
         },
         {
-          "id": "t_on2nzab",
+          "id": "t_wosexw5",
           "name": "SOI340nm_1310nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SOI340nm_1310nm_TE_STRIP_2x2_MMI.gds",
           "size": 710,
@@ -11635,7 +11635,7 @@
           }
         },
         {
-          "id": "t_nrwkqv5",
+          "id": "t_644a8bj",
           "name": "SOI340nm_1310nm_TE_STRIP_90_Degree_Bend.gds",
           "filename": "SOI340nm_1310nm_TE_STRIP_90_Degree_Bend.gds",
           "size": 822,
@@ -11654,7 +11654,7 @@
           }
         },
         {
-          "id": "t_66hsoak",
+          "id": "t_3pmhr53",
           "name": "SOI340nm_1310nm_TE_STRIP_Grating_Coupler.gds",
           "filename": "SOI340nm_1310nm_TE_STRIP_Grating_Coupler.gds",
           "size": 4110,
@@ -11673,7 +11673,7 @@
           }
         },
         {
-          "id": "t_9tjmc9h",
+          "id": "t_egfo1h9",
           "name": "SOI340nm_1310nm_TE_STRIP_Waveguide.gds",
           "filename": "SOI340nm_1310nm_TE_STRIP_Waveguide.gds",
           "size": 200,
@@ -11692,7 +11692,7 @@
           }
         },
         {
-          "id": "t_8c6jt4m",
+          "id": "t_riuu220",
           "name": "SOI340nm_1550nm_TE_RIB_90_Degree_Bend.gds",
           "filename": "SOI340nm_1550nm_TE_RIB_90_Degree_Bend.gds",
           "size": 8492,
@@ -11711,7 +11711,7 @@
           }
         },
         {
-          "id": "t_d5kz5lo",
+          "id": "t_h6mbqbw",
           "name": "SOI340nm_1550nm_TE_RIB_Waveguide.gds",
           "filename": "SOI340nm_1550nm_TE_RIB_Waveguide.gds",
           "size": 262,
@@ -11730,7 +11730,7 @@
           }
         },
         {
-          "id": "t_hdsxq33",
+          "id": "t_opmkl5r",
           "name": "SOI340nm_1550nm_TE_RIB_to_STRIP.gds",
           "filename": "SOI340nm_1550nm_TE_RIB_to_STRIP.gds",
           "size": 262,
@@ -11749,7 +11749,7 @@
           }
         },
         {
-          "id": "t_0puhl4f",
+          "id": "t_van23z4",
           "name": "SOI340nm_1550nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SOI340nm_1550nm_TE_STRIP_2x1_MMI.gds",
           "size": 582,
@@ -11768,7 +11768,7 @@
           }
         },
         {
-          "id": "t_rg1ilar",
+          "id": "t_3ury9j7",
           "name": "SOI340nm_1550nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SOI340nm_1550nm_TE_STRIP_2x2_MMI.gds",
           "size": 710,
@@ -11787,7 +11787,7 @@
           }
         },
         {
-          "id": "t_v9y077q",
+          "id": "t_q0frppo",
           "name": "SOI340nm_1550nm_TE_STRIP_90_Degree_Bend.gds",
           "filename": "SOI340nm_1550nm_TE_STRIP_90_Degree_Bend.gds",
           "size": 822,
@@ -11806,7 +11806,7 @@
           }
         },
         {
-          "id": "t_0nl71p7",
+          "id": "t_lo1n7ly",
           "name": "SOI340nm_1550nm_TE_STRIP_Grating_Coupler.gds",
           "filename": "SOI340nm_1550nm_TE_STRIP_Grating_Coupler.gds",
           "size": 4110,
@@ -11825,7 +11825,7 @@
           }
         },
         {
-          "id": "t_1nbrbvr",
+          "id": "t_ajf4pt9",
           "name": "SOI340nm_1550nm_TE_STRIP_MZI.gds",
           "filename": "SOI340nm_1550nm_TE_STRIP_MZI.gds",
           "size": 36290,
@@ -11844,7 +11844,7 @@
           "_stripped": true
         },
         {
-          "id": "t_fzikyya",
+          "id": "t_6wt0l3u",
           "name": "SOI340nm_1550nm_TE_STRIP_Waveguide.gds",
           "filename": "SOI340nm_1550nm_TE_STRIP_Waveguide.gds",
           "size": 200,
@@ -11863,7 +11863,7 @@
           }
         },
         {
-          "id": "t_05c8qgd",
+          "id": "t_qpcpv9c",
           "name": "Cell0_SOI500_Full_1550nm_Packaging_Template.gds",
           "filename": "Cell0_SOI500_Full_1550nm_Packaging_Template.gds",
           "size": 149906,
@@ -11882,7 +11882,7 @@
           "_stripped": true
         },
         {
-          "id": "t_j9m3vta",
+          "id": "t_d3lqsky",
           "name": "Heater.gds",
           "filename": "Heater.gds",
           "size": 684,
@@ -11901,7 +11901,7 @@
           }
         },
         {
-          "id": "t_8s7b59k",
+          "id": "t_ilyodqt",
           "name": "SOI500nm_1550nm_TE_RIB_2x1_MMI.gds",
           "filename": "SOI500nm_1550nm_TE_RIB_2x1_MMI.gds",
           "size": 580,
@@ -11920,7 +11920,7 @@
           }
         },
         {
-          "id": "t_h63kc8p",
+          "id": "t_layhe6r",
           "name": "SOI500nm_1550nm_TE_RIB_2x2_MMI.gds",
           "filename": "SOI500nm_1550nm_TE_RIB_2x2_MMI.gds",
           "size": 708,
@@ -11939,7 +11939,7 @@
           }
         },
         {
-          "id": "t_lquqn8m",
+          "id": "t_vj7qz7c",
           "name": "SOI500nm_1550nm_TE_RIB_90_Degree_Bend.gds",
           "filename": "SOI500nm_1550nm_TE_RIB_90_Degree_Bend.gds",
           "size": 1316,
@@ -11958,7 +11958,7 @@
           }
         },
         {
-          "id": "t_bikeduv",
+          "id": "t_mni9kyd",
           "name": "SOI500nm_1550nm_TE_RIB_Grating_Coupler.gds",
           "filename": "SOI500nm_1550nm_TE_RIB_Grating_Coupler.gds",
           "size": 4108,
@@ -11977,7 +11977,7 @@
           }
         },
         {
-          "id": "t_0hc08up",
+          "id": "t_pnsqpb2",
           "name": "SOI500nm_1550nm_TE_RIB_Waveguide.gds",
           "filename": "SOI500nm_1550nm_TE_RIB_Waveguide.gds",
           "size": 198,
@@ -11996,7 +11996,7 @@
           }
         },
         {
-          "id": "t_jdw264w",
+          "id": "t_61a50uk",
           "name": "Heater.gds",
           "filename": "Heater.gds",
           "size": 806,
@@ -12015,7 +12015,7 @@
           }
         },
         {
-          "id": "t_vmidbh8",
+          "id": "t_3vg1d18",
           "name": "SiN300nm_1310nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SiN300nm_1310nm_TE_STRIP_2x1_MMI.gds",
           "size": 844,
@@ -12034,7 +12034,7 @@
           }
         },
         {
-          "id": "t_iuwjmuy",
+          "id": "t_cue8kp7",
           "name": "SiN300nm_1310nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SiN300nm_1310nm_TE_STRIP_2x2_MMI.gds",
           "size": 1030,
@@ -12053,7 +12053,7 @@
           }
         },
         {
-          "id": "t_3zw5wjm",
+          "id": "t_djemzbf",
           "name": "SiN300nm_1310nm_TE_STRIP_90_Degree_Bend.gds",
           "filename": "SiN300nm_1310nm_TE_STRIP_90_Degree_Bend.gds",
           "size": 3866,
@@ -12072,7 +12072,7 @@
           }
         },
         {
-          "id": "t_epweb0i",
+          "id": "t_jbe9krv",
           "name": "SiN300nm_1310nm_TE_STRIP_Crossing.gds",
           "filename": "SiN300nm_1310nm_TE_STRIP_Crossing.gds",
           "size": 5242,
@@ -12091,7 +12091,7 @@
           }
         },
         {
-          "id": "t_h7s9y3g",
+          "id": "t_ien7pq5",
           "name": "SiN300nm_1310nm_TE_STRIP_Grating_Coupler.gds",
           "filename": "SiN300nm_1310nm_TE_STRIP_Grating_Coupler.gds",
           "size": 2786,
@@ -12110,7 +12110,7 @@
           }
         },
         {
-          "id": "t_fddu814",
+          "id": "t_tn3bmdk",
           "name": "SiN300nm_1310nm_TE_STRIP_Waveguide.gds",
           "filename": "SiN300nm_1310nm_TE_STRIP_Waveguide.gds",
           "size": 598,
@@ -12129,7 +12129,7 @@
           }
         },
         {
-          "id": "t_m5parle",
+          "id": "t_8aws7jj",
           "name": "SiN300nm_1550nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SiN300nm_1550nm_TE_STRIP_2x1_MMI.gds",
           "size": 848,
@@ -12148,7 +12148,7 @@
           }
         },
         {
-          "id": "t_1rqxur9",
+          "id": "t_84oonur",
           "name": "SiN300nm_1550nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SiN300nm_1550nm_TE_STRIP_2x2_MMI.gds",
           "size": 1038,
@@ -12167,7 +12167,7 @@
           }
         },
         {
-          "id": "t_aluvn7a",
+          "id": "t_inbbs8f",
           "name": "SiN300nm_1550nm_TE_STRIP_90_Degree_Bend.gds",
           "filename": "SiN300nm_1550nm_TE_STRIP_90_Degree_Bend.gds",
           "size": 3852,
@@ -12186,7 +12186,7 @@
           }
         },
         {
-          "id": "t_84h2x9b",
+          "id": "t_uu6xabo",
           "name": "SiN300nm_1550nm_TE_STRIP_90_Degree_Euler_CSAC.gds",
           "filename": "SiN300nm_1550nm_TE_STRIP_90_Degree_Euler_CSAC.gds",
           "size": 19296,
@@ -12205,7 +12205,7 @@
           "_stripped": true
         },
         {
-          "id": "t_kp4m9by",
+          "id": "t_zwf5ast",
           "name": "SiN300nm_1550nm_TE_STRIP_Crossing.gds",
           "filename": "SiN300nm_1550nm_TE_STRIP_Crossing.gds",
           "size": 5500,
@@ -12224,7 +12224,7 @@
           }
         },
         {
-          "id": "t_n8k9ccj",
+          "id": "t_5111tcl",
           "name": "SiN300nm_1550nm_TE_STRIP_Focused_Grating_Coupler_CSAC.gds",
           "filename": "SiN300nm_1550nm_TE_STRIP_Focused_Grating_Coupler_CSAC.gds",
           "size": 24952,
@@ -12243,7 +12243,7 @@
           "_stripped": true
         },
         {
-          "id": "t_yvyq97i",
+          "id": "t_nlaf4te",
           "name": "SiN300nm_1550nm_TE_STRIP_Grating_Coupler.gds",
           "filename": "SiN300nm_1550nm_TE_STRIP_Grating_Coupler.gds",
           "size": 1890,
@@ -12262,7 +12262,7 @@
           }
         },
         {
-          "id": "t_npnml1m",
+          "id": "t_rp4gz2a",
           "name": "SiN300nm_1550nm_TE_STRIP_Grating_Coupler_v1p2.gds",
           "filename": "SiN300nm_1550nm_TE_STRIP_Grating_Coupler_v1p2.gds",
           "size": 1902,
@@ -12281,7 +12281,7 @@
           }
         },
         {
-          "id": "t_lf8f45w",
+          "id": "t_mju49vn",
           "name": "SiN300nm_1550nm_TE_STRIP_Waveguide.gds",
           "filename": "SiN300nm_1550nm_TE_STRIP_Waveguide.gds",
           "size": 600,
@@ -12300,7 +12300,7 @@
           }
         },
         {
-          "id": "t_ud5m4m7",
+          "id": "t_4kkot4e",
           "name": "Heater.gds",
           "filename": "Heater.gds",
           "size": 684,
@@ -12319,7 +12319,7 @@
           }
         },
         {
-          "id": "t_gkve5rb",
+          "id": "t_dnqm5vz",
           "name": "SiN200nm_520nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SiN200nm_520nm_TE_STRIP_2x1_MMI.gds",
           "size": 390,
@@ -12338,7 +12338,7 @@
           }
         },
         {
-          "id": "t_v283w4i",
+          "id": "t_pgfn360",
           "name": "SiN200nm_520nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SiN200nm_520nm_TE_STRIP_2x2_MMI.gds",
           "size": 454,
@@ -12357,7 +12357,7 @@
           }
         },
         {
-          "id": "t_p9nbzzp",
+          "id": "t_5lmza4d",
           "name": "SiN200nm_520nm_TE_STRIP_Grating_Coupler.gds",
           "filename": "SiN200nm_520nm_TE_STRIP_Grating_Coupler.gds",
           "size": 1550,
@@ -12376,7 +12376,7 @@
           }
         },
         {
-          "id": "t_6oxlfek",
+          "id": "t_tsz0vak",
           "name": "SiN200nm_520nm_TE_STRIP_Waveguide.gds",
           "filename": "SiN200nm_520nm_TE_STRIP_Waveguide.gds",
           "size": 200,
@@ -12395,7 +12395,7 @@
           }
         },
         {
-          "id": "t_w8ubbuh",
+          "id": "t_2bvbu32",
           "name": "SiN200nm_638nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SiN200nm_638nm_TE_STRIP_2x1_MMI.gds",
           "size": 390,
@@ -12414,7 +12414,7 @@
           }
         },
         {
-          "id": "t_m5my32x",
+          "id": "t_jzri26r",
           "name": "SiN200nm_638nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SiN200nm_638nm_TE_STRIP_2x2_MMI.gds",
           "size": 454,
@@ -12433,7 +12433,7 @@
           }
         },
         {
-          "id": "t_gxctd25",
+          "id": "t_tptrcuc",
           "name": "SiN200nm_638nm_TE_STRIP_Grating_Coupler.gds",
           "filename": "SiN200nm_638nm_TE_STRIP_Grating_Coupler.gds",
           "size": 2190,
@@ -12452,7 +12452,7 @@
           }
         },
         {
-          "id": "t_wokomew",
+          "id": "t_kq0hj58",
           "name": "SiN200nm_638nm_TE_STRIP_Waveguide.gds",
           "filename": "SiN200nm_638nm_TE_STRIP_Waveguide.gds",
           "size": 200,
@@ -12471,7 +12471,7 @@
           }
         },
         {
-          "id": "t_6wx9b45",
+          "id": "t_knhygjm",
           "name": "SiN200nm_780nm_TE_STRIP_2x1_MMI.gds",
           "filename": "SiN200nm_780nm_TE_STRIP_2x1_MMI.gds",
           "size": 454,
@@ -12490,7 +12490,7 @@
           }
         },
         {
-          "id": "t_s7y1xq9",
+          "id": "t_ptoh71w",
           "name": "SiN200nm_780nm_TE_STRIP_2x2_MMI.gds",
           "filename": "SiN200nm_780nm_TE_STRIP_2x2_MMI.gds",
           "size": 454,
@@ -12509,7 +12509,7 @@
           }
         },
         {
-          "id": "t_tlz8tfx",
+          "id": "t_4ztpuso",
           "name": "SiN200nm_780nm_TE_STRIP_Grating_Coupler.gds",
           "filename": "SiN200nm_780nm_TE_STRIP_Grating_Coupler.gds",
           "size": 2190,
@@ -12528,7 +12528,7 @@
           }
         },
         {
-          "id": "t_wd06bwf",
+          "id": "t_w6b8fk8",
           "name": "SiN200nm_780nm_TE_STRIP_Splitter5050.gds",
           "filename": "SiN200nm_780nm_TE_STRIP_Splitter5050.gds",
           "size": 3546,
@@ -12547,7 +12547,7 @@
           }
         },
         {
-          "id": "t_0ybhtxp",
+          "id": "t_e9wt0z2",
           "name": "SiN200nm_780nm_TE_STRIP_Waveguide.gds",
           "filename": "SiN200nm_780nm_TE_STRIP_Waveguide.gds",
           "size": 200,
@@ -12566,7 +12566,7 @@
           }
         },
         {
-          "id": "t_guzgs0g",
+          "id": "t_owwtz9o",
           "name": "Ge_on_Si_3800nm_TE_RIB_90_Degree_Bend.gds",
           "filename": "Ge_on_Si_3800nm_TE_RIB_90_Degree_Bend.gds",
           "size": 1228,
@@ -12585,7 +12585,7 @@
           }
         },
         {
-          "id": "t_wdieki8",
+          "id": "t_oo9wpp6",
           "name": "Ge_on_Si_3800nm_TE_RIB_Waveguide.gds",
           "filename": "Ge_on_Si_3800nm_TE_RIB_Waveguide.gds",
           "size": 198,
@@ -13040,7 +13040,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_m34v5z1",
+                      "id": "t_04u8s3o",
                       "name": "SOI220nm_1310nm_TE_RIB_2x2_MMI",
                       "filename": "SOI220nm_1310nm_TE_RIB_2x2_MMI.csv",
                       "kind": "csv",
@@ -13054,7 +13054,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:41.145Z",
+                      "added": "2026-05-25T13:52:28.884Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13130,7 +13130,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_oioyrlb",
+                      "id": "t_2ci28ro",
                       "name": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend",
                       "filename": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -13144,7 +13144,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:42.369Z",
+                      "added": "2026-05-25T13:52:30.196Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13219,7 +13219,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_wkjm2qm",
+                      "id": "t_lxyphjf",
                       "name": "SOI220nm_1310nm_TE_RIB_Grating_Coupler",
                       "filename": "SOI220nm_1310nm_TE_RIB_Grating_Coupler.csv",
                       "kind": "csv",
@@ -13233,7 +13233,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:43.547Z",
+                      "added": "2026-05-25T13:52:31.622Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13367,7 +13367,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_3okdt10",
+                      "id": "t_k1gfzi2",
                       "name": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing",
                       "filename": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -13381,7 +13381,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:45.686Z",
+                      "added": "2026-05-25T13:52:34.380Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13457,7 +13457,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_tsxasdj",
+                      "id": "t_o0lj8ed",
                       "name": "SOI220nm_1310nm_TE_STRIP_2x1_MMI",
                       "filename": "SOI220nm_1310nm_TE_STRIP_2x1_MMI.csv",
                       "kind": "csv",
@@ -13471,7 +13471,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:47.552Z",
+                      "added": "2026-05-25T13:52:35.954Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13547,7 +13547,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_6f7t33z",
+                      "id": "t_1qbe8lg",
                       "name": "SOI220nm_1310nm_TE_STRIP_2x2_MMI",
                       "filename": "SOI220nm_1310nm_TE_STRIP_2x2_MMI.csv",
                       "kind": "csv",
@@ -13561,7 +13561,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:49.565Z",
+                      "added": "2026-05-25T13:52:37.437Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13637,7 +13637,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_6hcvy4n",
+                      "id": "t_gd5pkap",
                       "name": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend",
                       "filename": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -13651,7 +13651,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:50.755Z",
+                      "added": "2026-05-25T13:52:39.161Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13726,7 +13726,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_pw524dz",
+                      "id": "t_1pg6i9o",
                       "name": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler",
                       "filename": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler.csv",
                       "kind": "csv",
@@ -13740,7 +13740,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:52.157Z",
+                      "added": "2026-05-25T13:52:40.949Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13874,7 +13874,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_su67zid",
+                      "id": "t_03bv044",
                       "name": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing",
                       "filename": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -13888,7 +13888,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:54.619Z",
+                      "added": "2026-05-25T13:52:43.093Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -13964,7 +13964,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_eprz9pl",
+                      "id": "t_2a44fpv",
                       "name": "SOI220nm_1550nm_TE_RIB_2x1_MMI",
                       "filename": "SOI220nm_1550nm_TE_RIB_2x1_MMI.csv",
                       "kind": "csv",
@@ -13978,7 +13978,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:56.041Z",
+                      "added": "2026-05-25T13:52:45.123Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14054,7 +14054,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_bqs5n6h",
+                      "id": "t_tc01zls",
                       "name": "SOI220nm_1550nm_TE_RIB_2x2_MMI",
                       "filename": "SOI220nm_1550nm_TE_RIB_2x2_MMI.csv",
                       "kind": "csv",
@@ -14068,7 +14068,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:57.854Z",
+                      "added": "2026-05-25T13:52:46.587Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14144,7 +14144,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_lbjjec3",
+                      "id": "t_8yiszby",
                       "name": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend",
                       "filename": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -14158,7 +14158,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:46:59.330Z",
+                      "added": "2026-05-25T13:52:48.109Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14233,7 +14233,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_wlbuexm",
+                      "id": "t_c44alwn",
                       "name": "SOI220nm_1550nm_TE_RIB_Grating_Coupler",
                       "filename": "SOI220nm_1550nm_TE_RIB_Grating_Coupler.csv",
                       "kind": "csv",
@@ -14247,7 +14247,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:00.626Z",
+                      "added": "2026-05-25T13:52:49.253Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14381,7 +14381,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_vaaooxm",
+                      "id": "t_c1msq3n",
                       "name": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing",
                       "filename": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -14395,7 +14395,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:02.825Z",
+                      "added": "2026-05-25T13:52:51.375Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14471,7 +14471,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_ku11bk7",
+                      "id": "t_ybw5dgo",
                       "name": "SOI220nm_1550nm_TE_STRIP_2x1_MMI",
                       "filename": "SOI220nm_1550nm_TE_STRIP_2x1_MMI.csv",
                       "kind": "csv",
@@ -14485,7 +14485,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:04.361Z",
+                      "added": "2026-05-25T13:52:53.136Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14561,7 +14561,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_3crotjs",
+                      "id": "t_xa0novb",
                       "name": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
                       "filename": "SOI220nm_1550nm_TE_STRIP_2x2_MMI.csv",
                       "kind": "csv",
@@ -14575,7 +14575,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:06.123Z",
+                      "added": "2026-05-25T13:52:54.679Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14773,7 +14773,7 @@
                   "name": "Files",
                   "tests": [
                     {
-                      "id": "t_cgywkn1",
+                      "id": "t_boepq3s",
                       "name": "examplefile",
                       "filename": "examplefile",
                       "kind": "examplefile",
@@ -14790,7 +14790,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:09.768Z",
+                      "added": "2026-05-25T13:52:58.016Z",
                       "updated": "2026-05-25"
                     }
                   ],
@@ -14848,7 +14848,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_xyqjwf6",
+                      "id": "t_jn99n76",
                       "name": "SOI220nm_1310nm_TE_RIB_2x1_MMI",
                       "filename": "SOI220nm_1310nm_TE_RIB_2x1_MMI.csv",
                       "kind": "csv",
@@ -14862,7 +14862,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:09.172Z",
+                      "added": "2026-05-25T13:52:57.442Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -14938,7 +14938,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_xg60oyn",
+                      "id": "t_i7mty0r",
                       "name": "SOI220nm_1310nm_TE_RIB_2x2_MMI",
                       "filename": "SOI220nm_1310nm_TE_RIB_2x2_MMI.csv",
                       "kind": "csv",
@@ -14952,7 +14952,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:11.446Z",
+                      "added": "2026-05-25T13:53:00.063Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15028,7 +15028,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_pubxptg",
+                      "id": "t_9c8tgjd",
                       "name": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend",
                       "filename": "SOI220nm_1310nm_TE_RIB_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -15042,7 +15042,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:13.204Z",
+                      "added": "2026-05-25T13:53:01.429Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15117,7 +15117,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_c5zmd7i",
+                      "id": "t_rdt9hns",
                       "name": "SOI220nm_1310nm_TE_RIB_Grating_Coupler",
                       "filename": "SOI220nm_1310nm_TE_RIB_Grating_Coupler.csv",
                       "kind": "csv",
@@ -15131,7 +15131,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:14.573Z",
+                      "added": "2026-05-25T13:53:03.168Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15265,7 +15265,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_6t0v5i6",
+                      "id": "t_y023sy7",
                       "name": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing",
                       "filename": "SOI220nm_1310nm_TE_RIB_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -15279,7 +15279,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:16.637Z",
+                      "added": "2026-05-25T13:53:05.661Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15355,7 +15355,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_cshjdfp",
+                      "id": "t_amm9jyn",
                       "name": "SOI220nm_1310nm_TE_STRIP_2x1_MMI",
                       "filename": "SOI220nm_1310nm_TE_STRIP_2x1_MMI.csv",
                       "kind": "csv",
@@ -15369,7 +15369,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:18.142Z",
+                      "added": "2026-05-25T13:53:07.067Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15445,7 +15445,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_5rq10o6",
+                      "id": "t_z21lfr4",
                       "name": "SOI220nm_1310nm_TE_STRIP_2x2_MMI",
                       "filename": "SOI220nm_1310nm_TE_STRIP_2x2_MMI.csv",
                       "kind": "csv",
@@ -15459,7 +15459,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:19.782Z",
+                      "added": "2026-05-25T13:53:09.129Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15535,7 +15535,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_ycxu77i",
+                      "id": "t_6q7doxs",
                       "name": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend",
                       "filename": "SOI220nm_1310nm_TE_STRIP_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -15549,7 +15549,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:21.582Z",
+                      "added": "2026-05-25T13:53:10.757Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15624,7 +15624,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_2ier14v",
+                      "id": "t_01g42hr",
                       "name": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler",
                       "filename": "SOI220nm_1310nm_TE_STRIP_Grating_Coupler.csv",
                       "kind": "csv",
@@ -15638,7 +15638,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:23.072Z",
+                      "added": "2026-05-25T13:53:12.637Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15772,7 +15772,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_a5z9ou0",
+                      "id": "t_fxmzz84",
                       "name": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing",
                       "filename": "SOI220nm_1310nm_TE_STRIP_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -15786,7 +15786,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:25.502Z",
+                      "added": "2026-05-25T13:53:14.991Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15821,7 +15821,7 @@
                   "name": "Files",
                   "tests": [
                     {
-                      "id": "t_93a7eo8",
+                      "id": "t_rel6hjf",
                       "name": "examplefile",
                       "filename": "examplefile",
                       "kind": "examplefile",
@@ -15838,7 +15838,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:27.935Z",
+                      "added": "2026-05-25T13:53:16.991Z",
                       "updated": "2026-05-25"
                     }
                   ],
@@ -15896,7 +15896,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_rcj1feq",
+                      "id": "t_ft8vpec",
                       "name": "SOI220nm_1550nm_TE_RIB_2x1_MMI",
                       "filename": "SOI220nm_1550nm_TE_RIB_2x1_MMI.csv",
                       "kind": "csv",
@@ -15910,7 +15910,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:27.339Z",
+                      "added": "2026-05-25T13:53:16.344Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -15986,7 +15986,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_gdshu4o",
+                      "id": "t_d4yjjwm",
                       "name": "SOI220nm_1550nm_TE_RIB_2x2_MMI",
                       "filename": "SOI220nm_1550nm_TE_RIB_2x2_MMI.csv",
                       "kind": "csv",
@@ -16000,7 +16000,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:29.464Z",
+                      "added": "2026-05-25T13:53:18.987Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -16076,7 +16076,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_g9lnl96",
+                      "id": "t_qrud56a",
                       "name": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend",
                       "filename": "SOI220nm_1550nm_TE_RIB_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -16090,7 +16090,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:30.777Z",
+                      "added": "2026-05-25T13:53:20.358Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -16165,7 +16165,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_aomkcs9",
+                      "id": "t_0epos27",
                       "name": "SOI220nm_1550nm_TE_RIB_EBL_Apodised_Grating_Coupler",
                       "filename": "SOI220nm_1550nm_TE_RIB_EBL_Apodised_Grating_Coupler.csv",
                       "kind": "csv",
@@ -16179,7 +16179,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:32.231Z",
+                      "added": "2026-05-25T13:53:21.819Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -16255,7 +16255,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_82rwlya",
+                      "id": "t_yv2n96a",
                       "name": "SOI220nm_1550nm_TE_RIB_Grating_Coupler",
                       "filename": "SOI220nm_1550nm_TE_RIB_Grating_Coupler.csv",
                       "kind": "csv",
@@ -16269,7 +16269,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:33.936Z",
+                      "added": "2026-05-25T13:53:23.170Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -16460,7 +16460,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_hu201bv",
+                      "id": "t_q84c46x",
                       "name": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing",
                       "filename": "SOI220nm_1550nm_TE_RIB_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -16474,7 +16474,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:37.596Z",
+                      "added": "2026-05-25T13:53:26.421Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -16550,7 +16550,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_gd4oa44",
+                      "id": "t_eowcg6l",
                       "name": "SOI220nm_1550nm_TE_STRIP_2x1_MMI",
                       "filename": "SOI220nm_1550nm_TE_STRIP_2x1_MMI.csv",
                       "kind": "csv",
@@ -16564,7 +16564,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:39.129Z",
+                      "added": "2026-05-25T13:53:27.759Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -16640,7 +16640,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_wm1610n",
+                      "id": "t_g4ozhvj",
                       "name": "SOI220nm_1550nm_TE_STRIP_2x2_MMI",
                       "filename": "SOI220nm_1550nm_TE_STRIP_2x2_MMI.csv",
                       "kind": "csv",
@@ -16654,7 +16654,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:41.226Z",
+                      "added": "2026-05-25T13:53:29.392Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -16730,7 +16730,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_rwuiicu",
+                      "id": "t_u57x8ix",
                       "name": "SOI220nm_1550nm_TE_STRIP_90_Degree_Bend",
                       "filename": "SOI220nm_1550nm_TE_STRIP_90_Degree_Bend.csv",
                       "kind": "csv",
@@ -16744,7 +16744,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:42.730Z",
+                      "added": "2026-05-25T13:53:30.806Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -16819,7 +16819,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_4o4d7u4",
+                      "id": "t_s68v33n",
                       "name": "SOI220nm_1550nm_TE_STRIP_Grating_Coupler",
                       "filename": "SOI220nm_1550nm_TE_STRIP_Grating_Coupler.csv",
                       "kind": "csv",
@@ -16833,7 +16833,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:44.113Z",
+                      "added": "2026-05-25T13:53:32.588Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -17024,7 +17024,7 @@
                   "name": "Files",
                   "datasets": [
                     {
-                      "id": "t_l9tu7fg",
+                      "id": "t_u5h52fs",
                       "name": "SOI220nm_1550nm_TE_STRIP_Waveguide_Crossing",
                       "filename": "SOI220nm_1550nm_TE_STRIP_Waveguide_Crossing.csv",
                       "kind": "csv",
@@ -17038,7 +17038,7 @@
                         "notes": ""
                       },
                       "who": "",
-                      "added": "2026-05-25T13:47:46.890Z",
+                      "added": "2026-05-25T13:53:36.024Z",
                       "updated": "2026-05-25",
                       "_stripped": true,
                       "_parsedStripped": true
@@ -21919,10 +21919,10 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastPublishedAt": "2026-05-25T13:45:25.762Z",
-    "lastPublishedSha": "8fc78b1c9ab902c961fd94050ba97342de8a6fce",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/8fc78b1c9ab902c961fd94050ba97342de8a6fce",
-    "lastFetchedAt": "2026-05-25T13:11:28.228Z",
+    "lastPublishedAt": "2026-05-25T13:50:22.262Z",
+    "lastPublishedSha": "6208036766a6c14aacabc3332f1cdba62687a729",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/6208036766a6c14aacabc3332f1cdba62687a729",
+    "lastFetchedAt": "2026-05-25T13:51:23.137Z",
     "lastFetchedSha": "d553e5b3e9dfbbfc8915f9f180a66684a18988a2",
     "lastMergeStats": {
       "tabs": 0,
@@ -21948,10 +21948,10 @@
       "labelsAdded": 0
     }
   },
-  "lastGithubFetch": "2026-05-25T13:48:24.676Z",
+  "lastGithubFetch": "2026-05-25T13:54:13.434Z",
   "sketchLibrary": [],
   "_distribution": {
-    "publishedAt": "2026-05-25T13:50:22.262Z",
+    "publishedAt": "2026-05-25T14:00:30.353Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
@@ -22050,7 +22050,7 @@
       "layer": 3,
       "datatype": 0,
       "description": "[WGN] GDS 03 – Silicon etch 2 negative (waveguide – Writes waveguide border, standard width: 5 µm)",
-      "color": "#d29922"
+      "color": "#22a6d3"
     },
     {
       "id": "l2",
@@ -22058,7 +22058,7 @@
       "layer": 4,
       "datatype": 0,
       "description": "[WGP] GDS 04 – Silicon etch 2 positive (writes exactly as drawn, together with GDS 03, e.g. for metrology box)",
-      "color": "#db61a2"
+      "color": "#75c6d7"
     },
     {
       "id": "l3",
@@ -22066,7 +22066,7 @@
       "layer": 5,
       "datatype": 0,
       "description": "[FET] GDS 05 – Silicon etch 3 (full etch slab to BOX)",
-      "color": "#f5a83a"
+      "color": "#beeaf9"
     },
     {
       "id": "l4",
@@ -22074,7 +22074,7 @@
       "layer": 6,
       "datatype": 0,
       "description": "[GRA] GDS 06 – Silicon etch 1 (gratings)",
-      "color": "#c4742d"
+      "color": "#216bba"
     },
     {
       "id": "l5",
@@ -22122,7 +22122,7 @@
       "layer": 12,
       "datatype": 0,
       "description": "[VIA] GDS 12 – Silicon contact holes (vias)",
-      "color": "#58a6ff"
+      "color": "#c6d3e1"
     },
     {
       "id": "l11",
@@ -22138,7 +22138,7 @@
       "layer": 14,
       "datatype": 0,
       "description": "[TRI] GDS 14 - Ge implant for trimming",
-      "color": "#c4742d"
+      "color": "#a47851"
     },
     {
       "id": "ly_dmw6pev",
@@ -22146,7 +22146,7 @@
       "layer": 15,
       "datatype": 0,
       "description": "[HVI] GDS 15 - Vias to encapsulated heater filaments",
-      "color": "#d29922"
+      "color": "#3e2f0f"
     },
     {
       "id": "ly_p1bv05s",
@@ -22178,7 +22178,7 @@
       "layer": 39,
       "datatype": 0,
       "description": "[FIL] GDS 39 – Heater filament",
-      "color": "#79c0ff"
+      "color": "#eae562"
     },
     {
       "id": "ly_gzu0jvv",
@@ -22194,7 +22194,7 @@
       "layer": 46,
       "datatype": 0,
       "description": "[ISO] GDS 46 - Heater isolation trench",
-      "color": "#e3b341"
+      "color": "#818bda"
     },
     {
       "id": "ly_epw05ms",
@@ -22226,7 +22226,7 @@
       "layer": 62,
       "datatype": 0,
       "description": "[TMG] GDS 62 - Silicon etch  (TM gratings)",
-      "color": "#d29922"
+      "color": "#926b17"
     },
     {
       "id": "ly_516sohz",
@@ -22274,7 +22274,7 @@
       "layer": 303,
       "datatype": 0,
       "description": "[WGN] GDS 303 – Ge etch_negative (waveguide – Writes waveguide border)",
-      "color": "#e3b341"
+      "color": "#b09a69"
     },
     {
       "id": "ly_7upjej1",
