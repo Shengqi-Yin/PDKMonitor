@@ -232,7 +232,7 @@
     }
   ],
   "_distribution": {
-    "publishedAt": "2026-05-26T04:33:53.520Z",
+    "publishedAt": "2026-05-26T04:36:20.396Z",
     "publisherIdentity": "https://github.com/AEmreKaplan/",
     "publisherLabel": "CS_Emre",
     "publisherRole": "user-admin",
@@ -245,10 +245,10 @@
     "sliceFor": "https://github.com/AEmreKaplan/",
     "termsVersion": "1.1.0",
     "externalized": {
-      "uploaded": 1,
+      "uploaded": 0,
       "skipped": 0,
       "failed": 0,
-      "reused": 0,
+      "reused": 1,
       "usersDir": "users/https-github.com-AEmreKaplan-/",
       "note": "Uploaded items live as separate files under users/https-github.com-AEmreKaplan-/<section>/<bb>/. Each item carries `repoPath` instead of inline bytes; adopters hydrate via the fetch-time helper. Re-publish is idempotent — items already carrying a repoPath are skipped."
     }
