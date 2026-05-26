@@ -165,6 +165,56 @@
       "name": "Technology Platforms",
       "groups": [
         {
+          "id": "g_3u8hhdf",
+          "name": "SOI 220 nm Active",
+          "platformMeta": {
+            "material": "Si",
+            "thickness": 220
+          },
+          "collapsed": false,
+          "entities": [
+            {
+              "id": "e_ltl8sye",
+              "name": "SOI220nm_1310nm_TE_MZI_Modulator",
+              "files": [],
+              "scripts": [],
+              "documents": [],
+              "testGroups": [],
+              "smatrixGroups": [],
+              "fabTabs": [
+                {
+                  "id": "ft_rwhzdva",
+                  "name": "emre ƒab",
+                  "notes": "",
+                  "tests": [
+                    {
+                      "id": "t_d9yo6iv",
+                      "name": "WaferMap_ChipNo",
+                      "filename": "WaferMap_ChipNo.png",
+                      "kind": "png",
+                      "size": 105016,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "https://github.com/AEmreKaplan/",
+                      "added": "2026-05-26T04:46:05.237Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/https-github.com-AEmreKaplan-/fab/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMap_ChipNo.png",
+                      "repoSha": "fbf6b6918d923387648d0e9cd9b323b00717a401"
+                    }
+                  ]
+                }
+              ],
+              "_contribOnly": true
+            }
+          ]
+        },
+        {
           "id": "g_pxvrznx",
           "name": "SOI 220 nm Passive",
           "platformMeta": {
@@ -217,6 +267,8 @@
     }
   ],
   "ownership": {
+    "e_ltl8sye": "admin",
+    "layout:e_ltl8sye": "admin",
     "e_qwjkn1f": "admin",
     "layout:e_qwjkn1f": "admin"
   },
@@ -232,20 +284,20 @@
     }
   ],
   "_distribution": {
-    "publishedAt": "2026-05-26T04:36:20.396Z",
+    "publishedAt": "2026-05-26T04:46:40.822Z",
     "publisherIdentity": "https://github.com/AEmreKaplan/",
     "publisherLabel": "CS_Emre",
     "publisherRole": "user-admin",
     "payloadKind": "user-admin-slice",
     "appVersion": "v1.0",
-    "bbCount": 1,
-    "groupCount": 1,
+    "bbCount": 2,
+    "groupCount": 2,
     "tabCount": 1,
-    "fileCount": 1,
+    "fileCount": 2,
     "sliceFor": "https://github.com/AEmreKaplan/",
     "termsVersion": "1.1.0",
     "externalized": {
-      "uploaded": 0,
+      "uploaded": 1,
       "skipped": 0,
       "failed": 0,
       "reused": 1,
