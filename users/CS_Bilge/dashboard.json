@@ -229,7 +229,728 @@
                 {
                   "id": "tg_avxaq8b",
                   "name": "bilge tes modu",
-                  "tests": []
+                  "tests": [
+                    {
+                      "id": "t_6zv7vck",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG1",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG1.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.585Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG1.txt",
+                      "repoSha": "3aaed3f02cb0f9cc11a698d992afa93a7d1c7bf7"
+                    },
+                    {
+                      "id": "t_p4g1zok",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG2",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG2.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.600Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG2.txt",
+                      "repoSha": "8a2acb7904aaabd3dcf8b9337ffd2dd0b715ebea"
+                    },
+                    {
+                      "id": "t_ex4tviy",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG3",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG3.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.621Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG3.txt",
+                      "repoSha": "4f8de8e2c868a61f813b75c01f27b1c6f7c04035"
+                    },
+                    {
+                      "id": "t_mf3prc8",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG4",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG4.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.639Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG4.txt",
+                      "repoSha": "c40578eb33140d0e4d21b90184d460f3c25e515c"
+                    },
+                    {
+                      "id": "t_74xkypk",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG5",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG5.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.650Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG5.txt",
+                      "repoSha": "4c565c9a83586f68706ed2120f73cea7aa66842e"
+                    },
+                    {
+                      "id": "t_n32of0a",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG6",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG6.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.671Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip37_WG6.txt",
+                      "repoSha": "90347c584f3d2f0b44618858452164d8738fb7c0"
+                    },
+                    {
+                      "id": "t_zdsswc9",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG1",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG1.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.690Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG1.txt",
+                      "repoSha": "cb52d073ebfa7412fbeb21e0e367645a42678e12"
+                    },
+                    {
+                      "id": "t_jf7a7m5",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG2",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG2.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.705Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG2.txt",
+                      "repoSha": "7e92a10113587444e2de19a7719ff0111b4d623d"
+                    },
+                    {
+                      "id": "t_tt5w11a",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG3",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG3.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.724Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG3.txt",
+                      "repoSha": "c6e42c33fff92904549c7990fe9e698340aa9889"
+                    },
+                    {
+                      "id": "t_2ffrzac",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG4",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG4.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.740Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG4.txt",
+                      "repoSha": "500f6769a935840ab0c0a50b0be8315a4bc3cfc2"
+                    },
+                    {
+                      "id": "t_q6fhvo9",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG5",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG5.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.755Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG5.txt",
+                      "repoSha": "988732f75fbe288398e8592f70a00a3be8a73768"
+                    },
+                    {
+                      "id": "t_j0mbnhh",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG6",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG6.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.771Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip41_WG6.txt",
+                      "repoSha": "98e12a5e05b903310140843eeb5174e60fd2ecd2"
+                    },
+                    {
+                      "id": "t_17wzt52",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG1",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG1.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.786Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG1.txt",
+                      "repoSha": "2d06a69f58d91d0ce9053e1172faee9fcbd2aecf"
+                    },
+                    {
+                      "id": "t_r46o2k0",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG2",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG2.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.800Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG2.txt",
+                      "repoSha": "ab5bef70b3c2b373ed891f5fff01b6ca9a356abd"
+                    },
+                    {
+                      "id": "t_so2ssuq",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG3",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG3.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.818Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG3.txt",
+                      "repoSha": "5deadc5b7364de16042fda62cd679fdcb6806516"
+                    },
+                    {
+                      "id": "t_fw4kbj7",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG4",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG4.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.837Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG4.txt",
+                      "repoSha": "d26adbd07ea469677192878394f2ecd29fe75dfb"
+                    },
+                    {
+                      "id": "t_6g41ekl",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG5",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG5.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.854Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG5.txt",
+                      "repoSha": "2f9406690771eb44723c988827c64eedaec9a223"
+                    },
+                    {
+                      "id": "t_fb8z43w",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG6",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG6.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.875Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip49_WG6.txt",
+                      "repoSha": "453f5aeb873637c2fc6ee1ae2338217b2d44fc57"
+                    },
+                    {
+                      "id": "t_8mcz228",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG1",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG1.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.892Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG1.txt",
+                      "repoSha": "9485a3a7117aa18b072a8e3a7d304d309dd9c909"
+                    },
+                    {
+                      "id": "t_n4mv86c",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG2",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG2.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.912Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG2.txt",
+                      "repoSha": "a2cc2fbc50f96cc9592e776dac724a63ea1bece3"
+                    },
+                    {
+                      "id": "t_fguvdac",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG3",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG3.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.932Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG3.txt",
+                      "repoSha": "1e44855cfde2d28d13fd97f276e60e4759be1863"
+                    },
+                    {
+                      "id": "t_w21amb1",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG4",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG4.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.950Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG4.txt",
+                      "repoSha": "4002623e9097b23083c03f36a2d3aa3d04f8a47b"
+                    },
+                    {
+                      "id": "t_53zikrz",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG5",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG5.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.967Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG5.txt",
+                      "repoSha": "9fd7466d0d1f8d9ea25ddfe5a4b470d28b8e42a8"
+                    },
+                    {
+                      "id": "t_pxr7zp4",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG6",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG6.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:32.985Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip53_WG6.txt",
+                      "repoSha": "c62e7dbf4882cbbfb9fb188ccac2ede7dbb02cd5"
+                    },
+                    {
+                      "id": "t_nn9ueh5",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG1",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG1.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.003Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG1.txt",
+                      "repoSha": "738c22c1c941fd5646623a9043a042d614cec760"
+                    },
+                    {
+                      "id": "t_947of3y",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG2",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG2.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.021Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG2.txt",
+                      "repoSha": "dcd238184414af49445f35cffa9788deae392259"
+                    },
+                    {
+                      "id": "t_alnvujt",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG3",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG3.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.043Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG3.txt",
+                      "repoSha": "ada40eb735e4ae116626b20472222e1c6559f849"
+                    },
+                    {
+                      "id": "t_7exkg2u",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG4",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG4.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.073Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG4.txt",
+                      "repoSha": "02f4b530fe902ea5ae8bd2f795f8d6c71e520952"
+                    },
+                    {
+                      "id": "t_b08if0z",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG5",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG5.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.088Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG5.txt",
+                      "repoSha": "510f16b8003447ccaad2a49cbeb94f7113f3f001"
+                    },
+                    {
+                      "id": "t_kbl9gzn",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG6",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG6.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.103Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip61_WG6.txt",
+                      "repoSha": "0e033cb86bd30edd2fb6966318081e5dcf069d92"
+                    },
+                    {
+                      "id": "t_kwwzx5h",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG1",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG1.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.120Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG1.txt",
+                      "repoSha": "70f4b6ac785ca4079f9042fd9df2270e7195f511"
+                    },
+                    {
+                      "id": "t_oac1o74",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG2",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG2.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.137Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG2.txt",
+                      "repoSha": "171fb835c0d24c4045eda50d8b80d65e384559f5"
+                    },
+                    {
+                      "id": "t_s5h45ww",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG3",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG3.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.154Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG3.txt",
+                      "repoSha": "8a97bfe3b5baa1e2f105ccf1e4459e3ece4d5277"
+                    },
+                    {
+                      "id": "t_0b5vsug",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG4",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG4.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.172Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG4.txt",
+                      "repoSha": "d208e9656bf69522be97c9d82278d786fb837d0b"
+                    },
+                    {
+                      "id": "t_7o9ymzt",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG5",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG5.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.190Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG5.txt",
+                      "repoSha": "84e82e56476f7353263330eea8ea3f3f82922409"
+                    },
+                    {
+                      "id": "t_1fuf5ey",
+                      "name": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG6",
+                      "filename": "WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG6.txt",
+                      "kind": "txt",
+                      "size": 546042,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-05-26",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "CS_Bilge",
+                      "added": "2026-05-26T00:22:33.206Z",
+                      "updated": "2026-05-26",
+                      "_externalized": true,
+                      "repoPath": "users/CS_Bilge/tests/SOI220nm_1310nm_TE_MZI_Modulator__tl8sye/WaferMPW45_slot5_strip_fastfibrev3_test1_Chip65_WG6.txt",
+                      "repoSha": "585ea834fec731c137a0d9f1ec83247d5b01dedf"
+                    }
+                  ]
                 }
               ],
               "smatrixGroups": [],
@@ -1020,35 +1741,6 @@
               "_contribOnly": true
             }
           ]
-        },
-        {
-          "id": "g_pxvrznx",
-          "name": "SOI 220 nm Passive",
-          "platformMeta": {
-            "material": "Si",
-            "thickness": 220
-          },
-          "collapsed": false,
-          "entities": [
-            {
-              "id": "e_86635m3",
-              "name": "Cell0_SOI220_Full_1550nm_Packaging_Template",
-              "files": [],
-              "scripts": [],
-              "documents": [],
-              "testGroups": [],
-              "smatrixGroups": [],
-              "fabTabs": [
-                {
-                  "id": "ft_h3k57bv",
-                  "name": "bilge fab",
-                  "notes": "",
-                  "tests": []
-                }
-              ],
-              "_contribOnly": true
-            }
-          ]
         }
       ]
     }
@@ -1063,9 +1755,7 @@
     "e_z1e654s": "admin",
     "layout:e_z1e654s": "admin",
     "e_n48tl3w": "admin",
-    "layout:e_n48tl3w": "admin",
-    "e_86635m3": "admin",
-    "layout:e_86635m3": "admin"
+    "layout:e_n48tl3w": "admin"
   },
   "labels": {
     "CS_Bilge": "CS_Bilge"
@@ -1080,27 +1770,25 @@
     }
   ],
   "_distribution": {
-    "publishedAt": "2026-05-25T23:51:13.476Z",
+    "publishedAt": "2026-05-26T00:22:42.953Z",
     "publisherIdentity": "CS_Bilge",
     "publisherLabel": "CS_Bilge",
     "publisherRole": "user-admin",
     "payloadKind": "user-admin-slice",
     "appVersion": "v1.0",
-    "bbCount": 31,
-    "groupCount": 2,
+    "bbCount": 30,
+    "groupCount": 1,
     "tabCount": 1,
-    "fileCount": 70,
+    "fileCount": 68,
     "sliceFor": "CS_Bilge",
     "termsVersion": "1.1.0",
     "externalized": {
-      "uploaded": 2,
+      "uploaded": 36,
       "skipped": 0,
       "failed": 0,
-      "reused": 68,
+      "reused": 32,
       "usersDir": "users/CS_Bilge/",
       "note": "Uploaded items live as separate files under users/CS_Bilge/<section>/<bb>/. Each item carries `repoPath` instead of inline bytes; adopters hydrate via the fetch-time helper. Re-publish is idempotent — items already carrying a repoPath are skipped."
-    },
-    "nuclearStripped": true,
-    "nuclearNote": "Second-pass strip: even after removing binaries, the payload was still over the safe limit. Test/smatrix/fab folder contents were emptied, scripts/documents reduced to filenames. Adopters: run a per-platform GitHub sync to repopulate."
+    }
   }
 }
