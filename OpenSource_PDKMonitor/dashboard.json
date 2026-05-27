@@ -14210,7 +14210,7 @@
   "distribution": {
     "sources": [
       {
-        "id": "s_mpoged8b_0",
+        "id": "s_mpogsv99_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -14218,7 +14218,7 @@
         "enabled": true
       },
       {
-        "id": "s_mpoged8b_1",
+        "id": "s_mpogsv99_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -14226,7 +14226,7 @@
         "enabled": true
       },
       {
-        "id": "s_mpoged8b_2",
+        "id": "s_mpogsv99_2",
         "label": "CORNERSTONE community PDK (publish target)",
         "repo": "cornerstone-uos/cornerstone-community",
         "branch": "main",
@@ -14241,8 +14241,8 @@
     "lastPublishedAt": "2026-05-27T19:30:39.536Z",
     "lastPublishedSha": "f74828c84c7f67254c01bf60c0d7753188020161",
     "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/f74828c84c7f67254c01bf60c0d7753188020161",
-    "lastFetchedAt": "2026-05-27T19:26:39.401Z",
-    "lastFetchedSha": "5a9ac2e9a3f97e8f92b2ff9eed753486295f6760",
+    "lastFetchedAt": "2026-05-27T19:36:51.987Z",
+    "lastFetchedSha": "40820697edeae4c248367aa1443eaca1655a7541",
     "lastMergeStats": {
       "tabs": 0,
       "groups": 0,
@@ -14270,17 +14270,15 @@
   "lastGithubFetch": "2026-05-27T16:26:57.357Z",
   "sketchLibrary": [],
   "_distribution": {
-    "publishedAt": "2026-05-27T19:31:02.517Z",
+    "publishedAt": "2026-05-27T19:37:55.238Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
     "appVersion": "v1.0",
-    "contributorCount": 9,
+    "contributorCount": 7,
     "bbCount": 94,
     "guestCount": 6,
-    "termsVersion": "1.1.0",
-    "nuclearStripped": true,
-    "nuclearNote": "Second-pass strip: even after removing binaries, the payload was still over the safe limit. Test/smatrix/fab folder contents were emptied, scripts/documents reduced to filenames. Adopters: run a per-platform GitHub sync to repopulate."
+    "termsVersion": "1.1.0"
   },
   "_distributedSecurity": {
     "guestPasswords": [
@@ -14647,12 +14645,6 @@
       "addedAt": "2026-05-25T12:40:27.172Z"
     },
     {
-      "identity": "CS_Emre",
-      "name": "CS_Emre",
-      "role": "user-admin",
-      "addedAt": "2026-05-25T12:55:52.639Z"
-    },
-    {
       "identity": "https://github.com/AEmreKaplan/",
       "name": "CS_Emre",
       "role": "user-admin",
@@ -14665,12 +14657,6 @@
       "addedAt": "2026-05-26T03:21:45.191Z",
       "fromSlice": "users/https-github.com-AEmreKaplan-",
       "discovered": true
-    },
-    {
-      "identity": "newuser",
-      "name": "newuser",
-      "role": "user-admin",
-      "addedAt": "2026-05-27T19:26:39.401Z"
     }
   ]
 }
