@@ -6392,7 +6392,7 @@
           "collapsed": false,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_active",
           "githubSubdir": "components",
-          "width": 679,
+          "width": 532,
           "importSections": {
             "layout": true,
             "smatrix": true,
@@ -13112,20 +13112,6 @@
           "kind": "",
           "collapsed": false,
           "width": 438
-        },
-        {
-          "id": "g_uytixks",
-          "name": "SOI 220 nm",
-          "platformMeta": {
-            "material": "Si",
-            "thickness": 220
-          },
-          "entities": [],
-          "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_passive",
-          "githubSubdir": "components",
-          "status": "",
-          "kind": "",
-          "collapsed": false
         }
       ],
       "kind": "platforms"
@@ -13180,9 +13166,9 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastPublishedAt": "2026-05-28T03:00:54.818Z",
-    "lastPublishedSha": "f385865daaa801e862495ef09a61742c126d5da0",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/f385865daaa801e862495ef09a61742c126d5da0",
+    "lastPublishedAt": "2026-05-28T03:02:21.156Z",
+    "lastPublishedSha": "8a948e2d6f2fa2f0ad93c28359ee355f131d8be5",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/8a948e2d6f2fa2f0ad93c28359ee355f131d8be5",
     "lastFetchedAt": "2026-05-28T02:21:38.817Z",
     "lastFetchedSha": "5a9ac2e9a3f97e8f92b2ff9eed753486295f6760",
     "lastMergeStats": {
@@ -13212,7 +13198,7 @@
   "lastGithubFetch": "2026-05-28T02:45:36.422Z",
   "sketchLibrary": [],
   "_distribution": {
-    "publishedAt": "2026-05-28T03:02:21.156Z",
+    "publishedAt": "2026-05-28T03:12:29.849Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
