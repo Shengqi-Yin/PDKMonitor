@@ -6495,14 +6495,7 @@
                 "picstudio"
               ],
               "cdi": {},
-              "fabTabs": [
-                {
-                  "id": "ft_rwhzdva",
-                  "name": "emre ƒab",
-                  "notes": "",
-                  "tests": []
-                }
-              ],
+              "fabTabs": [],
               "fetchHistory": [],
               "smatrixGroups": [],
               "plannedReleaseDate": "",
@@ -14765,9 +14758,9 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastPublishedAt": "2026-05-27T23:42:52.990Z",
-    "lastPublishedSha": "f35d675ba0d0abcb69cd83a0593bc911dbff4b1f",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/f35d675ba0d0abcb69cd83a0593bc911dbff4b1f",
+    "lastPublishedAt": "2026-05-29T00:26:00.022Z",
+    "lastPublishedSha": "c296dd48b8209f6772be1ba9bae7bae733fbb16e",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/c296dd48b8209f6772be1ba9bae7bae733fbb16e",
     "lastFetchedAt": "2026-05-29T00:22:25.325Z",
     "lastFetchedSha": "5a9ac2e9a3f97e8f92b2ff9eed753486295f6760",
     "lastMergeStats": {
@@ -14797,7 +14790,7 @@
   "lastGithubFetch": "2026-05-29T00:19:45.569Z",
   "sketchLibrary": [],
   "_distribution": {
-    "publishedAt": "2026-05-29T00:26:00.022Z",
+    "publishedAt": "2026-05-29T00:40:01.819Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
@@ -14864,7 +14857,7 @@
         "email": "",
         "expiresOn": "",
         "createdAt": "2026-05-24",
-        "lastUsed": "2026-05-28"
+        "lastUsed": "2026-05-29"
       },
       {
         "label": "https-github.com-AEmreKaplan-",
