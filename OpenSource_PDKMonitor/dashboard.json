@@ -15057,7 +15057,7 @@
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
         "path": "users",
-        "enabled": true
+        "enabled": false
       },
       {
         "id": "s_mpsghtj1_2",
@@ -15072,14 +15072,14 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-05-30T14:41:42.054Z",
-    "lastFetchedSha": "481373389846121b64a96fbcbdf6dee840719d51",
-    "lastPublishedAt": "2026-05-30T14:26:50.472Z",
-    "lastPublishedSha": "49214fe9af80867b4aa6fa1f70e8b7038647d9fa",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/49214fe9af80867b4aa6fa1f70e8b7038647d9fa",
+    "lastFetchedAt": "2026-05-30T14:46:47.608Z",
+    "lastFetchedSha": "c58a9748c8e8f837fa85047d00d9fed59fa8ea32",
+    "lastPublishedAt": "2026-05-30T14:42:09.746Z",
+    "lastPublishedSha": "fc9b7450515f715a6e015c95993f8b8843a93416",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/fc9b7450515f715a6e015c95993f8b8843a93416",
     "lastMergeStats": {
-      "tabs": 1,
-      "groups": 0,
+      "tabs": 0,
+      "groups": 1,
       "entities": 0,
       "contributors": 0,
       "ownership": 0,
@@ -15087,11 +15087,17 @@
       "statuses": 0,
       "categories": 0,
       "bbTypes": 0,
-      "infoSkipped": 2
+      "infoSkipped": 0,
+      "files": 0,
+      "scripts": 0,
+      "documents": 0,
+      "tg": 0,
+      "sm": 0,
+      "fab": 0
     },
     "lastSecurityStats": {
       "guestsAdded": 0,
-      "guestsKept": 0,
+      "guestsKept": 12,
       "contactEmailUpdated": false,
       "labelsAdded": 0
     }
@@ -15179,7 +15185,7 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-05-30T14:42:09.746Z",
+    "publishedAt": "2026-05-30T14:47:11.827Z",
     "publisherIdentity": "AEmreKaplan",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
