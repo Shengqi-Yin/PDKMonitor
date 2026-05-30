@@ -14141,17 +14141,6 @@
           "kind": "",
           "collapsed": false,
           "width": 438
-        },
-        {
-          "id": "g_9azdlgg",
-          "name": "SOI 220 nm",
-          "platformMeta": {
-            "material": "Si",
-            "thickness": 220
-          },
-          "entities": [],
-          "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_passive",
-          "githubSubdir": "components"
         }
       ],
       "kind": "platforms"
@@ -14465,6 +14454,12 @@
       "name": "Dashboard Admin",
       "role": "admin",
       "addedAt": "2026-05-29T11:45:17.851Z"
+    },
+    {
+      "identity": "https-github.com-AEmreKaplan-",
+      "name": "Dashboard Admin",
+      "role": "admin",
+      "addedAt": "2026-05-30T18:34:10.172Z"
     }
   ],
   "exportedAt": "2026-05-30T03:15:28.378Z",
@@ -14532,7 +14527,7 @@
   "distribution": {
     "sources": [
       {
-        "id": "s_mpslilss_0",
+        "id": "s_mpsn5mo7_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -14540,7 +14535,7 @@
         "enabled": true
       },
       {
-        "id": "s_mpslilss_1",
+        "id": "s_mpsn5mo7_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -14548,7 +14543,7 @@
         "enabled": true
       },
       {
-        "id": "s_mpslilss_2",
+        "id": "s_mpsn5mo7_2",
         "label": "CORNERSTONE community PDK (publish target)",
         "repo": "cornerstone-uos/cornerstone-community",
         "branch": "main",
@@ -14560,26 +14555,26 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-05-30T17:13:57.373Z",
-    "lastFetchedSha": "481373389846121b64a96fbcbdf6dee840719d51",
-    "lastPublishedAt": "2026-05-30T17:40:18.319Z",
-    "lastPublishedSha": "2b6ab05c46c8d62cd5e65c51df63e3cc1327636e",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/2b6ab05c46c8d62cd5e65c51df63e3cc1327636e",
+    "lastFetchedAt": "2026-05-30T18:34:34.492Z",
+    "lastFetchedSha": "d1a30fc7a07aee2c54b6164cb35674190565c27d",
+    "lastPublishedAt": "2026-05-30T18:04:03.559Z",
+    "lastPublishedSha": "630e0416e93c2d0ed07bf8f5bf65c93f30f79ee6",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/630e0416e93c2d0ed07bf8f5bf65c93f30f79ee6",
     "lastMergeStats": {
-      "tabs": 2,
-      "groups": 4,
-      "entities": 95,
-      "contributors": 5,
-      "ownership": 6351,
-      "labels": 5,
+      "tabs": 1,
+      "groups": 0,
+      "entities": 0,
+      "contributors": 0,
+      "ownership": 0,
+      "labels": 0,
       "statuses": 0,
       "categories": 0,
-      "bbTypes": 2,
-      "infoSkipped": 0
+      "bbTypes": 0,
+      "infoSkipped": 2
     },
     "lastSecurityStats": {
       "guestsAdded": 0,
-      "guestsKept": 6,
+      "guestsKept": 0,
       "contactEmailUpdated": false,
       "labelsAdded": 0
     }
@@ -14668,12 +14663,12 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-05-30T17:41:06.718Z",
-    "publisherIdentity": "https-github.com-AEmreKaplan-",
+    "publishedAt": "2026-05-30T18:36:03.255Z",
+    "publisherIdentity": "AEmreKaplan",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
     "appVersion": "v1.0",
-    "contributorCount": 6,
+    "contributorCount": 7,
     "bbCount": 95,
     "guestCount": 6,
     "termsVersion": "1.1.0"
