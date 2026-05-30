@@ -448,11 +448,11 @@
   "uploads": [],
   "tabs": [
     {
-      "id": "tab_x68dafj",
+      "id": "tab_l62ykgd",
       "name": "Technology Platforms",
       "groups": [
         {
-          "id": "g_todes14",
+          "id": "g_nnzpzll",
           "name": "SOI 220 nm",
           "platformMeta": {
             "material": "Si",
@@ -463,7 +463,7 @@
           "githubSubdir": "components"
         },
         {
-          "id": "g_bhs4q96",
+          "id": "g_86ngwob",
           "name": "SOI 340 nm",
           "platformMeta": {
             "material": "Si",
@@ -472,7 +472,7 @@
           "entities": []
         },
         {
-          "id": "g_htlnnas",
+          "id": "g_kh80thv",
           "name": "SOI 500 nm",
           "platformMeta": {
             "material": "Si",
@@ -481,7 +481,7 @@
           "entities": []
         },
         {
-          "id": "g_47k7ye5",
+          "id": "g_jxubnmq",
           "name": "TFLN 300 nm",
           "platformMeta": {
             "material": "LN",
@@ -490,7 +490,7 @@
           "entities": []
         },
         {
-          "id": "g_1sxwmzu",
+          "id": "g_zg5x7es",
           "name": "SiN 300 nm",
           "platformMeta": {
             "material": "SiN",
@@ -499,7 +499,7 @@
           "entities": []
         },
         {
-          "id": "g_d6c4jei",
+          "id": "g_pjn5kqb",
           "name": "SiN 200 nm",
           "platformMeta": {
             "material": "SiN",
@@ -510,20 +510,20 @@
       ]
     },
     {
-      "id": "tab_n2m1epx",
+      "id": "tab_qrsyf9f",
       "name": "Design Manual",
       "groups": [],
       "kind": "docs"
     },
     {
-      "id": "tab_n92y5u8",
+      "id": "tab_evj04gf",
       "name": "Post-Processing",
       "groups": []
     }
   ],
   "sketchLibrary": [],
   "_distribution": {
-    "publishedAt": "2026-05-30T12:58:27.133Z",
+    "publishedAt": "2026-05-30T13:10:28.036Z",
     "publisherIdentity": "AEmreKaplan",
     "publisherLabel": "CS_Emre",
     "publisherRole": "user-admin",
