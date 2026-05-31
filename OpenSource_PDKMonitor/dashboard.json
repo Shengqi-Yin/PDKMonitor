@@ -8182,7 +8182,11 @@
     "d_komy82n": "admin",
     "g_d4iydjz": "admin",
     "e_vzoewab": "admin",
-    "d_8l2wgno": "admin"
+    "d_8l2wgno": "admin",
+    "tab_u9hxui7": "admin",
+    "g_43q6opx": "admin",
+    "g_rzfwb15": "admin",
+    "g_kgiflr4": "admin"
   },
   "labels": {
     "https://github.com/AEmreKaplan/": "CS_Emre",
@@ -8519,7 +8523,7 @@
           ],
           "status": "available",
           "kind": "active",
-          "collapsed": false,
+          "collapsed": true,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_active",
           "githubSubdir": "components",
           "width": 616,
@@ -8549,7 +8553,7 @@
           },
           "status": "available",
           "kind": "passive",
-          "collapsed": false,
+          "collapsed": true,
           "entities": [
             {
               "id": "e_86635m3",
@@ -12186,10 +12190,10 @@
           ],
           "status": "available",
           "kind": "passive",
-          "collapsed": false,
+          "collapsed": true,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_340nm",
           "githubSubdir": "components",
-          "width": 414,
+          "width": 616,
           "platformDocs": []
         },
         {
@@ -12520,10 +12524,10 @@
           ],
           "status": "",
           "kind": "",
-          "collapsed": false,
+          "collapsed": true,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_500nm",
           "githubSubdir": "components",
-          "width": 422,
+          "width": 639,
           "platformDocs": []
         },
         {
@@ -12535,7 +12539,7 @@
           },
           "status": "available",
           "kind": "passive",
-          "collapsed": false,
+          "collapsed": true,
           "entities": [
             {
               "id": "e_bg56pvh",
@@ -12792,7 +12796,7 @@
           ],
           "githubUrl": "https://github.com/drinwater/cornerstone-community/tree/main/Si_sus_bias",
           "githubSubdir": "components",
-          "width": 402,
+          "width": 620,
           "importSections": {
             "layout": true,
             "smatrix": true,
@@ -12801,6 +12805,118 @@
             "scripts": false,
             "docs": true
           },
+          "platformDocs": []
+        },
+        {
+          "id": "g_5004tbc",
+          "name": "GeonSi",
+          "platformMeta": {
+            "material": "Germanium",
+            "thickness": 3000
+          },
+          "status": "available",
+          "kind": "passive",
+          "collapsed": true,
+          "entities": [
+            {
+              "id": "e_0ogz289",
+              "name": "Ge_on_Si_3800nm_TE_RIB_90_Degree_Bend",
+              "status": "available",
+              "owner": "admin",
+              "description": "",
+              "githubUrl": "https://github.com/drinwater/cornerstone-community/blob/main/Ge_on_Si/components/Ge_on_Si_3800nm_TE_RIB_90_Degree_Bend.gds",
+              "files": [],
+              "scripts": [],
+              "datasets": [],
+              "testGroups": [],
+              "documents": [],
+              "updated": "2026-05-25",
+              "kind": "passive",
+              "bbType": "bend",
+              "dimensionsOn": true,
+              "params": {
+                "radius_um": 10,
+                "angle_deg": 90,
+                "width_nm": 500,
+                "thickness_nm": 3000
+              },
+              "gdsSize": 1228,
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
+              "cdi": {},
+              "fabTabs": [],
+              "fetchHistory": [],
+              "plannedReleaseDate": "",
+              "smatrixGroups": [],
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null,
+              "_gdsStripped": true,
+              "layoutSvg": "",
+              "gdsName": "",
+              "gdsContent": ""
+            },
+            {
+              "id": "e_7etircv",
+              "name": "Ge_on_Si_3800nm_TE_RIB_Waveguide",
+              "status": "available",
+              "owner": "admin",
+              "description": "",
+              "githubUrl": "https://github.com/drinwater/cornerstone-community/blob/main/Ge_on_Si/components/Ge_on_Si_3800nm_TE_RIB_Waveguide.gds",
+              "files": [],
+              "scripts": [],
+              "datasets": [],
+              "testGroups": [],
+              "documents": [],
+              "updated": "2026-05-25",
+              "kind": "passive",
+              "bbType": "waveguide",
+              "dimensionsOn": true,
+              "params": {
+                "width_nm": 500,
+                "length_um": 100,
+                "thickness_nm": 3000
+              },
+              "gdsSize": 198,
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
+              "cdi": {},
+              "fabTabs": [],
+              "fetchHistory": [],
+              "plannedReleaseDate": "",
+              "smatrixGroups": [],
+              "customSketchUrl": "",
+              "customSketchName": "",
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "edaLinks": [],
+              "trl": null,
+              "_gdsStripped": true,
+              "layoutSvg": "",
+              "gdsName": "",
+              "gdsContent": ""
+            }
+          ],
+          "githubUrl": "https://github.com/drinwater/cornerstone-community/tree/main/Ge_on_Si",
+          "githubSubdir": "components",
+          "width": 636,
           "platformDocs": []
         },
         {
@@ -13726,8 +13842,8 @@
           ],
           "status": "",
           "kind": "",
-          "collapsed": false,
-          "width": 412,
+          "collapsed": true,
+          "width": 621,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/SiN_200nm",
           "githubSubdir": "components",
           "platformDocs": []
@@ -14830,10 +14946,10 @@
           ],
           "status": "",
           "kind": "",
-          "collapsed": false,
+          "collapsed": true,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/SiN_300nm",
           "githubSubdir": "components",
-          "width": 428,
+          "width": 634,
           "lastSyncStats": {
             "ranAt": 1780259659647,
             "urlsTotal": 11,
@@ -14841,118 +14957,6 @@
             "urlsEmpty": 0,
             "deadUrls": []
           },
-          "platformDocs": []
-        },
-        {
-          "id": "g_5004tbc",
-          "name": "GeonSi",
-          "platformMeta": {
-            "material": "Germanium",
-            "thickness": 3000
-          },
-          "status": "available",
-          "kind": "passive",
-          "collapsed": false,
-          "entities": [
-            {
-              "id": "e_0ogz289",
-              "name": "Ge_on_Si_3800nm_TE_RIB_90_Degree_Bend",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/drinwater/cornerstone-community/blob/main/Ge_on_Si/components/Ge_on_Si_3800nm_TE_RIB_90_Degree_Bend.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-05-25",
-              "kind": "passive",
-              "bbType": "bend",
-              "dimensionsOn": true,
-              "params": {
-                "radius_um": 10,
-                "angle_deg": 90,
-                "width_nm": 500,
-                "thickness_nm": 3000
-              },
-              "gdsSize": 1228,
-              "edaTools": [
-                "ipkiss",
-                "gdsfactory",
-                "klayout",
-                "virtuoso",
-                "ledit",
-                "picstudio"
-              ],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "_gdsStripped": true,
-              "layoutSvg": "",
-              "gdsName": "",
-              "gdsContent": ""
-            },
-            {
-              "id": "e_7etircv",
-              "name": "Ge_on_Si_3800nm_TE_RIB_Waveguide",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/drinwater/cornerstone-community/blob/main/Ge_on_Si/components/Ge_on_Si_3800nm_TE_RIB_Waveguide.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-05-25",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 3000
-              },
-              "gdsSize": 198,
-              "edaTools": [
-                "ipkiss",
-                "gdsfactory",
-                "klayout",
-                "virtuoso",
-                "ledit",
-                "picstudio"
-              ],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "_gdsStripped": true,
-              "layoutSvg": "",
-              "gdsName": "",
-              "gdsContent": ""
-            }
-          ],
-          "githubUrl": "https://github.com/drinwater/cornerstone-community/tree/main/Ge_on_Si",
-          "githubSubdir": "components",
-          "width": 404,
           "platformDocs": []
         },
         {
@@ -14965,192 +14969,12 @@
           "entities": [],
           "status": "",
           "kind": "",
-          "collapsed": false,
-          "width": 413,
+          "collapsed": true,
+          "width": 622,
           "platformDocs": []
         }
       ],
       "kind": "platforms"
-    },
-    {
-      "id": "tab_is8tgil",
-      "name": "Design Manuals",
-      "groups": [
-        {
-          "id": "g_8c230f3",
-          "name": "SOI 220 nm Passive",
-          "platformMeta": {
-            "material": "Si",
-            "thickness": 220
-          },
-          "status": "available",
-          "kind": "passive",
-          "collapsed": false,
-          "entities": [
-            {
-              "id": "e_u3c5l2g",
-              "name": "MPW Design guidelines",
-              "status": "available",
-              "owner": "",
-              "description": "",
-              "githubUrl": "",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [
-                {
-                  "id": "d_90o2sp0",
-                  "name": "SOI220_MPW46_guidelies.pdf",
-                  "filename": "SOI220_MPW46_guidelies.pdf",
-                  "mime": "application/pdf",
-                  "size": 744045,
-                  "bbType": "",
-                  "who": "admin",
-                  "added": "2026-05-31",
-                  "description": "",
-                  "_stripped": true
-                },
-                {
-                  "id": "d_komy82n",
-                  "name": "SOI220_MPW48_guidelines.pdf",
-                  "filename": "SOI220_MPW48_guidelines.pdf",
-                  "mime": "application/pdf",
-                  "size": 2590194,
-                  "bbType": "",
-                  "who": "admin",
-                  "added": "2026-05-31",
-                  "description": "",
-                  "_stripped": true
-                }
-              ],
-              "updated": "2026-05-31",
-              "kind": "document",
-              "bbType": "",
-              "dimensionsOn": false,
-              "params": {},
-              "layoutSvg": "",
-              "gdsName": "",
-              "gdsSize": 0,
-              "gdsContent": "",
-              "edaTools": [],
-              "cdi": {},
-              "fabTabs": [],
-              "_docVersion": "",
-              "plannedReleaseDate": "",
-              "trl": null,
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "fetchHistory": [],
-              "edaLinks": []
-            }
-          ],
-          "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_passive/manuals",
-          "githubSubdir": "MPW",
-          "importSections": {
-            "layout": true,
-            "smatrix": true,
-            "tests": true,
-            "fab": true,
-            "scripts": true,
-            "docs": true
-          },
-          "platformDescription": "# SOI220_cband_TM_strip_apodized_GC_focusing_v1p0\n\nSOI220_cband_TM_strip_apodized_GC_focusing_v1p0 — waveguide on SOI 220 nm Passive.\n\n---\n\nPrepared via CORNERSTONE PDK Monitor v1.0.0 on 2026-05-26T19:59:43.504Z.\n\n**Author identity:** https://github.com/AEmreKaplan/\n**BB type:** waveguide\n**Category:** passive\n**Platform:** SOI 220 nm Passive\n**Status:** available\n**Marked as:** New BB (folder created on first commit)\n\n## Layout\n\n```\nSi_220nm_passive/\n  PDKMonitor_layout/         ← raw GDS / OASIS / SVG layout uploads\n  PDKMonitor_components/     ← auto-generated YAML descriptor\n  PDKMonitor_sparams/        ← S-matrix tab\n  PDKMonitor_tests/          ← Tests tab\n  PDKMonitor_fab/            ← Fabrication tab\n  PDKMonitor_scripts/        ← Scripts tab\n  PDKMonitor_eda/            ← EDA tab (links as eda_links.json)\n  PDKMonitor_documents/      ← non-YAML docs (PDFs, datasheets)\n  PDKMonitor_variants/       ← recursive variant sub-folders\n```\n\n## Notes\n\n- Folder layout matches [cornerstone-community](https://github.com/cornerstone-uos/cornerstone-community).\n- Re-running *Prepare for community PDK* is idempotent — only new / changed files are uploaded.\n- An admin can cherry-pick this folder straight into the main PDK repo.\n",
-          "width": 438,
-          "lastSyncStats": {
-            "ranAt": 1780263107250,
-            "urlsTotal": 49,
-            "filesFound": 48,
-            "urlsEmpty": 1,
-            "deadUrls": [
-              {
-                "bbId": "e_6yxb2xz",
-                "bbName": "MPW48",
-                "section": "smatrix",
-                "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/sparams/SOI220nm_1550nm_TE_STRIP_90_Degree_Bend.csv"
-              }
-            ]
-          }
-        },
-        {
-          "id": "g_d4iydjz",
-          "name": "SOI 220 nm ACTIVE",
-          "platformMeta": {
-            "material": "Si",
-            "thickness": 220
-          },
-          "status": "available",
-          "kind": "active",
-          "collapsed": false,
-          "entities": [
-            {
-              "id": "e_vzoewab",
-              "name": "MPW Design guidelines",
-              "status": "available",
-              "owner": "",
-              "description": "",
-              "githubUrl": "",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [
-                {
-                  "id": "d_8l2wgno",
-                  "name": "SOI220_MPW43_guidelines.pdf",
-                  "filename": "SOI220_MPW43_guidelines.pdf",
-                  "mime": "application/pdf",
-                  "size": 1126208,
-                  "bbType": "",
-                  "who": "admin",
-                  "added": "2026-05-31",
-                  "_stripped": true,
-                  "description": ""
-                }
-              ],
-              "updated": "2026-05-31",
-              "kind": "document",
-              "bbType": "",
-              "dimensionsOn": false,
-              "params": {},
-              "layoutSvg": "",
-              "gdsName": "",
-              "gdsSize": 0,
-              "gdsContent": "",
-              "edaTools": [],
-              "cdi": {},
-              "fabTabs": [],
-              "_docVersion": "",
-              "plannedReleaseDate": "",
-              "trl": null,
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "fetchHistory": [],
-              "edaLinks": []
-            }
-          ],
-          "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_active/manuals",
-          "githubSubdir": "MPW",
-          "importSections": {
-            "layout": true,
-            "smatrix": true,
-            "tests": false,
-            "fab": false,
-            "scripts": false,
-            "docs": true
-          },
-          "width": 470
-        }
-      ],
-      "kind": "docs"
     },
     {
       "id": "tab_mjm503u",
@@ -15162,6 +14986,42 @@
       "id": "tab_dqtmkfy",
       "name": "Post-Processing",
       "groups": [],
+      "kind": "docs"
+    },
+    {
+      "id": "tab_u9hxui7",
+      "name": "Fabrication",
+      "groups": [
+        {
+          "id": "g_43q6opx",
+          "name": "MPW",
+          "platformMeta": {
+            "material": "Si",
+            "thickness": 220
+          },
+          "status": "",
+          "kind": "",
+          "collapsed": false,
+          "entities": [],
+          "githubUrl": "",
+          "githubSubdir": "components",
+          "platformDocs": [],
+          "width": 360
+        },
+        {
+          "id": "g_kgiflr4",
+          "name": "Development",
+          "platformMeta": null,
+          "status": "",
+          "kind": "",
+          "collapsed": false,
+          "entities": [],
+          "githubUrl": "",
+          "githubSubdir": "components",
+          "platformDocs": [],
+          "width": 520
+        }
+      ],
       "kind": "docs"
     }
   ],
@@ -15773,7 +15633,7 @@
   "distribution": {
     "sources": [
       {
-        "id": "s_mpue0pxr_0",
+        "id": "s_mpuekk6c_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -15781,7 +15641,7 @@
         "enabled": true
       },
       {
-        "id": "s_mpue0pxr_1",
+        "id": "s_mpuekk6c_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -15789,7 +15649,7 @@
         "enabled": false
       },
       {
-        "id": "s_mpue0pxr_2",
+        "id": "s_mpuekk6c_2",
         "label": "CORNERSTONE community PDK (publish target)",
         "repo": "cornerstone-uos/cornerstone-community",
         "branch": "main",
@@ -15801,8 +15661,8 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-05-31T23:06:50.278Z",
-    "lastFetchedSha": "ac78fc16ec88f2f4cf06a1fcca50ecaa407859c3",
+    "lastFetchedAt": "2026-05-31T23:23:58.746Z",
+    "lastFetchedSha": "e2c9f6d82aed39809fd3d9a2eb19b300199bff25",
     "lastPublishedAt": "2026-05-31T23:19:39.395Z",
     "lastPublishedSha": "a2c34d613a8d4de3118339e80fe98f86ddb630e5",
     "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/a2c34d613a8d4de3118339e80fe98f86ddb630e5",
@@ -15907,7 +15767,7 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-05-31T23:19:57.896Z",
+    "publishedAt": "2026-05-31T23:29:23.916Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
@@ -15944,6 +15804,16 @@
       "label": "pdk-monitor-backup-v1-0-2-2026-05-31.json",
       "meta": {
         "tabs": 4
+      }
+    },
+    {
+      "at": "2026-05-31T23:24:35.200Z",
+      "by": "admin",
+      "role": "admin",
+      "action": "tab-delete",
+      "label": "Design Manuals",
+      "meta": {
+        "id": "tab_is8tgil"
       }
     }
   ]
