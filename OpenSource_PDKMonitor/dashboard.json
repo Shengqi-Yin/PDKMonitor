@@ -15636,11 +15636,11 @@
           "entities": [
             {
               "id": "e_u3c5l2g",
-              "name": "MPW46",
+              "name": "SOI220_MPW46_guidelines",
               "status": "available",
               "owner": "",
               "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/manuals/MPW/CORNERSTONE%2046th%20Call-Design%20Guidelines.pdf",
+              "githubUrl": "",
               "files": [],
               "scripts": [],
               "datasets": [],
@@ -15672,11 +15672,11 @@
             },
             {
               "id": "e_u4ppvdx",
-              "name": "MPW48",
+              "name": "SOI220_MPW48_guidelines",
               "status": "available",
               "owner": "",
               "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/manuals/MPW/CORNERSTONE%2048th%20Call%20-%20Design%20Guidelines.pdf",
+              "githubUrl": "",
               "files": [],
               "scripts": [],
               "datasets": [],
@@ -16388,9 +16388,9 @@
     "path": "OpenSource_PDKMonitor/dashboard.json",
     "lastFetchedAt": "2026-05-31T20:55:54.610Z",
     "lastFetchedSha": "0f372577a90b5e8bb764f310a684ac079b55f672",
-    "lastPublishedAt": "2026-05-31T19:31:07.163Z",
-    "lastPublishedSha": "30013f85dd267ca7266f25ff58b805e435771b8a",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/30013f85dd267ca7266f25ff58b805e435771b8a",
+    "lastPublishedAt": "2026-05-31T21:32:32.665Z",
+    "lastPublishedSha": "5b6bca0da4f132ab8d3af538da4a8b0437e3ad24",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/5b6bca0da4f132ab8d3af538da4a8b0437e3ad24",
     "lastMergeStats": {
       "tabs": 0,
       "groups": 0,
@@ -16492,7 +16492,7 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-05-31T21:32:32.665Z",
+    "publishedAt": "2026-05-31T21:41:45.113Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
