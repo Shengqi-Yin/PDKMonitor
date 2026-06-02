@@ -23808,7 +23808,7 @@
   "distribution": {
     "sources": [
       {
-        "id": "s_mprqqttb_0",
+        "id": "s_mpwhzzzf_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -23816,19 +23816,11 @@
         "enabled": true
       },
       {
-        "id": "s_mprqqttb_1",
+        "id": "s_mpwhzzzf_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
         "path": "users",
-        "enabled": false
-      },
-      {
-        "id": "s_mprqqttb_2",
-        "label": "CORNERSTONE community PDK (publish target)",
-        "repo": "cornerstone-uos/cornerstone-community",
-        "branch": "main",
-        "path": "dashboard.json",
         "enabled": false
       }
     ],
@@ -23836,8 +23828,8 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-06-02T00:12:32.949Z",
-    "lastFetchedSha": "4e36117c61f47982a8e9160e8cb96a45b6fead9f",
+    "lastFetchedAt": "2026-06-02T10:32:19.753Z",
+    "lastFetchedSha": "0139cb1557b71fc099e12cb004ea67c078b4b014",
     "lastPublishedAt": "2026-05-30T03:12:47.417Z",
     "lastPublishedSha": "9207cbc64e9c6cb450c8fdc4a5c8bfa8a2b86c5a",
     "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/9207cbc64e9c6cb450c8fdc4a5c8bfa8a2b86c5a",
@@ -23936,8 +23928,8 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-02T00:16:58.129Z",
-    "publisherIdentity": "dashboard_admin",
+    "publishedAt": "2026-06-02T10:32:41.416Z",
+    "publisherIdentity": "AEmreKaplan",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
     "appVersion": "v1.0.2",
