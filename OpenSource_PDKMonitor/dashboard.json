@@ -13469,7 +13469,7 @@
           "width": 642,
           "platformDescription": "# SOI220_cband_TM_strip_apodized_GC_focusing_v1p0\n\nSOI220_cband_TM_strip_apodized_GC_focusing_v1p0 — waveguide on SOI 220 nm Passive.\n\n---\n\nPrepared via CORNERSTONE PDK Monitor v1.0.0 on 2026-05-26T19:59:43.504Z.\n\n**Author identity:** https://github.com/AEmreKaplan/\n**BB type:** waveguide\n**Category:** passive\n**Platform:** SOI 220 nm Passive\n**Status:** available\n**Marked as:** New BB (folder created on first commit)\n\n\n## Layout\n\n```\nSi_220nm_passive/\n  PDKMonitor_layout/         ← raw GDS / OASIS / SVG layout uploads\n  PDKMonitor_components/     ← auto-generated YAML descriptor\n  PDKMonitor_sparams/        ← S-matrix tab\n  PDKMonitor_tests/          ← Tests tab\n  PDKMonitor_fab/            ← Fabrication tab\n  PDKMonitor_scripts/        ← Scripts tab\n  PDKMonitor_eda/            ← EDA tab (links as eda_links.json)\n  PDKMonitor_documents/      ← non-YAML docs (PDFs, datasheets)\n  PDKMonitor_variants/       ← recursive variant sub-folders\n```\n\n## Notes\n\n- Folder layout matches [cornerstone-community](https://github.com/cornerstone-uos/cornerstone-community).\n- Re-running *Prepare for community PDK* is idempotent — only new / changed files are uploaded.\n- An admin can cherry-pick this folder straight into the main PDK repo.\n",
           "lastSyncStats": {
-            "ranAt": 1780533372670,
+            "ranAt": 1780533538223,
             "urlsTotal": 51,
             "filesFound": 51,
             "urlsEmpty": 0,
@@ -19916,9 +19916,9 @@
     "path": "OpenSource_PDKMonitor/dashboard.json",
     "lastFetchedAt": "2026-06-04T00:35:14.867Z",
     "lastFetchedSha": "e5612045d7966e2edd0c0b0ca8974a329cd3b2d8",
-    "lastPublishedAt": "2026-06-04T00:17:53.975Z",
-    "lastPublishedSha": "2b92c62f0bac9f892f5209fa3604ae1802609817",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/2b92c62f0bac9f892f5209fa3604ae1802609817",
+    "lastPublishedAt": "2026-06-04T00:36:58.430Z",
+    "lastPublishedSha": "b67457e0b6f7bd1984e8b9b5474078e746411ac6",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/b67457e0b6f7bd1984e8b9b5474078e746411ac6",
     "lastMergeStats": {
       "tabs": 0,
       "groups": 0,
@@ -20030,7 +20030,7 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-04T00:36:58.430Z",
+    "publishedAt": "2026-06-04T00:39:28.960Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
@@ -20049,7 +20049,7 @@
     "urlsEmpty": 0,
     "deadUrls": []
   },
-  "lastGithubFetch": "2026-06-04T00:36:12.670Z",
+  "lastGithubFetch": "2026-06-04T00:38:58.223Z",
   "activityLog": [
     {
       "at": "2026-06-01T16:53:08.015Z",
