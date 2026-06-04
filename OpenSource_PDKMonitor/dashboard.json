@@ -19914,11 +19914,11 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-06-04T00:35:14.867Z",
-    "lastFetchedSha": "e5612045d7966e2edd0c0b0ca8974a329cd3b2d8",
-    "lastPublishedAt": "2026-06-04T00:39:28.960Z",
-    "lastPublishedSha": "740279401d9cb28f4301a5000a529e1c3831d12a",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/740279401d9cb28f4301a5000a529e1c3831d12a",
+    "lastFetchedAt": "2026-06-04T00:55:28.904Z",
+    "lastFetchedSha": "8ac18f8da92aa5c9bf034e1f89af822e7cfa9fdb",
+    "lastPublishedAt": "2026-06-04T00:49:38.849Z",
+    "lastPublishedSha": "c9668fb6d735b41d7e8b07e1f6c282a4928644e3",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/c9668fb6d735b41d7e8b07e1f6c282a4928644e3",
     "lastMergeStats": {
       "tabs": 0,
       "groups": 0,
@@ -20030,17 +20030,15 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-04T00:40:50.867Z",
-    "publisherIdentity": "dashboard_admin",
-    "publisherLabel": "Dashboard Admin",
+    "publishedAt": "2026-06-04T00:55:45.137Z",
+    "publisherIdentity": "AEmreKaplan",
+    "publisherLabel": "AEmreKaplan",
     "publisherRole": "admin",
     "appVersion": "v1.0.3",
     "contributorCount": 8,
     "bbCount": 107,
     "guestCount": 6,
-    "termsVersion": "1.1.0",
-    "nuclearStripped": true,
-    "nuclearNote": "Second-pass strip: even after removing binaries, the payload was still over the safe limit. Test/smatrix/fab folder contents were emptied, scripts/documents reduced to filenames. Adopters: run a per-platform GitHub sync to repopulate."
+    "termsVersion": "1.1.0"
   },
   "lastGlobalSyncStats": {
     "ranAt": 1780255972389,
