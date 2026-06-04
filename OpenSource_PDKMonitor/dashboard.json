@@ -271,7 +271,7 @@
   ],
   "about": {
     "title": "CORNERSTONE Open Platform",
-    "subtitle": "OPENSOURCE PDK live monitor",
+    "subtitle": "OPEN-SOURCE PDK Monitor",
     "version": "v1.0.3",
     "contact": "pdk.cornerstone.soton.ac.uk",
     "notes": "Welcome to the CORNERSTONE PDK Monitor — a free, open-source dashboard for managing and sharing integrated photonics Process Design Kits (PDKs). It acts as a gateway between designers and fabs, giving the community a single place to discover, use, and contribute to open PDKs.\nFirst designed and released by Emre Kaplan, University of Southampton (beta: 01/05/2026). Maintained by the CORNERSTONE PDK team.\nOpen to everyone — let’s build the open integrated photonics community together!",
@@ -10555,7 +10555,9 @@
     "d_h2a3yrj": "AEmreKaplan",
     "d_kartjlr": "AEmreKaplan",
     "d_teo901m": "AEmreKaplan",
-    "d_pmv6zkf": "AEmreKaplan"
+    "d_pmv6zkf": "AEmreKaplan",
+    "bm_vj1j95g": "admin",
+    "bm_hnu2swh": "admin"
   },
   "labels": {
     "https://github.com/AEmreKaplan/": "CS_Emre",
@@ -20475,14 +20477,16 @@
       "name": "Emre Kaplan",
       "role": "user-admin",
       "addedAt": "2026-05-26T03:06:04.482Z",
-      "affiliation": "University of Southampton/CORNERSTONE"
+      "affiliation": "University of Southampton/CORNERSTONE",
+      "note": "Dashboard Author/ Initial maintainer"
     },
     {
       "identity": "dashboard_admin",
       "name": "Dashboard Admin",
       "role": "admin",
       "addedAt": "2026-05-29T11:45:17.851Z",
-      "affiliation": "University of Southampton/CORNERSTONE"
+      "affiliation": "University of Southampton/CORNERSTONE",
+      "note": ""
     },
     {
       "identity": "https-github.com-AEmreKaplan-",
@@ -20496,6 +20500,20 @@
       "name": "Skandan Chandrasekar",
       "identity": "s39chand@uwaterloo.ca",
       "affiliation": "University of Waterloo",
+      "note": ""
+    },
+    {
+      "id": "c_mpz9lhdc_7d57",
+      "name": "Francesco Floris",
+      "identity": "",
+      "affiliation": "University of Pavia",
+      "note": ""
+    },
+    {
+      "id": "c_mpz9m3j0_gqnf",
+      "name": "James O'Callaghan",
+      "identity": "",
+      "affiliation": "Tyndall National Institute",
       "note": ""
     }
   ],
@@ -20538,10 +20556,16 @@
       "description": "Electro-optic modulation efficiency"
     },
     {
-      "id": "bm_s6af9hb",
+      "id": "bm_vj1j95g",
       "name": "Index contrast",
-      "unit": "-",
+      "unit": "",
       "description": "core/cladding refractive index ratio"
+    },
+    {
+      "id": "bm_hnu2swh",
+      "name": "Cost",
+      "unit": "£/mm2",
+      "description": "Fabrication cost per mm2 design area"
     }
   ],
   "benchmarkData": {
@@ -20803,13 +20827,13 @@
         ]
       }
     },
-    "metric": "bm_s6af9hb"
+    "metric": "bm_vj1j95g"
   },
   "uploads": [],
   "distribution": {
     "sources": [
       {
-        "id": "s_mpynw69x_0",
+        "id": "s_mpz9juov_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -20817,7 +20841,7 @@
         "enabled": true
       },
       {
-        "id": "s_mpynw69x_1",
+        "id": "s_mpz9juov_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -20825,27 +20849,11 @@
         "enabled": true
       },
       {
-        "id": "s_mpynw69x_2",
+        "id": "s_mpz9juov_2",
         "label": "CORNERSTONE community PDK (publish target)",
         "repo": "cornerstone-uos/cornerstone-community",
         "branch": "main",
         "path": "dashboard.json",
-        "enabled": false
-      },
-      {
-        "id": "s_mpyo15h5_x4h",
-        "label": "My fork — PDKMonitor (@AEmreKaplan) · users/AEmreKaplan/",
-        "repo": "AEmreKaplan/PDKMonitor",
-        "branch": "main",
-        "path": "OpenSource_PDKMonitor/dashboard.json",
-        "enabled": false
-      },
-      {
-        "id": "s_mpz92ev3_on2",
-        "label": "My fork — PDKMonitor (@AEmreKaplan) · users/AEmreKaplan/",
-        "repo": "AEmreKaplan/PDKMonitor",
-        "branch": "main",
-        "path": "users/AEmreKaplan/dashboard.json",
         "enabled": false
       }
     ],
@@ -20853,7 +20861,7 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-06-04T08:46:35.858Z",
+    "lastFetchedAt": "2026-06-04T08:59:45.254Z",
     "lastFetchedSha": "4e36117c61f47982a8e9160e8cb96a45b6fead9f",
     "lastPublishedAt": "2026-06-04T02:31:48.397Z",
     "lastPublishedSha": "a3defecc36009f84208e945c9aa54a2f2cae0675",
@@ -20968,12 +20976,12 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-04T08:55:16.507Z",
+    "publishedAt": "2026-06-04T09:23:23.319Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
     "appVersion": "v1.0.3",
-    "contributorCount": 8,
+    "contributorCount": 10,
     "bbCount": 108,
     "guestCount": 6,
     "termsVersion": "1.1.0"
@@ -21075,6 +21083,16 @@
       "label": "pdk-monitor-pre-dedupe-2026-06-03.json",
       "meta": {
         "tabs": 5
+      }
+    },
+    {
+      "at": "2026-06-04T09:20:37.922Z",
+      "by": "admin",
+      "role": "admin",
+      "action": "delete",
+      "label": "Index contrast",
+      "meta": {
+        "id": "bm_s6af9hb"
       }
     }
   ],
