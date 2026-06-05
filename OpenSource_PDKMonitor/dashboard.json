@@ -19728,19 +19728,19 @@
       "note": ""
     },
     {
-      "id": "c_mpl440ks_67ug",
-      "name": "Shengqi Yin",
-      "identity": "CS_Shengqi",
-      "affiliation": "University of Southampton/CORNERSTONE",
-      "note": ""
-    },
-    {
       "identity": "CS_Bilge",
       "name": "Bilge Yagci",
       "role": "user-admin",
       "addedAt": "2026-05-25T10:53:22.349Z",
       "fromSlice": "users/CS_Bilge/dashboard.json",
       "affiliation": "University of Southampton/CORNERSTONE"
+    },
+    {
+      "id": "c_mpl440ks_67ug",
+      "name": "Shengqi Yin",
+      "identity": "CS_Shengqi",
+      "affiliation": "University of Southampton/CORNERSTONE",
+      "note": ""
     },
     {
       "id": "c_mq0bv2h8_x7cv",
@@ -19771,13 +19771,6 @@
       "note": ""
     },
     {
-      "id": "c_mq0bsjgd_vuwf",
-      "name": " Imad Faruque",
-      "identity": "",
-      "affiliation": "University of Sheffield",
-      "note": ""
-    },
-    {
       "id": "c_mpz9bwwy_con2",
       "name": "Skandan Chandrasekar",
       "identity": "s39chand@uwaterloo.ca",
@@ -19785,11 +19778,10 @@
       "note": ""
     },
     {
-      "identity": "dashboard_admin",
-      "name": "Dashboard Admin",
-      "role": "admin",
-      "addedAt": "2026-05-29T11:45:17.851Z",
-      "affiliation": "University of Southampton/CORNERSTONE",
+      "id": "c_mq0bsjgd_vuwf",
+      "name": " Imad Faruque",
+      "identity": "",
+      "affiliation": "University of Sheffield",
       "note": ""
     },
     {
@@ -19798,6 +19790,14 @@
       "role": "admin",
       "addedAt": "2026-05-30T18:34:10.172Z",
       "affiliation": "University of Southampton/CORNERSTONE"
+    },
+    {
+      "identity": "dashboard_admin",
+      "name": "Dashboard Admin",
+      "role": "admin",
+      "addedAt": "2026-05-29T11:45:17.851Z",
+      "affiliation": "University of Southampton/CORNERSTONE",
+      "note": ""
     }
   ],
   "exportedAt": "2026-05-31T23:07:09.783Z",
@@ -19859,7 +19859,7 @@
   "distribution": {
     "sources": [
       {
-        "id": "s_mq07tn24_0",
+        "id": "s_mq0cul0r_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -19867,7 +19867,7 @@
         "enabled": true
       },
       {
-        "id": "s_mq07tn24_1",
+        "id": "s_mq0cul0s_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -19875,7 +19875,7 @@
         "enabled": true
       },
       {
-        "id": "s_mq07tn24_2",
+        "id": "s_mq0cul0s_2",
         "label": "CORNERSTONE community PDK (publish target)",
         "repo": "cornerstone-uos/cornerstone-community",
         "branch": "main",
@@ -19887,7 +19887,7 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-06-05T00:58:19.782Z",
+    "lastFetchedAt": "2026-06-05T03:19:19.796Z",
     "lastFetchedSha": "4e36117c61f47982a8e9160e8cb96a45b6fead9f",
     "lastPublishedAt": "2026-06-05T02:52:55.641Z",
     "lastPublishedSha": "0c1e49cce3a66fe7ee91f71af146413ef16dfa54",
@@ -20003,7 +20003,7 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-05T02:57:07.720Z",
+    "publishedAt": "2026-06-05T03:57:18.908Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
