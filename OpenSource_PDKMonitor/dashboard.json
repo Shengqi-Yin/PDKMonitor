@@ -11489,7 +11489,72 @@
     "doc_b7quru1": "admin",
     "x_o0i7hq8": "admin",
     "x_s1iinyk": "admin",
-    "x_en6v9hf": "admin"
+    "x_en6v9hf": "admin",
+    "d_ddknev1": "admin",
+    "d_9m8qmtg": "admin",
+    "d_k7d32gh": "admin",
+    "d_lcy0wky": "admin",
+    "d_6uyh46c": "admin",
+    "d_cfcvv6i": "admin",
+    "d_f9figsk": "admin",
+    "d_6xrdekz": "admin",
+    "d_m8ruo61": "admin",
+    "d_xn1d3z8": "admin",
+    "d_bhyfw35": "admin",
+    "d_9jbp0vp": "admin",
+    "d_hgqjxwd": "admin",
+    "d_mvkz6qp": "admin",
+    "d_1hxnew9": "admin",
+    "d_6zs9vd6": "admin",
+    "d_0ig6pyg": "admin",
+    "d_l6xlg5f": "admin",
+    "d_m3fih2l": "admin",
+    "d_24zscm8": "admin",
+    "d_xi75frq": "admin",
+    "d_dwytdhq": "admin",
+    "d_7zpb6mt": "admin",
+    "d_xzeq3vd": "admin",
+    "d_ouyodhd": "admin",
+    "d_j66tm4a": "admin",
+    "d_ytdzw06": "admin",
+    "t_qphmsq9": "admin",
+    "t_nsgz8y1": "admin",
+    "t_zwy823f": "admin",
+    "t_f596sqk": "admin",
+    "t_4abggoh": "admin",
+    "t_fnwsxs7": "admin",
+    "t_jtcszh2": "admin",
+    "t_4lddj3d": "admin",
+    "t_443erkt": "admin",
+    "t_8iko6f0": "admin",
+    "t_xjq7lyp": "admin",
+    "t_dpu2qnj": "admin",
+    "t_qevbhsg": "admin",
+    "doc_gq6uws2": "admin",
+    "doc_ai0a164": "admin",
+    "doc_iyvpiy3": "admin",
+    "doc_igrx2av": "admin",
+    "t_ukip0lt": "admin",
+    "ft_9nxpuw0": "admin",
+    "t_bz3hd6u": "admin",
+    "t_iekt796": "admin",
+    "ft_7jxfa1z": "admin",
+    "t_gorfp3u": "admin",
+    "t_nwlr9sr": "admin",
+    "ft_gi5nqxe": "admin",
+    "t_96m4ksm": "admin",
+    "t_nu7fovw": "admin",
+    "t_x30t8kn": "admin",
+    "t_rqu9jba": "admin",
+    "t_zm9z0rq": "admin",
+    "t_hfq8pjy": "admin",
+    "t_8ku5ojs": "admin",
+    "t_zajnu70": "admin",
+    "t_nell9oa": "admin",
+    "t_h16mvez": "admin",
+    "t_qpdlvzd": "admin",
+    "t_y5zs6v0": "admin",
+    "t_vjc23cd": "admin"
   },
   "labels": {
     "https://github.com/AEmreKaplan/": "CS_Emre",
@@ -13928,7 +13993,7 @@
               "documents": [],
               "updated": "2026-06-01",
               "kind": "passive",
-              "bbType": "mzi",
+              "bbType": "x_s1iinyk",
               "dimensionsOn": false,
               "params": {},
               "gdsSize": 0,
@@ -13988,7 +14053,8 @@
               "gdsContent": "",
               "scriptsNotes": "",
               "descriptionContributions": [],
-              "platform": "SOI 220 nm PASSIVE"
+              "platform": "SOI 220 nm PASSIVE",
+              "pinned": true
             }
           ],
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_passive",
@@ -18189,7 +18255,7 @@
               "url": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/SiN_300nm",
               "subdir": "components",
               "enabled": true,
-              "lastImportedAt": "2026-06-05T00:37:53.802Z"
+              "lastImportedAt": "2026-06-05T00:44:07.985Z"
             }
           ]
         },
@@ -18544,7 +18610,7 @@
       "groups": [
         {
           "id": "g_8lt810j",
-          "name": "material refractive index",
+          "name": "material",
           "platformMeta": null,
           "status": "",
           "kind": "x_evtr9w3",
@@ -18552,7 +18618,7 @@
           "entities": [
             {
               "id": "e_jllgk3q",
-              "name": "Silicon",
+              "name": "Silicon-on-Insulator refractive index",
               "status": "available",
               "owner": "admin",
               "description": "",
@@ -18562,8 +18628,8 @@
               "datasets": [],
               "testGroups": [],
               "documents": [],
-              "updated": "2026-06-03",
-              "kind": "passive",
+              "updated": "2026-06-05",
+              "kind": "",
               "bbType": "waveguide",
               "dimensionsOn": true,
               "params": {
@@ -18577,9 +18643,9 @@
               "fabTabs": [],
               "_platformOrigin": {
                 "sourceId": "src_vnik15w",
-                "sourceLabel": "Silicon",
-                "sourceUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_passive/materials",
-                "lastImportedAt": "2026-06-03T15:31:50.084Z"
+                "sourceLabel": "Silicon-on-Insulator refractive index",
+                "sourceUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_active/materials",
+                "lastImportedAt": "2026-06-05T00:50:39.332Z"
               },
               "pinned": false,
               "plannedReleaseDate": "",
@@ -18606,7 +18672,7 @@
             },
             {
               "id": "e_j4zuiyz",
-              "name": "Silicon Nitride",
+              "name": "Silicon Nitride refractive index",
               "status": "available",
               "owner": "admin",
               "description": "",
@@ -18616,7 +18682,7 @@
               "datasets": [],
               "testGroups": [],
               "documents": [],
-              "updated": "2026-06-03",
+              "updated": "2026-06-05",
               "kind": "document",
               "bbType": "",
               "dimensionsOn": false,
@@ -18638,9 +18704,9 @@
               "edaLinks": [],
               "_platformOrigin": {
                 "sourceId": "src_oafcuk2",
-                "sourceLabel": "Silicon Nitride",
+                "sourceLabel": "Silicon Nitride refractive index",
                 "sourceUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/SiN_300nm/materials",
-                "lastImportedAt": "2026-06-03T15:31:48.973Z"
+                "lastImportedAt": "2026-06-05T00:50:38.527Z"
               },
               "layoutSvg": "",
               "gdsName": "",
@@ -18650,7 +18716,7 @@
             },
             {
               "id": "e_lzwkm0g",
-              "name": "Germanium",
+              "name": "Germanium-on-Silicon refractive index",
               "status": "available",
               "owner": "admin",
               "description": "",
@@ -18660,7 +18726,7 @@
               "datasets": [],
               "testGroups": [],
               "documents": [],
-              "updated": "2026-06-03",
+              "updated": "2026-06-05",
               "kind": "document",
               "bbType": "",
               "dimensionsOn": false,
@@ -18682,9 +18748,9 @@
               "edaLinks": [],
               "_platformOrigin": {
                 "sourceId": "src_fw1lvlj",
-                "sourceLabel": "Germanium",
+                "sourceLabel": "Germanium-on-Silicon refractive index",
                 "sourceUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Ge_on_Si/materials",
-                "lastImportedAt": "2026-06-03T15:31:47.962Z"
+                "lastImportedAt": "2026-06-05T00:50:37.705Z"
               },
               "layoutSvg": "",
               "gdsName": "",
@@ -18709,27 +18775,27 @@
           "githubSources": [
             {
               "id": "src_fw1lvlj",
-              "label": "Germanium",
+              "label": "Germanium-on-Silicon refractive index",
               "url": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Ge_on_Si/materials",
               "subdir": "materials",
               "enabled": true,
-              "lastImportedAt": "2026-06-03T15:31:48.972Z"
+              "lastImportedAt": "2026-06-05T00:50:38.527Z"
             },
             {
               "id": "src_oafcuk2",
-              "label": "Silicon Nitride",
+              "label": "Silicon Nitride refractive index",
               "url": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/SiN_300nm/materials",
               "subdir": "materials",
               "enabled": true,
-              "lastImportedAt": "2026-06-03T15:31:50.084Z"
+              "lastImportedAt": "2026-06-05T00:50:39.332Z"
             },
             {
               "id": "src_vnik15w",
-              "label": "Silicon",
-              "url": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_passive/materials",
+              "label": "Silicon-on-Insulator refractive index",
+              "url": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_active/materials",
               "subdir": "materials",
               "enabled": true,
-              "lastImportedAt": "2026-06-03T15:31:51.010Z"
+              "lastImportedAt": "2026-06-05T00:50:40.136Z"
             }
           ],
           "lastSyncStats": {
@@ -19232,9 +19298,9 @@
     "path": "OpenSource_PDKMonitor/dashboard.json",
     "lastFetchedAt": "2026-06-05T00:31:00.395Z",
     "lastFetchedSha": "4e36117c61f47982a8e9160e8cb96a45b6fead9f",
-    "lastPublishedAt": "2026-06-04T10:54:05.513Z",
-    "lastPublishedSha": "6b0dd6d16a07cac79a5c589ca9e8801b47f2dff7",
-    "lastPublishedUrl": "https://github.com/AEmreKaplan/PDKMonitor/commit/6b0dd6d16a07cac79a5c589ca9e8801b47f2dff7",
+    "lastPublishedAt": "2026-06-05T00:41:39.078Z",
+    "lastPublishedSha": "104ebb6fb7bfa194a7d0d9e15b843d3a5b4dbcf0",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/104ebb6fb7bfa194a7d0d9e15b843d3a5b4dbcf0",
     "lastMergeStats": {
       "tabs": 0,
       "groups": 0,
@@ -19346,7 +19412,7 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-05T00:41:39.078Z",
+    "publishedAt": "2026-06-05T00:51:52.694Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
