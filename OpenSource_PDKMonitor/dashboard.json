@@ -18290,13 +18290,9 @@
               "documents": [],
               "updated": "2026-06-05",
               "kind": "passive",
-              "bbType": "waveguide",
+              "bbType": "x_o0i7hq8",
               "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 300
-              },
+              "params": {},
               "layoutSvg": "",
               "gdsName": "",
               "gdsSize": 0,
@@ -18336,14 +18332,10 @@
               "testGroups": [],
               "documents": [],
               "updated": "2026-06-05",
-              "kind": "passive",
-              "bbType": "waveguide",
+              "kind": "packaging",
+              "bbType": "x_o0i7hq8",
               "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 300
-              },
+              "params": {},
               "layoutSvg": "",
               "gdsName": "",
               "gdsSize": 0,
@@ -18966,7 +18958,12 @@
               "edaLinks": [],
               "customSketchUrl": "",
               "customSketchName": "",
-              "scriptsNotes": ""
+              "scriptsNotes": "",
+              "descriptionContributions": [],
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "fetchHistory": []
             }
           ],
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Ge_on_Si/materials",
@@ -19093,7 +19090,12 @@
               "edaLinks": [],
               "customSketchUrl": "",
               "customSketchName": "",
-              "scriptsNotes": ""
+              "scriptsNotes": "",
+              "descriptionContributions": [],
+              "layoutScaleUmPerPx": 0,
+              "subBlocks": [],
+              "expanded": false,
+              "fetchHistory": []
             }
           ],
           "githubUrl": "",
@@ -19541,9 +19543,9 @@
     "path": "OpenSource_PDKMonitor/dashboard.json",
     "lastFetchedAt": "2026-06-05T00:58:19.782Z",
     "lastFetchedSha": "4e36117c61f47982a8e9160e8cb96a45b6fead9f",
-    "lastPublishedAt": "2026-06-05T00:41:39.078Z",
-    "lastPublishedSha": "104ebb6fb7bfa194a7d0d9e15b843d3a5b4dbcf0",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/104ebb6fb7bfa194a7d0d9e15b843d3a5b4dbcf0",
+    "lastPublishedAt": "2026-06-05T01:25:31.731Z",
+    "lastPublishedSha": "be110c2c10975e05210f034d11aaddfd36ace0b9",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/be110c2c10975e05210f034d11aaddfd36ace0b9",
     "lastMergeStats": {
       "tabs": 0,
       "groups": 0,
@@ -19655,7 +19657,7 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-05T01:25:31.731Z",
+    "publishedAt": "2026-06-05T01:29:06.054Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
