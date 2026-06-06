@@ -201,7 +201,7 @@
               "url": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_passive",
               "subdir": "components",
               "enabled": true,
-              "lastImportedAt": "2026-06-06T17:46:24.747Z"
+              "lastImportedAt": "2026-06-06T17:51:56.809Z"
             }
           ],
           "entities": [
@@ -218,7 +218,7 @@
                   "notesThread": [],
                   "tests": [
                     {
-                      "id": "t_m5vafy8",
+                      "id": "t_oblzk41",
                       "name": "_init_",
                       "filename": "_init_",
                       "kind": "_init_",
@@ -231,10 +231,56 @@
                         "notes": ""
                       },
                       "who": "AEmreKaplan",
-                      "added": "2026-06-06T17:46:13.042Z",
+                      "added": "2026-06-06T17:51:45.535Z",
                       "updated": "2026-06-06",
                       "_externalized": true,
                       "repoPath": "users/AEmreKaplan/SOI220_cband_TM_strip_apodized_GC_focusing_v1p0__1p193h/tests/init",
+                      "repoSha": "8b137891791fe96927ad78e64b0aad7bded08bdc"
+                    }
+                  ]
+                }
+              ],
+              "smatrixGroups": [],
+              "fabTabs": [],
+              "_contribOnly": true
+            },
+            {
+              "id": "e_o03sxv8",
+              "name": "SOI220nm_1550nm_TE_RIB_Waveguide",
+              "files": [],
+              "scripts": [],
+              "documents": [],
+              "testGroups": [
+                {
+                  "id": "tg_files",
+                  "name": "Files",
+                  "notesThread": [
+                    {
+                      "id": "nc_6p4h2e9",
+                      "text": "wafer level testing. Fibre angle: 10deg",
+                      "who": "AEmreKaplan",
+                      "ts": 1780768338531
+                    }
+                  ],
+                  "tests": [
+                    {
+                      "id": "t_jkdcvgx",
+                      "name": "_init_",
+                      "filename": "_init_",
+                      "kind": "_init_",
+                      "size": 1,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-06-06",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "AEmreKaplan",
+                      "added": "2026-06-06T17:52:33.062Z",
+                      "updated": "2026-06-06",
+                      "_externalized": true,
+                      "repoPath": "users/AEmreKaplan/SOI220nm_1550nm_TE_RIB_Waveguide__03sxv8/tests/init",
                       "repoSha": "8b137891791fe96927ad78e64b0aad7bded08bdc"
                     }
                   ]
@@ -526,7 +572,9 @@
   ],
   "ownership": {
     "e_01p193h": "admin",
-    "layout:e_01p193h": "admin"
+    "layout:e_01p193h": "admin",
+    "e_o03sxv8": "admin",
+    "layout:e_o03sxv8": "admin"
   },
   "labels": {
     "AEmreKaplan": "CS_Emre"
@@ -542,20 +590,20 @@
     }
   ],
   "_distribution": {
-    "publishedAt": "2026-06-06T17:47:39.371Z",
+    "publishedAt": "2026-06-06T17:52:47.130Z",
     "publisherIdentity": "AEmreKaplan",
     "publisherLabel": "AEmreKaplan",
     "publisherRole": "user-admin",
     "payloadKind": "user-admin-slice",
     "appVersion": "v1.1.0",
-    "bbCount": 1,
+    "bbCount": 2,
     "groupCount": 12,
     "tabCount": 4,
-    "fileCount": 1,
+    "fileCount": 2,
     "sliceFor": "AEmreKaplan",
     "termsVersion": "1.1.0",
     "externalized": {
-      "uploaded": 1,
+      "uploaded": 2,
       "skipped": 0,
       "failed": 0,
       "reused": 0,
