@@ -8,10 +8,11 @@ The entire app is one self-contained `.html` file. There is no server and no bui
 
 | File | What it is |
 |------|------------|
-| `cornerstone-pdk-monitor-v1.1.0.html` | The dashboard. Open this in a browser. |
+| `cornerstone-pdk-monitor-v1.1.0.html` | The dashboard.|
 | `USER_MANUAL.md` | Full user guide — modes, fetching, cloud storage, publishing. |
-| `RELEASE_NOTES_v1.1.0.md` | What changed in this release. |
 | `README.md` | This file. |
+| `index.html` | The dashboard. Open this in a browser. |
+
 
 ## Quick start
 
