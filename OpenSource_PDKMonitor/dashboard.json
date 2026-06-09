@@ -12767,15 +12767,18 @@
     "t_9r967ia": "admin",
     "up_5lafpoz": "admin",
     "t_b28kle5": "admin",
-    "e_4jj90cj": "admin",
-    "layout:e_4jj90cj": "admin",
     "e_22njln7": "admin",
     "layout:e_22njln7": "admin",
-    "e_f87mmgd": "admin",
-    "e_qw8a22w": "admin",
-    "e_ngweq6q": "admin",
-    "e_4asap0v": "admin",
-    "e_j17icq4": "admin"
+    "e_j17icq4": "admin",
+    "t_emfvw51": "admin",
+    "t_dg5qcej": "admin",
+    "up_43wxfj9": "admin",
+    "t_1c5abg0": "admin",
+    "t_60asbku": "admin",
+    "t_u65pefy": "admin",
+    "t_zgs2d8n": "admin",
+    "t_mz0ar9k": "admin",
+    "t_tn7rsni": "admin"
   },
   "labels": {
     "https://github.com/AEmreKaplan/": "CS_Emre",
@@ -15325,7 +15328,7 @@
               "gdsContent": ""
             },
             {
-              "id": "e_4jj90cj",
+              "id": "e_22njln7",
               "name": "Heater",
               "status": "available",
               "owner": "admin",
@@ -15337,56 +15340,6 @@
               "testGroups": [],
               "documents": [],
               "updated": "2026-06-08",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": false,
-              "params": {},
-              "layoutSvg": "",
-              "gdsName": "",
-              "gdsSize": 0,
-              "gdsContent": "",
-              "edaTools": [
-                "ipkiss",
-                "gdsfactory",
-                "klayout",
-                "virtuoso",
-                "ledit",
-                "picstudio"
-              ],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/components/Heater.gds",
-                  "ts": 1780906832915
-                }
-              ],
-              "descriptionContributions": [],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "scriptsNotes": ""
-            },
-            {
-              "id": "e_22njln7",
-              "name": "Heater",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/components/Heater.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-06-02",
               "kind": "passive",
               "bbType": "waveguide",
               "dimensionsOn": true,
@@ -15425,7 +15378,8 @@
               "gdsContent": "",
               "gdsName": "",
               "layoutSvg": "",
-              "scriptsNotes": ""
+              "scriptsNotes": "",
+              "descriptionContributions": []
             }
           ],
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_passive",
@@ -15489,7 +15443,7 @@
                 "width_nm": 500,
                 "thickness_nm": 220
               },
-              "gdsSize": 0,
+              "gdsSize": 55222,
               "edaTools": [
                 "ipkiss",
                 "gdsfactory",
@@ -15499,7 +15453,56 @@
                 "picstudio"
               ],
               "cdi": {},
-              "fabTabs": [],
+              "fabTabs": [
+                {
+                  "id": "ft_files",
+                  "name": "Files",
+                  "tests": [
+                    {
+                      "id": "t_emfvw51",
+                      "name": "Si",
+                      "filename": "Si.csv",
+                      "kind": "csv",
+                      "size": 8325,
+                      "imageUrl": null,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-06-09",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "",
+                      "added": "2026-06-09T17:33:15.328Z",
+                      "updated": "2026-06-09",
+                      "_stripped": true,
+                      "_parsedStripped": true
+                    },
+                    {
+                      "id": "t_dg5qcej",
+                      "name": "SiO2",
+                      "filename": "SiO2.csv",
+                      "kind": "csv",
+                      "size": 14277,
+                      "imageUrl": null,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-06-09",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "",
+                      "added": "2026-06-09T17:33:16.247Z",
+                      "updated": "2026-06-09",
+                      "_stripped": true,
+                      "_parsedStripped": true
+                    }
+                  ],
+                  "collapsed": false,
+                  "notes": ""
+                }
+              ],
               "fetchHistory": [
                 {
                   "section": "fab",
@@ -15512,17 +15515,40 @@
                   "ts": 1780570025670
                 },
                 {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/components/SOI220nm_1310nm_TE_MZI_Modulator.gds",
-                  "ts": 1780841098013
-                },
-                {
                   "section": "smatrix",
                   "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/sparams/init",
                   "ts": 1780841125110
                 }
               ],
-              "smatrixGroups": [],
+              "smatrixGroups": [
+                {
+                  "id": "sg_files",
+                  "name": "Files",
+                  "datasets": [
+                    {
+                      "id": "t_60asbku",
+                      "name": "init",
+                      "filename": "init",
+                      "kind": "init",
+                      "size": 1,
+                      "parsed": null,
+                      "imageUrl": null,
+                      "metadata": {
+                        "device_id": "",
+                        "date": "2026-06-09",
+                        "instrument": "",
+                        "conditions": "",
+                        "notes": ""
+                      },
+                      "who": "",
+                      "added": "2026-06-09T17:33:17.824Z",
+                      "updated": "2026-06-09",
+                      "_stripped": true
+                    }
+                  ],
+                  "collapsed": false
+                }
+              ],
               "plannedReleaseDate": "",
               "customSketchUrl": "",
               "customSketchName": "",
@@ -15534,9 +15560,9 @@
               "pinned": false,
               "scriptsNotes": "",
               "descriptionContributions": [],
-              "gdsName": "",
-              "layoutSvg": "",
-              "gdsContent": ""
+              "gdsName": "SOI220nm_1310nm_TE_MZI_Modulator.gds",
+              "_gdsStripped": true,
+              "_svgStripped": true
             },
             {
               "id": "e_j50vobe",
@@ -15555,17 +15581,11 @@
               "bbType": "waveguide",
               "dimensionsOn": false,
               "params": {},
-              "gdsSize": 0,
+              "gdsSize": 85704,
               "edaTools": [],
               "cdi": {},
               "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/components/SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield.gds",
-                  "ts": 1780841101967
-                }
-              ],
+              "fetchHistory": [],
               "plannedReleaseDate": "",
               "smatrixGroups": [],
               "customSketchUrl": "",
@@ -15577,10 +15597,10 @@
               "trl": null,
               "scriptsNotes": "",
               "descriptionContributions": [],
-              "gdsName": "",
-              "layoutSvg": "",
-              "gdsContent": "",
-              "cloudBases": {}
+              "gdsName": "SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield.gds",
+              "cloudBases": {},
+              "_gdsStripped": true,
+              "_svgStripped": true
             },
             {
               "id": "e_miu7hij",
@@ -15603,7 +15623,7 @@
                 "width_um": 4,
                 "thickness_nm": 220
               },
-              "gdsSize": 0,
+              "gdsSize": 8680,
               "edaTools": [
                 "ipkiss",
                 "gdsfactory",
@@ -15614,13 +15634,7 @@
               ],
               "cdi": {},
               "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/components/SOI220nm_1550nm_TE_Defect_Detector.gds",
-                  "ts": 1780841102263
-                }
-              ],
+              "fetchHistory": [],
               "plannedReleaseDate": "",
               "smatrixGroups": [],
               "customSketchUrl": "",
@@ -15632,10 +15646,10 @@
               "trl": null,
               "scriptsNotes": "",
               "descriptionContributions": [],
-              "gdsName": "",
-              "layoutSvg": "",
-              "gdsContent": "",
-              "cloudBases": {}
+              "gdsName": "SOI220nm_1550nm_TE_Defect_Detector.gds",
+              "cloudBases": {},
+              "_gdsStripped": true,
+              "_svgStripped": true
             },
             {
               "id": "e_z1e654s",
@@ -15659,7 +15673,7 @@
                 "width_nm": 500,
                 "thickness_nm": 220
               },
-              "gdsSize": 0,
+              "gdsSize": 69134,
               "edaTools": [
                 "ipkiss",
                 "gdsfactory",
@@ -15670,13 +15684,7 @@
               ],
               "cdi": {},
               "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/components/SOI220nm_1550nm_TE_MZI_Modulator.gds",
-                  "ts": 1780841102856
-                }
-              ],
+              "fetchHistory": [],
               "smatrixGroups": [],
               "plannedReleaseDate": "",
               "customSketchUrl": "",
@@ -15689,9 +15697,9 @@
               "pinned": false,
               "scriptsNotes": "",
               "descriptionContributions": [],
-              "gdsName": "",
-              "layoutSvg": "",
-              "gdsContent": ""
+              "gdsName": "SOI220nm_1550nm_TE_MZI_Modulator.gds",
+              "_gdsStripped": true,
+              "_svgStripped": true
             },
             {
               "id": "e_n48tl3w",
@@ -15714,7 +15722,7 @@
                 "width_um": 4,
                 "thickness_nm": 220
               },
-              "gdsSize": 0,
+              "gdsSize": 842,
               "edaTools": [
                 "ipkiss",
                 "gdsfactory",
@@ -15725,13 +15733,7 @@
               ],
               "cdi": {},
               "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/components/SOI220nm_1550nm_TE_IsolatedDetector.gds",
-                  "ts": 1780841102567
-                }
-              ],
+              "fetchHistory": [],
               "plannedReleaseDate": "",
               "smatrixGroups": [],
               "customSketchUrl": "",
@@ -15743,9 +15745,9 @@
               "trl": null,
               "scriptsNotes": "",
               "descriptionContributions": [],
-              "gdsName": "",
-              "layoutSvg": "",
-              "gdsContent": ""
+              "gdsName": "SOI220nm_1550nm_TE_IsolatedDetector.gds",
+              "_gdsStripped": true,
+              "_svgStripped": true
             }
           ],
           "status": "available",
@@ -15763,42 +15765,11 @@
             "docs": true
           },
           "lastSyncStats": {
-            "ranAt": 1780906811239,
+            "ranAt": 1781026400799,
             "urlsTotal": 8,
             "filesFound": 3,
-            "urlsEmpty": 5,
-            "deadUrls": [
-              {
-                "bbId": "e_ltl8sye",
-                "bbName": "SOI220nm_1310nm_TE_MZI_Modulator",
-                "section": "layout",
-                "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/components/SOI220nm_1310nm_TE_MZI_Modulator.gds"
-              },
-              {
-                "bbId": "e_j50vobe",
-                "bbName": "SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield",
-                "section": "layout",
-                "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/components/SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield.gds"
-              },
-              {
-                "bbId": "e_miu7hij",
-                "bbName": "SOI220nm_1550nm_TE_Defect_Detector",
-                "section": "layout",
-                "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/components/SOI220nm_1550nm_TE_Defect_Detector.gds"
-              },
-              {
-                "bbId": "e_z1e654s",
-                "bbName": "SOI220nm_1550nm_TE_MZI_Modulator",
-                "section": "layout",
-                "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/components/SOI220nm_1550nm_TE_MZI_Modulator.gds"
-              },
-              {
-                "bbId": "e_n48tl3w",
-                "bbName": "SOI220nm_1550nm_TE_IsolatedDetector",
-                "section": "layout",
-                "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_active/components/SOI220nm_1550nm_TE_IsolatedDetector.gds"
-              }
-            ]
+            "urlsEmpty": 0,
+            "deadUrls": []
           },
           "platformDocs": [],
           "githubSources": [
@@ -16786,52 +16757,6 @@
               "layoutSvg": "",
               "gdsName": "",
               "gdsContent": ""
-            },
-            {
-              "id": "e_f87mmgd",
-              "name": "Heater",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_340nm/components/Heater.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-06-02",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 340
-              },
-              "gdsSize": 0,
-              "edaTools": [],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_340nm/components/Heater.gds",
-                  "ts": 1780276853541
-                }
-              ],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "gdsContent": "",
-              "gdsName": "",
-              "layoutSvg": "",
-              "scriptsNotes": ""
             }
           ],
           "status": "available",
@@ -17260,52 +17185,6 @@
               "gdsName": "",
               "cloudBases": {},
               "gdsContent": ""
-            },
-            {
-              "id": "e_qw8a22w",
-              "name": "Heater",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_500nm/components/Heater.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-06-01",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 500
-              },
-              "gdsSize": 0,
-              "edaTools": [],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_500nm/components/Heater.gds",
-                  "ts": 1780276886730
-                }
-              ],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "gdsContent": "",
-              "gdsName": "",
-              "layoutSvg": "",
-              "scriptsNotes": ""
             }
           ],
           "status": "",
@@ -18629,52 +18508,6 @@
               "layoutSvg": "",
               "gdsName": "",
               "gdsContent": ""
-            },
-            {
-              "id": "e_ngweq6q",
-              "name": "Heater",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/SiN_200nm/components/Heater.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-06-01",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 200
-              },
-              "gdsSize": 0,
-              "edaTools": [],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/SiN_200nm/components/Heater.gds",
-                  "ts": 1780277133333
-                }
-              ],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "gdsContent": "",
-              "gdsName": "",
-              "layoutSvg": "",
-              "scriptsNotes": ""
             }
           ],
           "status": "",
@@ -19903,52 +19736,6 @@
               "gdsName": "",
               "layoutSvg": "",
               "gdsContent": ""
-            },
-            {
-              "id": "e_4asap0v",
-              "name": "Heater",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/SiN_300nm/components/Heater.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-06-01",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 300
-              },
-              "gdsSize": 0,
-              "edaTools": [],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/SiN_300nm/components/Heater.gds",
-                  "ts": 1780277166419
-                }
-              ],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "gdsContent": "",
-              "gdsName": "",
-              "layoutSvg": "",
-              "scriptsNotes": ""
             }
           ],
           "status": "",
@@ -21120,11 +20907,114 @@
     "tables": {},
     "metric": "bm_hnu2swh"
   },
-  "uploads": [],
+  "uploads": [
+    {
+      "id": "up_43wxfj9",
+      "name": "📤 Layout uploads",
+      "source": "layout-upload",
+      "tests": [
+        {
+          "id": "t_1c5abg0",
+          "name": "SOI220nm_1310nm_TE_MZI_Modulator.gds",
+          "filename": "SOI220nm_1310nm_TE_MZI_Modulator.gds",
+          "size": 55222,
+          "kind": "gds",
+          "metadata": {
+            "kind": "gds",
+            "bb": "SOI220nm_1310nm_TE_MZI_Modulator",
+            "bbId": "e_ltl8sye"
+          },
+          "_routedTo": {
+            "bbId": "e_ltl8sye",
+            "bbName": "SOI220nm_1310nm_TE_MZI_Modulator",
+            "section": "layout",
+            "folderName": "📤 Layout uploads"
+          },
+          "_stripped": true
+        },
+        {
+          "id": "t_u65pefy",
+          "name": "SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield.gds",
+          "filename": "SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield.gds",
+          "size": 85704,
+          "kind": "gds",
+          "metadata": {
+            "kind": "gds",
+            "bb": "SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield",
+            "bbId": "e_j50vobe"
+          },
+          "_routedTo": {
+            "bbId": "e_j50vobe",
+            "bbName": "SOI220nm_1550nm_SingleQubitGate_IIF_UoSheffield",
+            "section": "layout",
+            "folderName": "📤 Layout uploads"
+          },
+          "_stripped": true
+        },
+        {
+          "id": "t_zgs2d8n",
+          "name": "SOI220nm_1550nm_TE_Defect_Detector.gds",
+          "filename": "SOI220nm_1550nm_TE_Defect_Detector.gds",
+          "size": 8680,
+          "kind": "gds",
+          "metadata": {
+            "kind": "gds",
+            "bb": "SOI220nm_1550nm_TE_Defect_Detector",
+            "bbId": "e_miu7hij"
+          },
+          "_routedTo": {
+            "bbId": "e_miu7hij",
+            "bbName": "SOI220nm_1550nm_TE_Defect_Detector",
+            "section": "layout",
+            "folderName": "📤 Layout uploads"
+          },
+          "_stripped": true
+        },
+        {
+          "id": "t_mz0ar9k",
+          "name": "SOI220nm_1550nm_TE_MZI_Modulator.gds",
+          "filename": "SOI220nm_1550nm_TE_MZI_Modulator.gds",
+          "size": 69134,
+          "kind": "gds",
+          "metadata": {
+            "kind": "gds",
+            "bb": "SOI220nm_1550nm_TE_MZI_Modulator",
+            "bbId": "e_z1e654s"
+          },
+          "_routedTo": {
+            "bbId": "e_z1e654s",
+            "bbName": "SOI220nm_1550nm_TE_MZI_Modulator",
+            "section": "layout",
+            "folderName": "📤 Layout uploads"
+          },
+          "_stripped": true
+        },
+        {
+          "id": "t_tn7rsni",
+          "name": "SOI220nm_1550nm_TE_IsolatedDetector.gds",
+          "filename": "SOI220nm_1550nm_TE_IsolatedDetector.gds",
+          "size": 842,
+          "kind": "gds",
+          "metadata": {
+            "kind": "gds",
+            "bb": "SOI220nm_1550nm_TE_IsolatedDetector",
+            "bbId": "e_n48tl3w"
+          },
+          "_routedTo": {
+            "bbId": "e_n48tl3w",
+            "bbName": "SOI220nm_1550nm_TE_IsolatedDetector",
+            "section": "layout",
+            "folderName": "📤 Layout uploads"
+          },
+          "_stripped": true
+        }
+      ]
+    }
+  ],
   "distribution": {
     "sources": [
       {
-        "id": "s_mq3ls168_0",
+        "id": "s_mq6x2sam_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -21132,7 +21022,7 @@
         "enabled": true
       },
       {
-        "id": "s_mq3ls168_1",
+        "id": "s_mq6x2sam_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -21140,27 +21030,11 @@
         "enabled": false
       },
       {
-        "id": "s_mq3vy1yq_ltd",
-        "label": "Fork — PDKMonitor (@hby1r25) · users/hby1r25/",
-        "repo": "hby1r25/PDKMonitor",
+        "id": "s_mq6x2sam_2",
+        "label": "CORNERSTONE community PDK (publish target)",
+        "repo": "cornerstone-uos/cornerstone-community",
         "branch": "main",
-        "path": "users/hby1r25/dashboard.json",
-        "enabled": false
-      },
-      {
-        "id": "s_mq3vy1yq_8bt",
-        "label": "Fork — PDKMonitor (@AEmreKaplan) · users/AEmreKaplan/",
-        "repo": "AEmreKaplan/PDKMonitor",
-        "branch": "main",
-        "path": "users/AEmreKaplan/dashboard.json",
-        "enabled": false
-      },
-      {
-        "id": "s_mq3vy1yq_tgl",
-        "label": "Fork — PDKMonitor (@zimmxx)",
-        "repo": "zimmxx/PDKMonitor",
-        "branch": "main",
-        "path": "OpenSource_PDKMonitor/dashboard.json",
+        "path": "dashboard.json",
         "enabled": false
       }
     ],
@@ -21168,8 +21042,8 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-06-08T23:07:31.716Z",
-    "lastFetchedSha": "ed7012e4556e1d2b9b031232299494f087c3dd4b",
+    "lastFetchedAt": "2026-06-09T17:31:55.125Z",
+    "lastFetchedSha": "7421f213f3b4389c345e5d3f06a5a146067b9326",
     "lastPublishedAt": "2026-06-08T10:29:44.938Z",
     "lastPublishedSha": "24b7dfc195eca9da34a285e5aab3938c7bd68aec",
     "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/24b7dfc195eca9da34a285e5aab3938c7bd68aec",
@@ -21297,13 +21171,13 @@
     "note": "Bundled credentials so user-admins can sign in after adopting this dashboard. The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-08T23:08:30.080Z",
+    "publishedAt": "2026-06-09T17:34:27.141Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
     "appVersion": "v1.0.2",
     "contributorCount": 13,
-    "bbCount": 118,
+    "bbCount": 113,
     "guestCount": 7,
     "termsVersion": "1.1.0"
   },
@@ -21314,7 +21188,7 @@
     "urlsEmpty": 0,
     "deadUrls": []
   },
-  "lastGithubFetch": "2026-06-08T08:20:11.239Z",
+  "lastGithubFetch": "2026-06-09T17:33:20.799Z",
   "activityLog": [
     {
       "at": "2026-06-08T13:21:01.966Z",
