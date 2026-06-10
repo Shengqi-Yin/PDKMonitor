@@ -12767,14 +12767,7 @@
     "t_9r967ia": "admin",
     "up_5lafpoz": "admin",
     "t_b28kle5": "admin",
-    "e_4jj90cj": "admin",
-    "layout:e_4jj90cj": "admin",
-    "e_22njln7": "admin",
-    "layout:e_22njln7": "admin",
-    "e_f87mmgd": "admin",
     "e_qw8a22w": "admin",
-    "e_ngweq6q": "admin",
-    "e_4asap0v": "admin",
     "e_j17icq4": "admin",
     "d_a69twow": "admin",
     "d_t5dbdng": "admin",
@@ -12884,7 +12877,8 @@
     "t_ykckhhk": "AEmreKaplan",
     "t_pksus63": "AEmreKaplan",
     "t_cgyvsdq": "AEmreKaplan",
-    "t_oay6qrg": "AEmreKaplan"
+    "t_oay6qrg": "AEmreKaplan",
+    "layout:e_qw8a22w": "admin"
   },
   "labels": {
     "https://github.com/AEmreKaplan/": "CS_Emre",
@@ -15599,115 +15593,6 @@
               "layoutSvg": "",
               "gdsName": "",
               "gdsContent": ""
-            },
-            {
-              "id": "e_4jj90cj",
-              "name": "Heater",
-              "status": "available",
-              "owner": "admin",
-              "description": "<!--YAML-META:START-->\n── Name ──\nHeater\n\n── Authors ──\n- name: CORNERSTONE\n  organisation: CORNERSTONE\n<!--YAML-META:END-->",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/components/Heater.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-06-09",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": false,
-              "params": {},
-              "layoutSvg": "",
-              "gdsName": "",
-              "gdsSize": 0,
-              "gdsContent": "",
-              "edaTools": [
-                "ipkiss",
-                "gdsfactory",
-                "klayout",
-                "virtuoso",
-                "ledit",
-                "picstudio"
-              ],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/components/Heater.gds",
-                  "ts": 1780906832915
-                },
-                {
-                  "section": "sketch",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/sketch/Heater.jpg",
-                  "ts": 1781012921270
-                }
-              ],
-              "descriptionContributions": [],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "scriptsNotes": ""
-            },
-            {
-              "id": "e_22njln7",
-              "name": "Heater",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/components/Heater.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-06-02",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 220
-              },
-              "gdsSize": 0,
-              "edaTools": [
-                "ipkiss",
-                "gdsfactory",
-                "klayout",
-                "virtuoso",
-                "ledit",
-                "picstudio"
-              ],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_220nm_passive/components/Heater.gds",
-                  "ts": 1780289114684
-                }
-              ],
-              "smatrixGroups": [],
-              "plannedReleaseDate": "",
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "gdsContent": "",
-              "gdsName": "",
-              "layoutSvg": "",
-              "scriptsNotes": "",
-              "descriptionContributions": []
             }
           ],
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_passive",
@@ -17008,53 +16893,6 @@
               "layoutSvg": "",
               "gdsName": "",
               "gdsContent": ""
-            },
-            {
-              "id": "e_f87mmgd",
-              "name": "Heater",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_340nm/components/Heater.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-06-02",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 340
-              },
-              "gdsSize": 0,
-              "edaTools": [],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_340nm/components/Heater.gds",
-                  "ts": 1780276853541
-                }
-              ],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "gdsContent": "",
-              "gdsName": "",
-              "layoutSvg": "",
-              "scriptsNotes": "",
-              "descriptionContributions": []
             }
           ],
           "status": "available",
@@ -17489,14 +17327,14 @@
               "name": "Heater",
               "status": "available",
               "owner": "admin",
-              "description": "",
+              "description": "<!--YAML-META:START-->\n── Name ──\nHeater\n\n── Authors ──\n- name: CORNERSTONE\n  organisation: CORNERSTONE\n<!--YAML-META:END-->",
               "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/Si_500nm/components/Heater.gds",
               "files": [],
               "scripts": [],
               "datasets": [],
               "testGroups": [],
               "documents": [],
-              "updated": "2026-06-01",
+              "updated": "2026-06-09",
               "kind": "passive",
               "bbType": "waveguide",
               "dimensionsOn": true,
@@ -17506,7 +17344,14 @@
                 "thickness_nm": 500
               },
               "gdsSize": 0,
-              "edaTools": [],
+              "edaTools": [
+                "ipkiss",
+                "gdsfactory",
+                "klayout",
+                "virtuoso",
+                "ledit",
+                "picstudio"
+              ],
               "cdi": {},
               "fabTabs": [],
               "fetchHistory": [
@@ -18853,53 +18698,6 @@
               "layoutSvg": "",
               "gdsName": "",
               "gdsContent": ""
-            },
-            {
-              "id": "e_ngweq6q",
-              "name": "Heater",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/SiN_200nm/components/Heater.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-06-01",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 200
-              },
-              "gdsSize": 0,
-              "edaTools": [],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/SiN_200nm/components/Heater.gds",
-                  "ts": 1780277133333
-                }
-              ],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "gdsContent": "",
-              "gdsName": "",
-              "layoutSvg": "",
-              "scriptsNotes": "",
-              "descriptionContributions": []
             }
           ],
           "status": "",
@@ -20128,53 +19926,6 @@
               "gdsName": "",
               "layoutSvg": "",
               "gdsContent": ""
-            },
-            {
-              "id": "e_4asap0v",
-              "name": "Heater",
-              "status": "available",
-              "owner": "admin",
-              "description": "",
-              "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/SiN_300nm/components/Heater.gds",
-              "files": [],
-              "scripts": [],
-              "datasets": [],
-              "testGroups": [],
-              "documents": [],
-              "updated": "2026-06-01",
-              "kind": "passive",
-              "bbType": "waveguide",
-              "dimensionsOn": true,
-              "params": {
-                "width_nm": 500,
-                "length_um": 100,
-                "thickness_nm": 300
-              },
-              "gdsSize": 0,
-              "edaTools": [],
-              "cdi": {},
-              "fabTabs": [],
-              "fetchHistory": [
-                {
-                  "section": "layout",
-                  "url": "https://github.com/cornerstone-uos/cornerstone-community/blob/main/SiN_300nm/components/Heater.gds",
-                  "ts": 1780277166419
-                }
-              ],
-              "plannedReleaseDate": "",
-              "smatrixGroups": [],
-              "customSketchUrl": "",
-              "customSketchName": "",
-              "layoutScaleUmPerPx": 0,
-              "subBlocks": [],
-              "expanded": false,
-              "edaLinks": [],
-              "trl": null,
-              "gdsContent": "",
-              "gdsName": "",
-              "layoutSvg": "",
-              "scriptsNotes": "",
-              "descriptionContributions": []
             }
           ],
           "status": "",
@@ -21350,7 +21101,7 @@
   "distribution": {
     "sources": [
       {
-        "id": "s_mq3ls168_0",
+        "id": "s_mq8jclyb_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -21358,7 +21109,7 @@
         "enabled": true
       },
       {
-        "id": "s_mq3ls168_1",
+        "id": "s_mq8jclyb_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -21366,19 +21117,11 @@
         "enabled": false
       },
       {
-        "id": "s_mq3sscjq_8db",
+        "id": "s_mq8jil5g_8z3",
         "label": "My fork — PDKMonitor (@AEmreKaplan) · users/AEmreKaplan/",
         "repo": "AEmreKaplan/PDKMonitor",
         "branch": "main",
         "path": "users/AEmreKaplan/dashboard.json",
-        "enabled": false
-      },
-      {
-        "id": "s_mq3yzcj0_zhj",
-        "label": "Fork — PDKMonitor (@zimmxx)",
-        "repo": "zimmxx/PDKMonitor",
-        "branch": "main",
-        "path": "OpenSource_PDKMonitor/dashboard.json",
         "enabled": false
       }
     ],
@@ -21386,11 +21129,11 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-06-09T13:47:27.233Z",
-    "lastFetchedSha": "7421f213f3b4389c345e5d3f06a5a146067b9326",
-    "lastPublishedAt": "2026-06-10T20:06:55.305Z",
-    "lastPublishedSha": "114dc70a2f4466ec6e4a7a5d0c86673708697619",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/114dc70a2f4466ec6e4a7a5d0c86673708697619",
+    "lastFetchedAt": "2026-06-10T20:55:00.186Z",
+    "lastFetchedSha": "08043e27f80de319f2743274f7cd65de0257e90c",
+    "lastPublishedAt": "2026-06-10T20:53:06.196Z",
+    "lastPublishedSha": "d8a82082d010ea631a715df10ef8f80a365e51c1",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/d8a82082d010ea631a715df10ef8f80a365e51c1",
     "lastMergeStats": {
       "tabs": 2,
       "groups": 4,
@@ -21446,13 +21189,13 @@
     "note": "User-admin sign-in is via a personal GitHub PAT (no shared password). The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-10T20:09:13.336Z",
+    "publishedAt": "2026-06-10T20:56:53.233Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
     "appVersion": "v1.0.2",
     "contributorCount": 13,
-    "bbCount": 118,
+    "bbCount": 113,
     "termsVersion": "1.1.0"
   },
   "lastGlobalSyncStats": {
