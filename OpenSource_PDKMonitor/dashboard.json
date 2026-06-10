@@ -12900,7 +12900,8 @@
     "AEmreKaplan": "AEmreKaplan",
     "AEmreKplan": "Dashboard Admin",
     "EmreKaplanSoton": "EmreKaplanSoton",
-    "hby1r25": "CS_Bilge"
+    "hby1r25": "CS_Bilge",
+    "AEmreKa": "AEmreKa"
   },
   "tabs": [
     {
@@ -21381,9 +21382,9 @@
     "path": "OpenSource_PDKMonitor/dashboard.json",
     "lastFetchedAt": "2026-06-09T13:47:27.233Z",
     "lastFetchedSha": "7421f213f3b4389c345e5d3f06a5a146067b9326",
-    "lastPublishedAt": "2026-06-10T18:59:44.250Z",
-    "lastPublishedSha": "d9c6a2f7f2f2fa1160ae22addb33573885c09ad6",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/d9c6a2f7f2f2fa1160ae22addb33573885c09ad6",
+    "lastPublishedAt": "2026-06-10T19:46:57.505Z",
+    "lastPublishedSha": "39454491a3f1ff9be980acc8c04d9741cae5d245",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/39454491a3f1ff9be980acc8c04d9741cae5d245",
     "lastMergeStats": {
       "tabs": 2,
       "groups": 4,
@@ -21412,7 +21413,6 @@
     }
   },
   "_distributedSecurity": {
-    "guestPasswords": [],
     "accessRequestEmail": "pdk.cornerstone@soton.ac.uk",
     "labels": {
       "https://github.com/AEmreKaplan/": "CS_Emre",
@@ -21428,19 +21428,19 @@
       "AEmreKaplan": "AEmreKaplan",
       "AEmreKplan": "Dashboard Admin",
       "EmreKaplanSoton": "EmreKaplanSoton",
-      "hby1r25": "CS_Bilge"
+      "hby1r25": "CS_Bilge",
+      "AEmreKa": "AEmreKa"
     },
     "note": "User-admin sign-in is via a personal GitHub PAT (no shared password). The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-10T19:00:34.376Z",
+    "publishedAt": "2026-06-10T19:50:37.166Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
     "appVersion": "v1.0.2",
     "contributorCount": 13,
     "bbCount": 118,
-    "guestCount": 0,
     "termsVersion": "1.1.0"
   },
   "lastGlobalSyncStats": {
