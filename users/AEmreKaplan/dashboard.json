@@ -244,24 +244,8 @@
           "Condition",
           "Notes"
         ],
-        "rows": [
-          [
-            "test ",
-            "test",
-            "",
-            "",
-            "",
-            ""
-          ],
-          [
-            "test2",
-            "test2",
-            "",
-            "",
-            "",
-            ""
-          ]
-        ]
+        "rows": [],
+        "by": []
       },
       "default": {
         "cols": [
@@ -281,6 +265,9 @@
             "",
             ""
           ]
+        ],
+        "by": [
+          ""
         ]
       },
       "bm_921qwi7": {
@@ -301,6 +288,9 @@
             "",
             ""
           ]
+        ],
+        "by": [
+          ""
         ]
       }
     },
@@ -678,7 +668,7 @@
   ],
   "deletions": [],
   "_distribution": {
-    "publishedAt": "2026-06-11T08:14:54.810Z",
+    "publishedAt": "2026-06-11T08:30:57.588Z",
     "publisherIdentity": "AEmreKaplan",
     "publisherLabel": "AEmreKaplan",
     "publisherRole": "user-admin",
