@@ -56,6 +56,11 @@
       "id": "heater",
       "name": "Electrical",
       "color": "#d7da4e"
+    },
+    {
+      "id": "x_evtr9w3",
+      "name": "Monolithic",
+      "color": "#2f303c"
     }
   ],
   "bbTypes": [
@@ -21127,14 +21132,35 @@
     }
   ],
   "benchmarkData": {
-    "tables": {},
+    "tables": {
+      "bm_hnu2swh": {
+        "cols": [
+          "Platform",
+          "Value",
+          "Unit",
+          "Band / λ",
+          "Condition",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "test ",
+            "test",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
     "metric": "bm_hnu2swh"
   },
   "uploads": [],
   "distribution": {
     "sources": [
       {
-        "id": "s_mq8rusy9_0",
+        "id": "s_mq8nny3l_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -21142,23 +21168,23 @@
         "enabled": true
       },
       {
-        "id": "s_mq8rusy9_1",
+        "id": "s_mq8nny3l_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
         "path": "users",
-        "enabled": true
+        "enabled": false
       }
     ],
     "_defaultsSeeded": true,
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-06-11T00:41:16.540Z",
+    "lastFetchedAt": "2026-06-11T01:34:56.486Z",
     "lastFetchedSha": "08043e27f80de319f2743274f7cd65de0257e90c",
-    "lastPublishedAt": "2026-06-11T01:24:09.424Z",
-    "lastPublishedSha": "3532103f7ce343089b16c639c9174a51dc638828",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/3532103f7ce343089b16c639c9174a51dc638828",
+    "lastPublishedAt": "2026-06-11T00:35:35.125Z",
+    "lastPublishedSha": "56369dbf9d2c54ff33c8c991b0152f17562e72d9",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/56369dbf9d2c54ff33c8c991b0152f17562e72d9",
     "lastMergeStats": {
       "tabs": 0,
       "groups": 0,
@@ -21213,8 +21239,8 @@
     "note": "User-admin sign-in is via a personal GitHub PAT (no shared password). The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-11T01:25:03.896Z",
-    "publisherIdentity": "AEmreKaplan",
+    "publishedAt": "2026-06-11T01:35:28.741Z",
+    "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
     "appVersion": "v1.1.0",
