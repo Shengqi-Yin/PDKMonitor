@@ -20853,18 +20853,44 @@
           "Platform",
           "Value",
           "Unit",
-          "Band / λ",
-          "Condition",
           "Notes"
         ],
         "rows": [
           [
+            "GeonSi",
+            "87",
+            "£/mm2",
+            "CORNERSTONE 2026 MPW access cost"
+          ],
+          [
+            "SiN without heaters",
+            "53",
             "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "CORNERSTONE 2026 MPW access cost"
+          ],
+          [
+            "SiN with heaters",
+            "113",
+            "£/mm2",
+            "CORNERSTONE 2026 MPW access cost"
+          ],
+          [
+            "SOI Passive without heaters",
+            "228",
+            "£/mm2",
+            "CORNERSTONE 2026 MPW access cost"
+          ],
+          [
+            "SOI Passive with heaters",
+            "545",
+            "£/mm2",
+            "CORNERSTONE 2026 MPW access cost"
+          ],
+          [
+            "SOI active",
+            "1022",
+            "£/mm2",
+            "CORNERSTONE 2026 MPW access cost"
           ]
         ]
       },
@@ -20985,9 +21011,62 @@
             ""
           ]
         ]
+      },
+      "bm_prop_loss": {
+        "cols": [
+          "Platform",
+          "Value",
+          "Unit",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "SOI (C-band)",
+            "3 ",
+            "dB/cm",
+            "MPW meas",
+            ""
+          ],
+          [
+            "SiN (C-band)",
+            "0.5",
+            "dB/cm",
+            "MPW meas"
+          ],
+          [
+            "GeonSi (@7.6um)",
+            "3",
+            "dB/cm",
+            "MPW meas"
+          ],
+          [
+            "GeonSi (@6.1um)",
+            "1.5",
+            "dB/cm",
+            "MPW meas"
+          ],
+          [
+            "GeonSi (@3.8um)",
+            "1",
+            "dB/cm",
+            "MPW meas"
+          ],
+          [
+            "Suspended-Si (@3.8um)",
+            "1",
+            "dB/cm",
+            "MPW meas"
+          ],
+          [
+            "Suspended-Si (@7.7um)",
+            "3 ",
+            "dB/cm",
+            "MPW meas"
+          ]
+        ]
       }
     },
-    "metric": "bm_vpi"
+    "metric": "bm_prop_loss"
   },
   "uploads": [],
   "distribution": {
@@ -21015,9 +21094,9 @@
     "path": "OpenSource_PDKMonitor/dashboard.json",
     "lastFetchedAt": "2026-06-11T00:12:31.538Z",
     "lastFetchedSha": "08043e27f80de319f2743274f7cd65de0257e90c",
-    "lastPublishedAt": "2026-06-11T00:01:14.902Z",
-    "lastPublishedSha": "592d116ce5e2f088acbb161cb89bfd8fc42c6404",
-    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/592d116ce5e2f088acbb161cb89bfd8fc42c6404",
+    "lastPublishedAt": "2026-06-11T00:22:33.688Z",
+    "lastPublishedSha": "796ce36ba07363d1618cad998bb97629a6a5a3a2",
+    "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/796ce36ba07363d1618cad998bb97629a6a5a3a2",
     "lastMergeStats": {
       "tabs": 0,
       "groups": 0,
@@ -21072,7 +21151,7 @@
     "note": "User-admin sign-in is via a personal GitHub PAT (no shared password). The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-11T00:22:33.688Z",
+    "publishedAt": "2026-06-11T00:35:35.125Z",
     "publisherIdentity": "dashboard_admin",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
