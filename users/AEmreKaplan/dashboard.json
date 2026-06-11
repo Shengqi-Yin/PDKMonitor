@@ -83,6 +83,11 @@
       "id": "heater",
       "name": "Electrical",
       "color": "#d7da4e"
+    },
+    {
+      "id": "x_evtr9w3",
+      "name": "Monolithic",
+      "color": "#2f303c"
     }
   ],
   "bbTypes": [
@@ -226,18 +231,6 @@
       "name": "Index contrast",
       "unit": "-",
       "description": "core/cladding refractive index ratio"
-    },
-    {
-      "id": "bm_er",
-      "name": "Extinction ratio",
-      "unit": "dB",
-      "description": "Signal extinction / isolation"
-    },
-    {
-      "id": "bm_resp",
-      "name": "Responsivity",
-      "unit": "A/W",
-      "description": "Photodetector responsivity"
     }
   ],
   "benchmarkData": {
@@ -251,8 +244,19 @@
           "Condition",
           "Notes"
         ],
-        "rows": [],
-        "by": []
+        "rows": [
+          [
+            "test",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "by": [
+          "AEmreKaplan"
+        ]
       },
       "default": {
         "cols": [
@@ -265,8 +269,8 @@
         ],
         "rows": [
           [
-            "",
-            "",
+            "test ",
+            "test",
             "",
             "",
             "",
@@ -301,6 +305,29 @@
         ]
       },
       "bm_prop_loss": {
+        "cols": [
+          "Platform",
+          "Value",
+          "Unit",
+          "Band / λ",
+          "Condition",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "by": [
+          ""
+        ]
+      },
+      "bm_footprint": {
         "cols": [
           "Platform",
           "Value",
@@ -698,7 +725,7 @@
   ],
   "deletions": [],
   "_distribution": {
-    "publishedAt": "2026-06-11T09:12:46.402Z",
+    "publishedAt": "2026-06-11T10:10:42.070Z",
     "publisherIdentity": "AEmreKaplan",
     "publisherLabel": "AEmreKaplan",
     "publisherRole": "user-admin",
