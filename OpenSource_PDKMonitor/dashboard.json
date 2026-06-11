@@ -13202,7 +13202,7 @@
           },
           "status": "available",
           "kind": "passive",
-          "collapsed": true,
+          "collapsed": false,
           "entities": [
             {
               "id": "e_86635m3",
@@ -16034,7 +16034,7 @@
           ],
           "status": "available",
           "kind": "active",
-          "collapsed": true,
+          "collapsed": false,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_220nm_active",
           "githubSubdir": "components",
           "width": 616,
@@ -16437,14 +16437,7 @@
               "edaLinks": [],
               "trl": null,
               "scriptsNotes": "",
-              "descriptionContributions": [
-                {
-                  "id": "nc_erf9blw",
-                  "text": "1310nm SOI340nm_1310_TE_RIB_Waveguide is to be added",
-                  "who": "admin",
-                  "ts": 1780622244256
-                }
-              ],
+              "descriptionContributions": [],
               "pinned": true,
               "layoutSvg": "",
               "gdsName": "",
@@ -16990,7 +16983,7 @@
           ],
           "status": "available",
           "kind": "passive",
-          "collapsed": true,
+          "collapsed": false,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_340nm",
           "githubSubdir": "components",
           "width": 644,
@@ -17394,7 +17387,7 @@
           ],
           "status": "",
           "kind": "",
-          "collapsed": true,
+          "collapsed": false,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/Si_500nm",
           "githubSubdir": "components",
           "width": 618,
@@ -17427,7 +17420,7 @@
           },
           "status": "available",
           "kind": "passive",
-          "collapsed": true,
+          "collapsed": false,
           "entities": [
             {
               "id": "e_bg56pvh",
@@ -17696,7 +17689,7 @@
           },
           "status": "available",
           "kind": "passive",
-          "collapsed": true,
+          "collapsed": false,
           "entities": [
             {
               "id": "e_0ogz289",
@@ -18704,7 +18697,7 @@
           ],
           "status": "",
           "kind": "",
-          "collapsed": true,
+          "collapsed": false,
           "width": 649,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/SiN_200nm",
           "githubSubdir": "components",
@@ -19932,7 +19925,7 @@
           ],
           "status": "",
           "kind": "",
-          "collapsed": true,
+          "collapsed": false,
           "githubUrl": "https://github.com/cornerstone-uos/cornerstone-community/tree/main/SiN_300nm",
           "githubSubdir": "components",
           "width": 624,
@@ -19972,7 +19965,7 @@
           },
           "status": "available",
           "kind": "passive",
-          "collapsed": true,
+          "collapsed": false,
           "entities": [
             {
               "id": "e_rt791rx",
@@ -20283,7 +20276,7 @@
           "entities": [],
           "status": "",
           "kind": "",
-          "collapsed": true,
+          "collapsed": false,
           "width": 627,
           "platformDocs": [],
           "githubSources": []
@@ -21147,7 +21140,7 @@
   "distribution": {
     "sources": [
       {
-        "id": "s_mq99fc2g_0",
+        "id": "s_mq99n84s_0",
         "label": "CORNERSTONE main (Open-source PDK)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -21155,7 +21148,7 @@
         "enabled": true
       },
       {
-        "id": "s_mq99fc2g_1",
+        "id": "s_mq99n84s_1",
         "label": "User-admin contributions (auto-discover)",
         "repo": "cornerstone-uos/PDKMonitor",
         "branch": "main",
@@ -21167,28 +21160,22 @@
     "repo": "cornerstone-uos/PDKMonitor",
     "branch": "main",
     "path": "OpenSource_PDKMonitor/dashboard.json",
-    "lastFetchedAt": "2026-06-11T08:54:23.907Z",
-    "lastFetchedSha": "d814c58589be16264f75fde274f7523cba1fb28e",
+    "lastFetchedAt": "2026-06-11T09:04:24.569Z",
+    "lastFetchedSha": "a6e0fa29a02ff7f7e0aec8b63ecfda79d89671f6",
     "lastPublishedAt": "2026-06-11T08:54:07.926Z",
     "lastPublishedSha": "3e44580c7773688dcdcb06ac22877bc94efcf484",
     "lastPublishedUrl": "https://github.com/cornerstone-uos/PDKMonitor/commit/3e44580c7773688dcdcb06ac22877bc94efcf484",
     "lastMergeStats": {
       "tabs": 0,
       "groups": 0,
-      "entities": 0,
-      "contributors": 0,
-      "ownership": 0,
-      "labels": 0,
+      "entities": 116,
+      "contributors": 11,
+      "ownership": 12858,
+      "labels": 19,
       "statuses": 0,
       "categories": 0,
       "bbTypes": 0,
-      "infoSkipped": 2,
-      "files": 0,
-      "scripts": 0,
-      "documents": 0,
-      "tg": 0,
-      "sm": 0,
-      "fab": 0,
+      "infoSkipped": 0,
       "pruned": 0
     },
     "lastSecurityStats": {
@@ -21226,8 +21213,8 @@
     "note": "User-admin sign-in is via a personal GitHub PAT (no shared password). The full Admin password is not shared and stays local on each machine."
   },
   "_distribution": {
-    "publishedAt": "2026-06-11T08:55:06.968Z",
-    "publisherIdentity": "dashboard_admin",
+    "publishedAt": "2026-06-11T09:04:58.416Z",
+    "publisherIdentity": "AEmreKaplan",
     "publisherLabel": "Dashboard Admin",
     "publisherRole": "admin",
     "appVersion": "v1.1.0",
