@@ -972,6 +972,21 @@
             }
           ],
           "entities": []
+        },
+        {
+          "id": "g_84kf3r2",
+          "name": "siin300-ON-SOI220",
+          "platformMeta": {
+            "material": "Si",
+            "thickness": 220
+          },
+          "collapsed": false,
+          "platformDocs": [],
+          "githubUrl": "",
+          "githubSubdir": "components",
+          "docsGithubUrl": "",
+          "githubSources": [],
+          "entities": []
         }
       ]
     },
@@ -1070,20 +1085,23 @@
   ],
   "ownership": {
     "e_vzmjg06": "admin",
-    "layout:e_vzmjg06": "AEmreKaplan"
+    "layout:e_vzmjg06": "AEmreKaplan",
+    "g_84kf3r2": "Shengqi-Yin"
   },
-  "labels": {},
+  "labels": {
+    "Shengqi-Yin": "Shengqi-Yin"
+  },
   "contributors": [],
   "deletions": [],
   "_distribution": {
-    "publishedAt": "2026-07-23T11:19:01.933Z",
+    "publishedAt": "2026-07-23T13:43:40.723Z",
     "publisherIdentity": "Shengqi-Yin",
     "publisherLabel": "Shengqi-Yin",
     "publisherRole": "user-admin",
     "payloadKind": "user-admin-slice",
     "appVersion": "v1.1.0",
     "bbCount": 1,
-    "groupCount": 14,
+    "groupCount": 15,
     "tabCount": 4,
     "fileCount": 1,
     "sliceFor": "Shengqi-Yin",
